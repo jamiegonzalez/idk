@@ -1,6 +1,6 @@
 # [ERPLAB](https://github.com/lucklab/erplab/wiki/ERPLAB-Toolbox)
 * ERPLAB Documentation
- * Frequently Asked Questions - FAQ
+ * [Frequently Asked Questions - FAQ](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions)
  * Manual
  * Tutorial
  * Videos
