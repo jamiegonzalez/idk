@@ -1,4 +1,4 @@
-# [ERPLAB](https://github.com/lucklab/erplab/wiki/ERPLAB-Toolbox)
+# [ERPLAB](https://github.com/lucklab/erplab/wiki)
 * ERPLAB Documentation
  * [Frequently Asked Questions - FAQ](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions)
  * Manual
