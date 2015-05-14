@@ -1,14 +1,13 @@
-# ERPLAB TOOLBOX TUTORIAL
-*Version 4.0* <br>
-*01 October 2013*
-
-Tutorial written by Steve Luck, Javier Lopez-Calderon, Stan Huang, and Eric Foo
+<h2 align="center">ERPLAB TOOLBOX TUTORIAL </h2>
+<h5 align="center">
+Version 4.0<br>
+01 October 2013<br><br>
+Tutorial written by Steve Luck, Javier Lopez-Calderon, Stan Huang, and Eric Foo <br><br>
+ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
+</h5>
+> Important note: The ERPLAB Discussion Forums have been retired. All comments and questions should be posted to the ERPLAB Email List.
 <br><br>
-ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck
-<br><br>
-Important note: The ERPLAB Discussion Forums have been retired. All comments and questions should be posted to the ERPLAB Email List.
-<br><br>
-Important note: In some cases, errors will lead to a message that instructs you to report the error to the EEGLAB developers.  If this happens, please report the error to us at erplabtoolbox@gmail.com and not to the EEGLAB developers.
+> Important note: In some cases, errors will lead to a message that instructs you to report the error to the EEGLAB developers.  If this happens, please report the error to us at erplabtoolbox@gmail.com and not to the EEGLAB developers.
 
 ERPLAB has primarily been tested using EEG collected with a Biosemi ActiveTwo System, along with a smaller amount of testing using EEG collected with Neuroscan and EGI systems. Consequently, you should be particularly careful when using this version of ERPLAB with data collected with systems other than the Biosemi ActiveTwo.
 
