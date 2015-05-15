@@ -1,5 +1,5 @@
 ## [ERPLAB Documentation](https://github.com/lucklab/erplab/wiki)
- * [Frequently Asked Questions - FAQ](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions)
+* [Frequently Asked Questions - FAQ](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions)
 * [Manual](https://github.com/lucklab/erplab/wiki/Manual)
 * [Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial)
 * [Videos](https://github.com/lucklab/erplab/wiki/Videos)
