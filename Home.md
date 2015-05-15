@@ -13,7 +13,7 @@ A free, open-source Matlab package for analyzing ERP data.  ERPLAB extends [EEGL
 =======
 [<img src="https://github.com/lucklab/erplab/blob/master/images/doc_icons/ionicicons/ios7-help.png" height="75" width="75" alt="faq">](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions) | [<img src="https://github.com/lucklab/erplab/blob/master/images/doc_icons/ionicicons/ios7-monitor.png" height="75" width="75" alt="video">](https://github.com/lucklab/erplab/wiki/Videos) | [<img src="https://github.com/lucklab/erplab/blob/master/images/doc_icons/ionicicons/ios7-information.png" height="75" width="75" alt="manual">](https://github.com/lucklab/erplab/wiki/Manual) | [<img src="https://github.com/lucklab/erplab/blob/master/images/doc_icons/ionicicons/ios7-copy.png" height="75" width="75" alt="tutorial">](https://github.com/lucklab/erplab/wiki/Tutorial) | [<img src="https://github.com/lucklab/erplab/blob/master/images/doc_icons/ionicicons/ios7-paper-outline.png" height="75" width="75" alt="scripting guide">](https://github.com/lucklab/erplab/wiki/Scripting-Guide) | [<img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-download.png" height="75" width="75" alt="data">](http://dl.dropbox.com/u/3711923/Test_Data.zip) | 
 
-
+[[/images/ionicicons/alert.png|height=75px|alt="alert"]]
 
 <br><br><br>
 >>>>>>> origin/master
