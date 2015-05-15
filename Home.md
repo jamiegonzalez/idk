@@ -1,7 +1,5 @@
 # ERPLAB Documentation
 
-[[/images/ionicicons/alert.png|height=75px|alt="alert"]]
-
 A free, open-source Matlab package for analyzing ERP data.  ERPLAB extends [EEGLAB's](http://sccn.ucsd.edu/eeglab/) capabilities to provide robust, industrial-strength tools for ERP processing, visualization, and analysis.  ERPLAB's graphical user interface makes it easy for beginners to learn, and Matlab scripting provides enormous power for intermediate and advanced users.  
 
 <br>
