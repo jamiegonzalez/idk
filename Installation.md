@@ -31,13 +31,15 @@ Matlab keeps information about where programs and other files are located in a p
 
 Then save your new path. With older versions of EEGLAB, you must update the path every time you install a new version of ERPLAB.
 
+----
 ### Verifying that ERPLAB has been properly installed
 To verify that ERPLAB has been installed, launch EEGLAB (and the included ERPLAB plug-in) by typing eeglab in the MATLAB command window.  You can verify that ERPLAB is installed by looking for the ERPLAB menu in the EEGLAB GUI, as shown in the screenshot below:
 
-ERPLAB Menu
+![ERPLAB Menu](https://github.com/lucklab/erplab/wiki/images/manual-installation-erplab_menu.jpg)
 
  
 
+----
 ### Hints and Troubleshooting
 Most installation problems arise from not including all of the ERPLAB folders in the Matlab path.  If you get error messages when using nearly every command in the ERPLAB menu, this is probably a path problem.  Path problems also typically lead to error messages like this: Undefined function or method 'gui_mainfcn' for input arguments of type 'struct'.  If you have either of these problems, you should check to see whether your path includes ERPLAB by typing path in the Matlab command window.  This will list all folders in your path.  You should see several lines in your path that contain "plugins/erplab_4.0".  If you don't, you should try updating your path again.  Make sure that you click Add with subfolders when you add the path.  And make sure that you save your new path before closing the window that you used to set your path.
 
@@ -51,6 +53,7 @@ If you run into bugs, you may want to quit from EEGLAB, type 'clear all', and re
 
 In EEGLAB, we recommend that you go to EEGLAB > File > Memory and other options and make sure that "If set, when browsing to open a new dataset assume the folder/directory of previous dataset" is NOT checked.  Otherwise EEGLAB will sometimes ignore Matlab's current directory when looking for files.
 
+----
 ### Windows Installation Issues
 When extracting ERPLAB into the same folder as the ERPLAB ZIP-file, Windows creates a nested folder that envelopes that actual ERPLAB folder containing the functions and sub-folders. This nested folder prevents EEGLAB from recognizing that ERPLAB is correctly installed. 
 
