@@ -16,6 +16,7 @@ Here is a list of some confirmed-working environments for ERPLAB.
 
 **OS** | **Matlab** | **EEGLAB** | Working?
 --- | --- | --- | ---
+Mac OS X 10.10.5 'Yosemite' | Matlab R2015a | EEGLAB v13.5.4b | ✓
 Mac OS X 10.11.4 'El Capitan'	| Matlab R2015a |	EEGLAB v13.5.4b |	✓
 Mac OS X 10.11.4 'El Capitan' |	Matlab R2016a |	EEGLAB v13.5.4b	 | ✓ *
 Windows 7	| Matlab R2014a | EEGLAB v13.5.4b |	✓
