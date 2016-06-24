@@ -1,3 +1,7 @@
+## Learning to Use ERPLAB Toolbox
+
+Many sources of information are available to help you learn to use ERPLAB.  Here is what we recommend:
+
 * Read the installation information to make sure that you install ERPLAB correctly
 * Read about Basic ERPLAB Processing Steps and Important background concepts and data structures
 * "Get your feet wet" by going through the first few chapters of the ERPLAB Tutorial (through the point of making and plotting an averaged ERP waveform)
