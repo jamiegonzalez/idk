@@ -10,4 +10,3 @@
 * Go through the rest of the ERPLAB Tutorial
 * Learn how to perform behavioral analyses
 * Learn how to write ERPLAB scripts with the ERPLAB Scripting Guide
-<<Release Notes   	Table of Contents	   Basic ERPLAB Processing Steps>>
