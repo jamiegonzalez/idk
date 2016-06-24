@@ -22,7 +22,7 @@ Table of Contents
 - [EXPORTING, EDITING, AND IMPORTING EVENTLISTS](https://github.com/lucklab/erplab/wiki/Exporting,-Editing,-and-Importing-EVENTLISTS)
 - [BOUNDARY EVENTS AND DISABLED EVENTS](https://github.com/lucklab/erplab/wiki/Boundary-Events-and-Disabled-Events)
 - [ASSIGNING EVENTS TO BINS WITH BINLISTER](https://github.com/lucklab/erplab/wiki/Assigning-Events-to-Bins-with-BINLISTER)
-- EPOCHING BINS
+- [EPOCHING BINS](https://github.com/lucklab/erplab/wiki/Epoching-Bins)
 - ARTIFACT DETECTION IN EPOCHED DATA
 - ARTIFACT REJECTION IN CONTINUOUS DATA
 - BEHAVIORAL ANALYSES
