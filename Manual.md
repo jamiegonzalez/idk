@@ -20,7 +20,7 @@ Table of Contents
 - [THE EVENTLESS STRUCTURE](https://github.com/lucklab/erplab/wiki/The-EVENTLIST-Structure)
 - [CREATING AN EVENTLIST](https://github.com/lucklab/erplab/wiki/Creating-An-EVENTLIST)
 - [EXPORTING, EDITING, AND IMPORTING EVENTLISTS](https://github.com/lucklab/erplab/wiki/Exporting,-Editing,-and-Importing-EVENTLISTS)
-- BOUDARY EVENTS AND DISABLED EVENTS
+- [BOUNDARY EVENTS AND DISABLED EVENTS](https://github.com/lucklab/erplab/wiki/Boundary-Events-and-Disabled-Events)
 - ASSIGNING EVENTS TO BINS WITH BINLISTER
 - EPOCHING BINS
 - ARTIFACT DETECTION IN EPOCHED DATA
