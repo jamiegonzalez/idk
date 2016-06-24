@@ -16,13 +16,12 @@ Table of Contents
 - [LEARNING TO USE ERPLAB TOOLBOX](https://github.com/lucklab/erplab/wiki/Learning-to-Use-ERPLAB-Toolbox)
 - [BASIC ERPLAB PROCESSING STEPS](https://github.com/lucklab/erplab/wiki/Basic-ERPLAB-Processing-Steps) 
 - [IMPORTANT BACKGROUND CONCEPTS AND DATA STRUCTURES](https://github.com/lucklab/erplab/wiki/Important-Background-Concepts-and-Data-Structures)
-- USING EEGLAB
+- [USING EEGLAB](https://github.com/lucklab/erplab/wiki/Using-EEGLAB)
 - THE EVENTLIST STRUCTURE
 - CREATING AN EVENTLIST
-- EXPORTING, EDITING, AND IMPORTING EVENTLISTS
-
+- EXPORTING, EDITING, AND IMPORTING EVENTLESS
+- BOUDARY EVENTS AND DISABLED EVENTS
 Boundary Events and Disabled Events
-
 - ASSIGNING EVENTS TO BINS WITH BINLISTER
 - EPOCHING BINS
 - ARTIFACT DETECTION IN EPOCHED DATA
