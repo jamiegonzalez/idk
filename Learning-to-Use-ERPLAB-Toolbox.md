@@ -9,8 +9,8 @@ Many sources of information are available to help you learn to use ERPLAB.  Here
 * * [Using EEGLAB](https://github.com/lucklab/erplab/wiki/Using-EEGLAB) (and perhaps some of the [EEGLAB documentation](https://github.com/lucklab/erplab/wiki))
 * * [The EventList Structure](https://github.com/lucklab/erplab/wiki/The-EVENTLIST-Structure)
 * * [Boundary Events and Disabled Events](https://github.com/lucklab/erplab/wiki/Boundary-Events-and-Disabled-Events)
-* * Getting Useful Information from the Matlab Command Line
-* * Assigning events to bins with BINLISTER
-* Go through the rest of the ERPLAB Tutorial
-* Learn how to perform behavioral analyses
-* Learn how to write ERPLAB scripts with the ERPLAB Scripting Guide
+* * [Getting Useful Information from the Matlab Command Line](https://github.com/lucklab/erplab/wiki/Getting-Information-about-an-ERP-from-the-Matlab-Command-Line)
+* * [Assigning events to bins with BINLISTER](https://github.com/lucklab/erplab/wiki/Assigning-Events-to-Bins-with-BINLISTER)
+* Go through the rest of the [ERPLAB Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial) (through the point of making and plotting an averaged ERP waveform)
+* Learn how to perform [behavioral analyses](https://github.com/lucklab/erplab/wiki/Behavioral-Analyses)
+* Learn how to write ERPLAB scripts with the [ERPLAB Scripting Guide](https://github.com/lucklab/erplab/wiki/Scripting-Guide)
