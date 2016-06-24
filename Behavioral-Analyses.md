@@ -6,7 +6,7 @@ Behavioral accuracy information can be obtained very easily by running BINLSTER 
 
 For example, for a simple oddball experiment with standards and targets, you might define the following bins:
 
-# Comment: 100 = target; 101 = standard; 200 = response for target; 201 = response for standard
+## Comment: 100 = target; 101 = standard; 200 = response for target; 201 = response for standard
 
  
 
