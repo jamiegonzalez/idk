@@ -1,3 +1,5 @@
+## Basic ERPLAB Processing Steps
+
 This section provides an outline of the typical sequence of operations for analyzing an ERP experiment using the combination of EEGLAB and ERPLAB.  The details will be found in later sections, but it is useful to have an overview of the whole process.
 
 ### Terminology
