@@ -1,9 +1,9 @@
 This section provides an outline of the typical sequence of operations for analyzing an ERP experiment using the combination of EEGLAB and ERPLAB.  The details will be found in later sections, but it is useful to have an overview of the whole process.
 
-# Terminology
+### Terminology
 First, you need to know a key bit of ERPLAB terminology. In some ERP analysis systems, each ERP file contains the data from a single trial type. This can lead to a huge number of files in a complex experiment, so ERPLAB can store many ERPs in a single file. Each ERP is stored in what we call a bin. More precisely, a bin is a set of averaged ERP waveforms, one for each electrode site, which were created by averaging together a specific set of trials.  A simple oddball experiment, for example, might have one bin for the targets and another bin for the standards.  However, a sophisticated experiment might have dozens of different bins.
 
-# Typical Steps
+### Typical Steps
 Here are the typical steps in analyzing an ERP experiment:
 
 Import an EEG file into EEGLAB, where it becomes a dataset. Once you have imported the raw EEG, you should view it with Plot > Channel data (scroll) to make sure everything looks OK (noe: this is EEGLAB's plotting routine, not an ERPLAB routine).  The original EEG file can come from one of the many different commercial EEG recording systems supported by EEGLAB (including Neuroscan, EGI, and Biosemi; see the EEGLAB documentation for the supported file types).  Note that EEGLAB takes care of importing the EEG; this is not ERPLAB's business.
