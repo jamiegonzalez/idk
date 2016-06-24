@@ -13,8 +13,8 @@ Table of Contents
 
 - [INSTALLATION INFORMATION](https://github.com/lucklab/erplab/wiki/Installation)
 - [RELEASE NOTES FOR THIS VERSION](https://github.com/lucklab/erplab/releases/)
-- [LEARNING TO USE ERPLAB TOOLBOX] (https://github.com/lucklab/erplab/wiki/Learning-to-Use-ERPLAB-Toolbox)
-- BASIC ERPLAB PROCESSING STEPS 
+- [LEARNING TO USE ERPLAB TOOLBOX](https://github.com/lucklab/erplab/wiki/Learning-to-Use-ERPLAB-Toolbox)
+- [BASIC ERPLAB PROCESSING STEPS](https://github.com/lucklab/erplab/wiki/Basic-ERPLAB-Processing-Steps) 
 - IMPORTANT BACKGROUND CONCEPTS AND DATA STRUCTURES
 - USING EEGLAB
 - THE EVENTLIST STRUCTURE
