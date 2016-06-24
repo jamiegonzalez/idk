@@ -18,7 +18,7 @@ Table of Contents
 - [IMPORTANT BACKGROUND CONCEPTS AND DATA STRUCTURES](https://github.com/lucklab/erplab/wiki/Important-Background-Concepts-and-Data-Structures)
 - [USING EEGLAB](https://github.com/lucklab/erplab/wiki/Using-EEGLAB)
 - [THE EVENTLESS STRUCTURE](https://github.com/lucklab/erplab/wiki/The-EVENTLIST-Structure)
-- CREATING AN EVENTLIST
+- [CREATING AN EVENTLIST](https://github.com/lucklab/erplab/wiki/Creating-An-EVENTLIST)
 - EXPORTING, EDITING, AND IMPORTING EVENTLESS
 - BOUDARY EVENTS AND DISABLED EVENTS
 - ASSIGNING EVENTS TO BINS WITH BINLISTER
