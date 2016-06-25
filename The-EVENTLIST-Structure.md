@@ -32,16 +32,16 @@ bin 1,         # 252,            Standard (correct)
 
 bin 2,         # 63,             Target (correct)       
 
-                                                                           
 
-    #itembepochecodelabel 	            onset 	diff	dura	b_flags	a_flags	enable	bin
-    #				            (sec)	(sec)	(msec)	(binary)(binary)		
-    1	    0	    122	    standard	    8	        0	0	0	0	1	[ 1 ]
-    2	    0	    9	    std_resp	    8.3962	0.3962	0	0	0	1	[   ]
-    3	    0	    122	    standard	    10	        1.6038	0	0	0	1	[ 1 ]
-    4	    0	    9	    std_resp	    10.4265	0.4265	0	0	0	1	[   ]  
-    5	    0	    132	    target	    12	        1.5735	0	0	0	1	[ 2 ]
-    6	    0	    9	    targ_resp	    12.5191	0.519	0	0	0	1	[   ]
+
+    #itembepochecodelabel                   onset      diff   dura  b_flags a_flags enable    bin
+    #                                       (sec)      (sec)  (msec)(binary)(binary)
+    1	    0	    122	    standard	    8	       0        0	0	    0	    1	    [ 1 ]
+    2	    0	    9	    std_resp	    8.3962     0.3962	0	0	    0	    1	    [   ]
+    3	    0	    122	    standard	    10	       1.6038	0	0	    0	    1	    [ 1 ]
+    4	    0	    9	    std_resp	    10.4265    0.4265	0	0	    0	    1	    [   ]  
+    5	    0	    132	    target          12	       1.5735	0	0	    0	    1	    [ 2 ]
+    6	    0	    9	    targ_resp	    12.5191    0.519	0	0	    0	    1	    [   ]
  
 
 The file begins with a header (described later and not shown here) that indicates the name of the dataset from which the EventList was created, the sampling rate, the number of events, etc.  The next section of the file lists the bins for the file (we will say more about where this information comes from in a later section), along with the number of occurrences of each bin in the file (e.g., "# 252" means that there were 252 occurrences of this bin).
