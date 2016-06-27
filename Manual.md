@@ -43,7 +43,7 @@ Important note: The ERPLAB Discussion Forums have been retired. All comments and
 
 Important note: In some cases, errors will occur leading to a message that instructs you to report the error to the EEGLAB developers.  If this happens, please report the error to us at erplab@erpinfo.org and not to the EEGLAB developers.
 
-The purpose of this User's Manual is to provide a detailed description of the ERPLAB functions, along with a discussion of the overall design of the toolbox.  For "how-to" information, see the ERPLAB Tutorial, which provides step-by-step instructions for analyzing a typical set of data.  A Frequently Asked Questions document is also available.
+The purpose of this User's Manual is to provide a detailed description of the ERPLAB functions, along with a discussion of the overall design of the toolbox.  For "how-to" information, see the ERPLAB Tutorial, which provides step-by-step instructions for analyzing a typical set of data.  A [Frequently Asked Questions](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions) document is also available.
 
 If you have bug reports, requests for features, questions about using the software, and comments of general interest, please post them to the ERPLAB Email List.  To communicate privately with the developers, send an email to erplabtoolbox@gmail.com.
 
