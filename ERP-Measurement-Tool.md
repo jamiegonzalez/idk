@@ -79,7 +79,7 @@ In this example, peak amplitude was measured from two bins ("Frequent" and "Rare
 
 The second output format (**One measurement per line (long format)**) provides one measurement per line, along with various pieces of information that can be used for sorting.  This format is ideal for using the pivot table feature of Excel.  Here are the same data as in the previous example but shown in this alternative format:
 
-    ERPset   bin           channel      value 
+    ERPset   bin       channel          value 
 
     S1       1            1             2.265
 
