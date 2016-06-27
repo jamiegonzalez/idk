@@ -17,7 +17,7 @@ Table of Contents
 - [BASIC ERPLAB PROCESSING STEPS](https://github.com/lucklab/erplab/wiki/Basic-ERPLAB-Processing-Steps) 
 - [IMPORTANT BACKGROUND CONCEPTS AND DATA STRUCTURES](https://github.com/lucklab/erplab/wiki/Important-Background-Concepts-and-Data-Structures)
 - [USING EEGLAB](https://github.com/lucklab/erplab/wiki/Using-EEGLAB)
-- [THE EVENTLESS STRUCTURE](https://github.com/lucklab/erplab/wiki/The-EVENTLIST-Structure)
+- [THE EVENTLIST STRUCTURE](https://github.com/lucklab/erplab/wiki/The-EVENTLIST-Structure)
 - [CREATING AN EVENTLIST](https://github.com/lucklab/erplab/wiki/Creating-An-EVENTLIST)
 - [EXPORTING, EDITING, AND IMPORTING EVENTLISTS](https://github.com/lucklab/erplab/wiki/Exporting,-Editing,-and-Importing-EVENTLISTS)
 - [BOUNDARY EVENTS AND DISABLED EVENTS](https://github.com/lucklab/erplab/wiki/Boundary-Events-and-Disabled-Events)
