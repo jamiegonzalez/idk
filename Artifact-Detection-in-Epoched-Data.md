@@ -107,6 +107,7 @@ Thus, we use the following algorithm (originally developed by Jon Hansen for ERP
 2. Determine how many time points are within _delta_ µV of this maximum voltage.  (The delta value is termed the **tolerance**, as shown in the screenshot below.)  The number of time points is used to determine the _duration_ of the blocking (duration = time points x sample duration).  The time points are summed together even if they are not consecutive.
 3. Do the same thing for the most negative voltage in the epoch.
 4. Take the longer the two durations (one for positive, one for negative) and compare it against the **Duration** value specified by the user (see screenshot below).  If the longer duration is greater than the **Duration** value, the epoch is marked for rejection.
+
 The optimal **tolerance** and **Duration** values will depend on the nature of your system.  Typical values might be 1 µV for **tolerance** and 200 ms for **Duration**.  This would lead to the rejection of any epochs in which more than 200 ms worth of points are within 1 µV of the maximum (or minimum) voltage in the epoch.
 
 blocking_gui
