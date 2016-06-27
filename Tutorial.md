@@ -14,9 +14,9 @@ The goal of this tutorial is to provide step-by-step instructions for the proces
 
 If you have bug reports, requests for features, questions about using the software, and comments of general interest, please post them to the ERPLAB Email List.  To communicate privately with the developers, send an email to erplabtoolbox@gmail.com.
 
-Please keep in mind that this is FREE software, and we do not have the resources to provide the level of support that commercial software vendors can provide.
+Please keep in mind that this is **FREE** software, and we do not have the resources to provide the level of support that commercial software vendors can provide.
 
-Table of Contents
+## Table of Contents
 
 Overview and Scripting
 
