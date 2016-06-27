@@ -1,11 +1,11 @@
 ## ERP Bin Operations
-ERPLAB > ERP Operations > ERP Bin Operations allows you to compute new bins that are combinations of the bins in the current ERP structure.  For example, you can average multiple bins together, and you can compute difference waves.  To use it, you will write simple equations that describe how the new bin is computed.  For example, to create a new Bin 3 that is the average of the current Bin 1 and Bin 2, you would write the following equation: "b3 = (b1+b2)/2" (or "b3 = 0.5*b1 + 0.5*b2").  The screenshot below shows the GUI.  You will usually want to create a label for a new bin by putting "label something" at the end of the equation.  In the example below, a difference wave is being created (b3 = b2 – b1) and "Rare minus Frequent difference wave" is specified as the label.
+**ERPLAB > ERP Operations > ERP Bin Operations** allows you to compute new bins that are combinations of the bins in the current ERP structure.  For example, you can average multiple bins together, and you can compute difference waves.  To use it, you will write simple equations that describe how the new bin is computed.  For example, to create a new Bin 3 that is the average of the current Bin 1 and Bin 2, you would write the following equation: "b3 = (b1+b2)/2" (or "b3 = 0.5*b1 + 0.5*b2").  The screenshot below shows the GUI.  You will usually want to create a label for a new bin by putting "label _something_" at the end of the equation.  In the example below, a difference wave is being created (b3 = b2 – b1) and "Rare minus Frequent difference wave" is specified as the label.
 
 bin_operations_gui
 
  
 
-The panel at the right side of the Bin Operations GUI lists the bins in the current ERPset.  The panel at the left side of the window contains the equations for creating the new bins.  The equations can be saved in a file (using Save list or Save list as) and loaded again at a later time (using Load list).  When you click RUN, the equations are sent to the routine that performs the requested computations.  Ordinarily, the equations in the window are sent as a set of strings (a cell array).  With a long list of equations, this will lead to a very complicated function call in your history.  If you check Send file rather than individual equations, the file will be sent instead of the equations, making the history simpler (which is convenient if you plan to turn the history into a script).  But the same bin operations will be performed either way.
+The panel at the right side of the Bin Operations GUI lists the bins in the current ERPset.  The panel at the left side of the window contains the equations for creating the new bins.  The equations can be saved in a file (using **Save list** or **Save list as**) and loaded again at a later time (using **Load list**).  When you click **RUN**, the equations are sent to the routine that performs the requested computations.  Ordinarily, the equations in the window are sent as a set of strings (a cell array).  With a long list of equations, this will lead to a very complicated function call in your history.  If you check **Send file rather than individual equations**, the file will be sent instead of the equations, making the history simpler (which is convenient if you plan to turn the history into a script).  But the same bin operations will be performed either way.
 
 Basically any standard mathematical equation can be used.  Here are some examples:
 
@@ -19,7 +19,7 @@ bin5 = b4 + 1 label Add an offset of 1 microvolt to the bin 4 waveform
 
                  
 
-In addition, we have defined a function that averages together a set of bins, weighted by the number of epochs that contributed to each bin (which is stored in the ERP structure).   For example, if 10 epochs were originally averaged together into bin 1 and 90 epochs were originally averaged together into bin 2, you could create a bin that is equivalent to what you would have gotten by averaging these 100 epochs together during the initial averaging process (which is the same as "(10*bin1 + 90*bin2)/100").  It is used as follows:
+In addition, we have defined a function that averages together a set of bins, weighted by the number of epochs that contributed to each bin (which is stored in the **ERP** structure).   For example, if 10 epochs were originally averaged together into bin 1 and 90 epochs were originally averaged together into bin 2, you could create a bin that is equivalent to what you would have gotten by averaging these 100 epochs together during the initial averaging process (which is the same as "(10*bin1 + 90*bin2)/100").  It is used as follows:
 
 Bin3 = wavgbin(1, 2) label Weighted average of bins 1 and 2
 
@@ -30,7 +30,7 @@ Bin20 = wavgbin(1:4,6,9,12:15) label Weighted average of bins 1-4, 6, 9, and 12-
                  
 
 ## Modes of Operation
-Bin Operations has two modes of operation, which are selected with the two buttons at the bottom right of the GUI (see screenshot above).  In one mode, the equations modify existing bins and add new bins within the current ERPset.  In this mode, you can modify one bin and then use this modified bin to create or modify another bin (this is called recursive updating).  In another mode, the current ERPset serves as the input to equations, and a new set of bins is created in a new ERPset (this is called performing a set of independent transformations).  The ERPLAB Tutorial provides detailed examples of these two modes.
+Bin Operations has two modes of operation, which are selected with the two buttons at the bottom right of the GUI (see screenshot above).  In one mode, the equations modify existing bins and add new bins within the current ERPset.  In this mode, you can modify one bin and then use this modified bin to create or modify another bin (this is called _recursive updating_).  In another mode, the current ERPset serves as the input to equations, and a new set of bins is created in a new ERPset (this is called performing a set of _independent transformations_).  The ERPLAB Tutorial provides detailed examples of these two modes.
 
 Creating a new ERPset.  When you are creating a new ERPset, your equations begin with "nb" or "newbin" as a reminder that you are creating a new bin within a new ERPset.  You must start with bin 1 ("nb1 =" or "newbin1 =") and then continue consecutively with bins 2, 3, 4, etc.  You can have as many or as few bins in the new ERPset as you desire in this mode.  Consider this example, in which the current ERPset contains 4 bins:
 
@@ -50,7 +50,7 @@ If you were to try this when modifying an existing ERPset, the first line would 
 
 Despite this limitation, it is often more convenient to modify the existing ERPset than to create a new ERPset.  For example, this mode allows you to add a set of difference waves to the end of the current ERPset rather than having two ERPsets, one for the original data and one for the difference waves.  In addition, it can sometimes be efficient to create a bin and then use this new bin in equations that create additional bins.
 
-Hint: When you are modifying an existing ERPset, you might first want to make a duplicate of the current ERPset and work on that duplicate, as described in the section on saving ERPsets.
+_Hint: When you are modifying an existing ERPset, you might first want to make a duplicate of the current ERPset and work on that duplicate, as described in the [section on saving ERPsets](https://github.com/lucklab/erplab/wiki/Saving,-Loading,-Duplicating,-Renaming,-Clearing,-and-Exporting-ERPSETS)._
 
 When you are modifying an existing ERPset, your list of equations does not need to re-define the existing bins.  However, the bins that are defined must be in ascending order, and the result cannot have any missing bins.  For example, if the current ERPset contains bins 1-10, you could have a list of equations like this:
 
@@ -85,16 +85,16 @@ You can have ERPLAB automatically create left- and right-hemisphere groups on th
 
 [LH RH] = splitbrain(ERP)
 
-The splitbrain() function finds pairs of electrodes whose names are identical except for ending with consecutive odd (for left-hemisphere) and even (for right-hemisphere) numbers (following the International 10/20 System convention).  For example, it would treat Fp1 and Fp2 as corresponding left-right pairs.  But the electrode names do not have to be standard 10/20 names (e.g., it would treat Temporal125 and Temporal126 as corresponding left-right pairs).  Any electrode sites that don't end in a number will be excluded from the channel groups (e.g., Fz), and will generate a warning (which you can usually ignore because you usually want to exclude such electrodes when creating left-right pairs).
+The **splitbrain()** function finds pairs of electrodes whose names are identical except for ending with consecutive odd (for left-hemisphere) and even (for right-hemisphere) numbers (following the International 10/20 System convention).  For example, it would treat Fp1 and Fp2 as corresponding left-right pairs.  But the electrode names do not have to be standard 10/20 names (e.g., it would treat Temporal125 and Temporal126 as corresponding left-right pairs).  Any electrode sites that don't end in a number will be excluded from the channel groups (e.g., Fz), and will generate a warning (which you can usually ignore because you usually want to exclude such electrodes when creating left-right pairs).
 
 Note that, although "LH" and "RH" were used to name the electrode groups in these examples, you can use any strings to name the groups. Also, this can be used to create any kind of channel subsets that you'd like, not just left hemisphere and right hemisphere subsets.
 
 ## Using the Contra/Ipsi Assistant
-The ERP Bin Operations GUI contains a button labeled contra/ipsi assistant.  This button brings up the GUI shown below, which will create the equations for making the contra and ipsi waveforms (for most experiments).
+The ERP Bin Operations GUI contains a button labeled **contra/ipsi assistant**.  This button brings up the GUI shown below, which will create the equations for making the contra and ipsi waveforms (for most experiments).
 
 contra_ipsi_assistant
 
-The first two text boxes are used to list the left- and right-hemisphere channel pairs.  You need to make sure that the channels are in the same order for both the left and right sides (e.g., channels F3, C3, and P3 [in that order] for the left side and F4, C4, and P4 [in that order] for the right side).  If you click the auto button, ERPLAB will attempt to find the appropriate channels for you (on the basis of standard naming conventions).
+The first two text boxes are used to list the left- and right-hemisphere channel pairs.  You need to make sure that the channels are in the same order for both the left and right sides (e.g., channels F3, C3, and P3 [in that order] for the left side and F4, C4, and P4 [in that order] for the right side).  If you click the **auto** button, ERPLAB will attempt to find the appropriate channels for you (on the basis of standard naming conventions).
 
 You then need to specify which bins correspond to trials on which attention will be directed to the left versus right hemifields.  For example, imagine that you have the following bins:
 
@@ -110,7 +110,7 @@ Bins 1 and 3 would go into the left hemifield text box, and bins 2 and 4 would g
 
 Bins 1 and 2 will then be converted into a contra bin and an ipsi bin for the red targets, and Bins 3 and 4 will then be converted into a contra bin and an ipso bin for the blue targets.  You would provide labels for these new bins (e.g., red_targets for the new bins 1 and 2, and blue_targets for the new bins 3 and 4).
 
-Once you click OK, you will get a set of equations like this:
+Once you click **OK**, you will get a set of equations like this:
 
 prepareContraIpsi                                              
 
