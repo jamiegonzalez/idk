@@ -20,34 +20,34 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 
 [Overview and Scripting](https://github.com/lucklab/erplab/wiki/Overview-and-Scripting)
 
-Getting Started
+[Getting Started](https://github.com/lucklab/erplab/wiki/Getting-Started:-Tutorial)
 
-Brief Description of the Example Experiment
+[Brief Description of the Example Experiment](https://github.com/lucklab/erplab/wiki/Brief-Description-of-the-Example-Experiment)
 
-Adding Channel Locations to your Dataset
+[Adding Channel Locations to your Dataset](https://github.com/lucklab/erplab/wiki/Adding-Channel-Locations-to-you-Dataset)
 
-Background Concepts: Datasets, ERPsets, and bins
+[Background Concepts: Datasets, ERPsets, and bins](https://github.com/lucklab/erplab/wiki/Background-Concepts:-Datasets,-ERPsets,-and-bins)
 
-Creating an EventList
+[Creating an EventList](https://github.com/lucklab/erplab/wiki/Creating-an-EventList:-ERPLAB-Functions)
 
-Advanced EventList Options
+[Advanced EventList Options](https://github.com/lucklab/erplab/wiki/Advanced-EventList-Options)
 
-Creating Bin-Based EEG Epochs
+[Creating Bin-Based EEG Epochs](https://github.com/lucklab/erplab/wiki/Creating-Bin--Based-EEG-Epochs)
 
-Artifact Detection
+[Artifact Detection](https://github.com/lucklab/erplab/wiki/Artifact-Detection)
 
-Creating Averaged ERPs
+[Creating Averaged ERPs](https://github.com/lucklab/erplab/wiki/Creating-Averaged-ERPs)
 
-Plotting Averaged ERP Waveforms
+[Plotting Averaged ERP Waveforms](https://github.com/lucklab/erplab/wiki/Plotting-Averaged-ERP-Waveforms)
 
-Filtering EEG and ERPs
+[Filtering EEG and ERPs](https://github.com/lucklab/erplab/wiki/Filtering-EEG-and-ERPs)
 
-Combining ERP Waveforms with Bin Operations
+[Combining ERP Waveforms with Bin Operations](https://github.com/lucklab/erplab/wiki/Combining-ERP-Waveforms-with-Bin-Operations)
 
-Creating and Modifying Channels with Channel Operations
+[Creating and Modifying Channels with Channel Operations](https://github.com/lucklab/erplab/wiki/Creating-and-Modifying-Channels-with-Channel-Operations)
 
-Assigning Events to Bins with BINLISTER
+[Assigning Events to Bins with BINLISTER](https://github.com/lucklab/erplab/wiki/Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
 
-Measuring amplitudes and latencies with the ERP Measurement Tool
+[Measuring amplitudes and latencies with the ERP Measurement Tool](https://github.com/lucklab/erplab/wiki/Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool)
 
-Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction
+[Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction](https://github.com/lucklab/erplab/wiki/Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction)
