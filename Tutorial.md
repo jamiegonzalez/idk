@@ -18,7 +18,7 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 
 ## Table of Contents
 
-Overview and Scripting
+[Overview and Scripting](https://github.com/lucklab/erplab/wiki/Overview-and-Scripting)
 
 Getting Started
 
