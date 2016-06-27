@@ -17,11 +17,11 @@ In the Matlab command window, type the following (each line followed by the **re
     This will configure EEGLAB's memory settings to allow multiple datasets to be loaded in memory.
 
 3. Download the tutorial files to your hard drive from the ERPLAB documentation area of the erpinfo.org web site.  The data and related files are in a folder named **Test_Data**, which you can put anywhere on your computer's file system.
-4. In Matlab, navigate the current directory to the .../**Test_Data/S1** folder. 
+4. In Matlab, navigate the current directory to the .../**Test_Data/S1** folder.   
 This is where the data from the first subject we will be processing is located. Above Matlab command window, there is a drop-down folder path displaying the current directory (see screenshot below).  Click on the **browse** button (labeled with '…') to the right of the current directly and choose the **S1** folder.  The top of the window will then look something like this (although the details depend on what operating system you are using): 
 current_folder
 
-5. In the EEGLAB menu bar, select **File > Load existing dataset** 
+5. In the EEGLAB menu bar, select **File > Load existing dataset**   
 Select the file **S1_EEG.set** and click the **Open** button.
  
     This will load the S1's data set into EEGLAB. The **S1_EEG.set** file is what EEGLAB calls a "dataset."  The associated file, **S1_EEG.fdt**, contains the actual EEG data points and must be present (but which is accessed indirectly).  The dataset contains a large amount of information, and EEGLAB may take several seconds to load the dataset.  
@@ -38,26 +38,22 @@ Further confirmation that the S1_EEG.set has loaded can be found in the Matlab C
 
 1. In EEGLAB, select **Plot > Channel data (scroll)** (See the EEGLAB documentation for information on the **Channel data (scroll)** function). 
 
-eeg1
-
 2. Click the **>>** button twice to scroll forward in time (10 seconds each click).
 Event codes (aka stimulus markers, trigger codes) will appear in the EEG plot as vertical lines with their corresponding numbers: 
 
-eeg2
-
 _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "locks up" Matlab so that other things won't work until that window has been dismissed. For example, you may not be able to open a text file with the Matlab text editor, or you may not be able to execute commands on the command line. Sometimes the open window is hidden by other windows. If you find that nothing seems to be working, take a look at Matlab's Windows menu to see if there are open windows that should be closed._
 
-    **Equivalent Script Command:**
+    Equivalent Script Command:
 
     % Load S1_EEG.set
     % Filename is S1_EEG.set
     % Note that you will need to replace the path with the actual location in your file system
     % Make sure that your file names and folder names do not contain spaces or other special characters
     % Note that the dataset will not appear in the Datasets menu in the EEGLAB GUI
-    **EEG = pop_loadset('filename', 'S1_EEG.set', 'filepath',  '../Test_Data/S1/');**
+    EEG = pop_loadset('filename', 'S1_EEG.set', 'filepath',  '../Test_Data/S1/');
 
     %Alternatively, the following version will look for the file in Matlab's Current Folder
-    **EEG = pop_loadset('filename', 'S1_EEG.set');**
+    EEG = pop_loadset('filename', 'S1_EEG.set');
 
     % To view the EEG data enter the following command:
-    **pop_eegplot(EEG);**
+    pop_eegplot(EEG);
