@@ -1,5 +1,5 @@
-Brief Description of the Example Experiment
-The initial examples come from a published experiment.  In this section, we will provide a basic overview of the experiment, along with a few of the details you will need to know to analyze it.  For a complete description of the experimental paradigm, see the publication (Luck et al., 2009, Psychophysiology, 46: 776-786).
+## Brief Description of the Example Experiment
+The initial examples come from a published experiment.  In this section, we will provide a basic overview of the experiment, along with a few of the details you will need to know to analyze it.  For a complete description of the experimental paradigm, see the publication ([Luck et al., 2009, _Psychophysiology, 46:_ 776-786](http://mindbrain.ucdavis.edu/people/sjluck/pdfs/Luck%202009%20Psychophys%20Schizophrenia%20P3-LRP.pdf)).
 
 This study examines the P3 wave and the lateralized readiness component (LRP) in a group of schizophrenia patients and a group of matched control subjects.  This tutorial focuses on the data from 6 of the control subjects (in the folders named S1 – S6; but note that some releases contain only the data from subject S1).  All subject identity information has been stripped from the data files.
 
@@ -11,19 +11,19 @@ ERPLAB Toolbox makes no distinction between stimulus event codes and response ev
 
 Here is a table showing the stimulus event codes.
 
-Event Code	Category	Probability	Correct Response
-11	Letter	Frequent	Left Hand
-21	Digit	Rare	Right Hand
-112	Letter	Rare	Left Hand
-122	Digit	Frequent	Right Hand
-12	Letter	Rare	Right Hand
-22	Digit	Frequent	Left Hand
-111	Letter	Frequent	Right Hand
-121	Digit	Rare	Left Hand
+    Event Code	  Category      Probability     Correct Response
+    11	          Letter        Frequent        Left Hand
+    21	          Digit         Rare            Right Hand
+    112	          Letter        Rare            Left Hand
+    122	          Digit         Frequent        Right Hand
+    12	          Letter        Rare            Right Hand
+    22	          Digit         Frequent        Left Hand
+    111	          Letter        Frequent        Right Hand
+    121	          Digit         Rare            Left Hand
  
 
 The data in this experiment were recorded from a 16-bit Neuroscan Synamps system with a bandpass of 0.05-100 Hz and a sampling rate of 500 Hz.  Each scalp site was recorded relative to a right-earlobe reference.  Recordings were also obtained from a vertical electrooculogram (VEOG) electrode located beneath the left eye and from an electrode on the left earlobe (both referenced to the right earlobe).  A horizontal electrooculogram (HEOG) signal was recorded as the potential between electrodes located just lateral to each eye.
 
 Letters and digits were presented in an unpredictable order within each trial block, but separate blocks were used for each combination of probability response assignment.  That is, there were separate trial blocks for: (1) 80% letters (left-hand response) and 20% digits (right-hand response); (2) 20% letters (left-hand response) and 80% digits (right-hand response); (3) 80% letters (right-hand response) and 20% digits (left-hand response); (4) 20% letters (right-hand response) and 80% digits (left-hand response).  Each block was originally recorded in a separate file. 
 
-These files were imported into EEGLAB (using File > Import data > From Neuroscant .CNT File) and then merged together (with File > Append datasets).  The procedure you follow will depend on your data acquisition system.  Note that EEGLAB places a boundary event code at the boundary between the original files to mark the fact that a temporal discontinuity was present at those times.  This is important, because some functions (e.g., filters) either implicitly or explicitly assume that consecutive data points in the EEG reflect temporally consecutive moments in time (see the section on boundary events in the ERPLAB User's Manual).  The end result was saved in a file named S1_EEG.set (or S2, S3, etc., to indicate each individual subject).
+These files were imported into EEGLAB (using **File > Import data > From Neuroscant .CNT File**) and then merged together (with **File > Append datasets**).  The procedure you follow will depend on your data acquisition system.  Note that EEGLAB places a boundary event code at the boundary between the original files to mark the fact that a temporal discontinuity was present at those times.  This is important, because some functions (e.g., filters) either implicitly or explicitly assume that consecutive data points in the **EEG** reflect temporally consecutive moments in time (see the section on boundary events in the ERPLAB User's Manual).  The end result was saved in a file named S1_EEG.set (or S2, S3, etc., to indicate each individual subject).
