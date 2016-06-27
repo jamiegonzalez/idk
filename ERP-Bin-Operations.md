@@ -126,14 +126,14 @@ nbin3 = 0.5*bin3@Rch + 0.5*bin4@Lch label blue_targets Contra
 
 nbin4 = 0.5*bin3@Lch + 0.5*bin4@Rch label blue_targets Ipsi    
 
-# For creating contra-minus-ipsi waveforms from the bins above,
+ # For creating contra-minus-ipsi waveforms from the bins above,
 
-# run (only) the formulas described here below in a second call
+ # run (only) the formulas described here below in a second call
 
-# of "ERP binoperator"  (remove the # symbol before run them)  
+ # of "ERP binoperator"  (remove the # symbol before run them)  
 
-#bin5 = bin1 - bin2 label red_targets  Contra-Ipsi             
+ #bin5 = bin1 - bin2 label red_targets  Contra-Ipsi             
 
-#bin6 = bin3 - bin4 label blue_targets  Contra-Ipsi            
+ #bin6 = bin3 - bin4 label blue_targets  Contra-Ipsi            
 
 You then run ERP Bin Operations (using Independent Transformations mode) to create the new bins.  The equations include comments telling you how you can create contra-minus-ipsi difference waves, but this must be done in a second step, after the contra and ipsi bins have been made (i.e., you will need to run ERP Bin Operations a second time with these new equations to make the difference waves).
