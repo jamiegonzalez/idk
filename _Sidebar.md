@@ -4,5 +4,5 @@
 * [Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial)
 * [Videos](https://github.com/lucklab/erplab/wiki/Videos)
 * [Scripting Guide](https://github.com/lucklab/erplab/wiki/Scripting-Guide)
-* [Data Files](http://dl.dropbox.com/u/3711923/Test_Data.zip)
+* [Data Files (click to download)](http://dl.dropbox.com/u/3711923/Test_Data.zip)
 * Subscribe to the ERPLAB email list
