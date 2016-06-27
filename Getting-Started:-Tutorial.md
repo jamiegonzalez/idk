@@ -3,15 +3,16 @@ We assume that you have already installed EEGLAB and ERPLAB, as described in the
 
 ### Open your first subject's data file in EEGLAB and ERPLAB
 
-1. Open Matlab.
-In the Matlab command window, type the following (each line followed by the **return/enterkey**):
+1. Open Matlab.  
+In the Matlab command window, type the following (each line followed by the **return/enterkey**):  
+
     >> clear all;
     >> eeglab;
 
-    This will start you with a fresh EEGLAB and ERPLAB session. 
-    _Tip: Follow this procedure when you encounter bugs or unexplained problems with EEGLAB and/or ERPLAB._
-2. In the EEGLAB menubar, select **File > Memory and other options **
-Uncheck "_If set, keep at most one dataset in memory_". 
+  This will start you with a fresh EEGLAB and ERPLAB session.  
+  _Tip: Follow this procedure when you encounter bugs or unexplained problems with EEGLAB and/or ERPLAB._
+2. In the EEGLAB menubar, select **File > Memory and other options**  
+    Uncheck "_If set, keep at most one dataset in memory_". 
 
     This will configure EEGLAB's memory settings to allow multiple datasets to be loaded in memory.
 
