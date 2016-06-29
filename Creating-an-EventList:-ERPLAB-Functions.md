@@ -23,7 +23,8 @@ _Tip: It is good practice to save the dataset to disk after you've gone through 
 There are two ways to see the EventList that you just created:
 1. The first way is to type **EEG.EVENTLIST** in the Matlab command window. Doing so, will display following in the Matlab Command window: 
 EVENTLIST
-If you have some Matlab experience, you can drill further into this structure to see what it contains.
+If you have some Matlab experience, you can drill further into this structure to see what it contains.  
+
 2. The second (easier) way is to open the text file that you created (elist.txt) in Matlab's text editor. When it was created, ERPLAB put a link to the file in the Matlab command window, as shown by the underlined blue text in the following screenshot. Click on this link and the file will open. 
 EVENTLIST_LINK
 Take a look at this file to see that it has all the event code information.  
