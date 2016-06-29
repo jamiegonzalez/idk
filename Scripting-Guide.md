@@ -38,10 +38,10 @@ Table of Contents
  * Averaging from EEG instead of ALLEEG
  * [Putting the bin descriptor file in the parent folder](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#putting-the-bin-descriptor-file-in-the-parent-folder)
  * [Changing the path for the electrode locations file](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#changing-the-path-for-the-electrode-locations-file)
-* Example 3c: Looping Through Multiple Subjects
- * Cell arrays
- * The fprintf() command
- * Loops
- * Adding a loop to the script
+* [Example 3c: Looping Through Multiple Subjects](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects)
+ * [Cell arrays](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#cell-arrays)
+ * [The fprintf() command](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#the-fprintf-command)
+ * [Loops](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#loops)
+ * [Adding a loop to the script](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#adding-a-loop-to-the-script)
 * Example 4: A Complete Data Processing Script
 * Hints About Debugging Your Scripts
