@@ -28,10 +28,10 @@ Table of Contents
  * [Using eeglab redraw to synchronize with the GUI](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#using-pop_loadset-and-eeglab-redraw-to-synchronize-with-the-gui)
  * [Creating and executing the script](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#creating-and-executing-the-script)
 * [Example 2: An Even Simpler EEGLAB Script](https://github.com/lucklab/erplab/wiki/Example-2:-An-Even-Simpler-EEGLAB-Script)
-* Example 3: A Simple Script That Actually Does Something Useful
- * Getting Started
- * Doing the processing steps with the GUI to create a history
- * Using the history to make a script
+* [Example 3: A Simple Script That Actually Does Something Useful](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful)
+ * [Getting Started](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful#getting-started)
+ * [Doing the processing steps with the GUI to create a history](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful#doing-the-processing-steps-with-the-gui-to-create-a-history)
+ * [Using the history to make a script](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful#using-the-history-to-make-a-script)
 * Example 3b: Modifying the Script to Work for Different Subjects
  * Learning a little Matlab trick
  * Adding subject and path variables to the script
