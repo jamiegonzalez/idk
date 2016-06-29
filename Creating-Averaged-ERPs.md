@@ -6,10 +6,10 @@ datasets2
     Equivalent Script Command:
   
     % Load S1_EEG_elist_be_ar.set
-EEG = pop_loadset( 'filename', 'S1_EEG_elist_be_ar.set', 'filepath', '/Users/etfoo/Desktop/tutorial_script/');
+    EEG = pop_loadset( 'filename', 'S1_EEG_elist_be_ar.set', 'filepath', '/Users/etfoo/Desktop/tutorial_script/');
 
     % The following command uses Matlab's Current Folder
-EEG = pop_loadset('filename', 'S1_EEG_elist_be_ar.set');  
+    EEG = pop_loadset('filename', 'S1_EEG_elist_be_ar.set');  
 
 Now select **ERPLAB > Compute Averaged ERP**.  This will bring up the very simple window shown below. 
 null
