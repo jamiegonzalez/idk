@@ -11,7 +11,7 @@ set current folder
  
 
 ### If things go wrong...
-Lots of things can go wrong with scripts. You can expect to spend about 10% of your time writing the scripts and 90% of your time debugging them. Later on, we will discuss some tips for more efficient debugging. But be prepared to spend time tracking down and fixing problems.
+Lots of things can go wrong with scripts. You can expect to spend about 10% of your time writing the scripts and 90% of your time debugging them. Later on, we will discuss some [tips for more efficient debugging](https://github.com/lucklab/erplab/wiki/Hints-About-Debugging-Your-Scripts). But be prepared to spend time tracking down and fixing problems.
 
 One of the most common problems for new users is that something that worked yesterday (or a minute ago) no longer seems to work. This may be because the "initial conditions" are now different. Before running a script, it can be very helpful to quit EEGLAB, type **clear all** in the command window, and launch EEGLAB again. If this doesn't work, and you're getting really weird problems, you may need to quit and restart Matlab.
 
