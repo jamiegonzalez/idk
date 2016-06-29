@@ -17,10 +17,10 @@ Table of Contents
 
 * [Getting Started With This Scripting Guide](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#accessing-the-history)
  * [Downloading the example data](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#downloading-the-example-data)
- * Accessing the history
- * Organizing your files
- * Keeping the GUI synced with your scripts
- * If you already know a little about scripts or programming…
+ * [Accessing the history](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#accessing-the-history)
+ * [Organizing your files](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#organizing-your-files)
+ * [Keeping the GUI synced with your scripts](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#keeping-the-gui-synced-with-your-scripts)
+ * [If you already know a little about scripts or programming…](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#if-you-already-know-a-little-about-scripts-or-programming)
 * Example 1: The World's Simplest EEGLAB/ERPLAB Script
  * Getting started
  * Loading a dataset with the GUI to create a history
