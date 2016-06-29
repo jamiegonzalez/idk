@@ -20,11 +20,10 @@ When an EventList is generated, it suggests adding "_elist" onto the dataset nam
 save_set  
 _Tip: It is good practice to save the dataset to disk after you've gone through several steps; otherwise all your work will be lost if the program crashes.  And you should obviously save to disk if you are going to quit the program and you don't want to lose what you've created.  However, it usually isn't necessary to save every dataset you create – this ends up leading to a lot of big files on your hard drive.  Also, we don't usually overwrite the previous dataset, because then we can't easily back up to the previous step.  However, there are no hard-and-fast rules here; you will eventually develop a set of habits that make sense for your own needs._
 
-There are two ways to see the EventList that you just created:
+There are two ways to see the EventList that you just created:  
 1. The first way is to type **EEG.EVENTLIST** in the Matlab command window. Doing so, will display following in the Matlab Command window: 
 EVENTLIST
 If you have some Matlab experience, you can drill further into this structure to see what it contains.  
-
 2. The second (easier) way is to open the text file that you created (elist.txt) in Matlab's text editor. When it was created, ERPLAB put a link to the file in the Matlab command window, as shown by the underlined blue text in the following screenshot. Click on this link and the file will open. 
 EVENTLIST_LINK
 Take a look at this file to see that it has all the event code information.  
