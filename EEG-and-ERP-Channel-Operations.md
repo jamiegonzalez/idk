@@ -42,7 +42,7 @@ There are two options for replacing a bad channel with interpolated values.   Fi
 
 ch12 = (ch9 + ch14 + ch17) / 3
 
-Alternatively, you could use a spherical spline interpolation that takes into account all of the electrode sites (i.e., using EEGLAB's EEG_INTERP function).  To do this with EEG Channel Operations, you must first make sure that your dataset contains electrode location information (not just the name, but the 3-D coordinates).  Instructions for this can be found in the ERPLAB Tutorial.  You would then use the chinterpol function in your Channel Operations equation.  For example, to replace channel 12 with interpolated values, you would write an equation like this:
+Alternatively, you could use a spherical spline interpolation that takes into account all of the electrode sites (i.e., using EEGLAB's EEG_INTERP function).  To do this with EEG Channel Operations, you must first make sure that your dataset contains electrode location information (not just the name, but the 3-D coordinates).  Instructions for this can be found in the [ERPLAB Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial).  You would then use the chinterpol function in your Channel Operations equation.  For example, to replace channel 12 with interpolated values, you would write an equation like this:
 
 ch12 = chinterpol
 
