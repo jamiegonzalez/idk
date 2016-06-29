@@ -43,7 +43,7 @@ The window for saving the newly created dataset is also brought up at this point
      EEG = pop_artmwppth( EEG, 'Channel' , 1:16, 'Flag' , [1 2]. 'Threshold', 100 ...
                    , 'Twindow', [-200798], 'Windowsize' , 200, ' Windowstep' , 50);
     % The script-based routine does not show you the data. To see the data, do this:
-pop_eegplot(EEG);
+    pop_eegplot(EEG);
 
     % Now we will save the dataset
     % Setname is S1_EEG_elist_be_ar
