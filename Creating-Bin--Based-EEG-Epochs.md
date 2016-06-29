@@ -43,11 +43,13 @@ Click **OK** and it will name the new dataset "S1_EEG_elist_be" ("be" stands for
 
     EEG=pop_saveset(EEG, 'filename', 'S1_EEG_elist_be.set')  
 
-Make sure that this new dataset is the active dataset (by looking in the Datasets menu).
-Select Plot > Channel data (scroll).
+Make sure that this new dataset is the active dataset (by looking in the **Datasets** menu).
+Select **Plot > Channel data (scroll)**.
 
-The following screen shows what it should look like.  here should still be continuous EEG data, but if you look more closely you will see a vertical dashed line 800 ms after (and 200 ms before) each event.  This dashed line marks the end of one epoch and the beginning of the next.  If you find this disconcerting, you can simply change Settings > Time range to display to a period of 1 second (in the plotting window).
+The following screen shows what it should look like.  here should still be continuous EEG data, but if you look more closely you will see a vertical dashed line 800 ms after (and 200 ms before) each event.  This dashed line marks the end of one epoch and the beginning of the next.  If you find this disconcerting, you can simply change **Settings > Time range to display** to a period of 1 second (in the plotting window).
 
-Note: EEGLAB routines typically ask you to enter time information in seconds, whereas ERPLAB routines typically ask for milliseconds. eeg5
+_Note: EEGLAB routines typically ask you to enter time information in seconds, whereas ERPLAB routines typically ask for milliseconds._  
+
+eeg5  
 
 Because the epoch length in this experiment is shorter than the interval between consecutive stimuli, the epoched data will now be missing a period of time between the end of one epoch and the beginning of the next epoch.  If, however, we used a 2000-ms epoch length, the last part of one epoch would contain the same EEG data as the beginning part of the next epoch.
