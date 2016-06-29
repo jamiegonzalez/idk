@@ -32,12 +32,12 @@ Table of Contents
  * [Getting Started](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful#getting-started)
  * [Doing the processing steps with the GUI to create a history](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful#doing-the-processing-steps-with-the-gui-to-create-a-history)
  * [Using the history to make a script](https://github.com/lucklab/erplab/wiki/Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful#using-the-history-to-make-a-script)
-* Example 3b: Modifying the Script to Work for Different Subjects
- * Learning a little Matlab trick
- * Adding subject and path variables to the script
+* [Example 3b: Modifying the Script to Work for Different Subjects](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects)
+ * [Learning a little Matlab trick](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#learning-a-little-matlab-trick)
+ * [Adding subject and path variables to the script](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#adding-subject-and-path-variables-to-the-script)
  * Averaging from EEG instead of ALLEEG
- * Putting the bin descriptor file in the parent folder
- * Changing the path for the electrode locations file
+ * [Putting the bin descriptor file in the parent folder](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#putting-the-bin-descriptor-file-in-the-parent-folder)
+ * [Changing the path for the electrode locations file](https://github.com/lucklab/erplab/wiki/Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#changing-the-path-for-the-electrode-locations-file)
 * Example 3c: Looping Through Multiple Subjects
  * Cell arrays
  * The fprintf() command
