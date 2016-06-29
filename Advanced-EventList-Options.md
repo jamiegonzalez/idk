@@ -13,6 +13,7 @@ Create_Eventlist
 
     **Note: ERPLAB requires that each event have a numeric event code**. If your data acquisition system uses text-based labels instead of numeric codes, you must define a numeric event code for each text-based event label. If your data acquisition system uses numeric codes, you are not required to create text-based labels for each code, but it's a good idea. You can also define a bin for all (or some) of your event codes, along with a label for that bin. We will do that in this example, but it is not necessary if you will be using BINLISTER in a later step to define your bins.  
 3. Define this information for a single trial block from our example experiment.Enter the following information into the **Event Info** area (upper left corner) of the **Create Advanced EventList** window:  
+
     Event Code:	**22**  
     Event Label:	**Frequent_Digit**  
     Bin number:	**1**  
