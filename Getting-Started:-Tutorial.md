@@ -16,7 +16,7 @@ In the Matlab command window, type the following (each line followed by the **re
 
     This will configure EEGLAB's memory settings to allow multiple datasets to be loaded in memory.
 
-3. Download the tutorial files to your hard drive from the ERPLAB documentation area of the erpinfo.org web site.  The data and related files are in a folder named **Test_Data**, which you can put anywhere on your computer's file system.
+3. Download the tutorial files to your hard drive from the [ERPLAB documentation area](https://github.com/lucklab/erplab/wiki).  The data and related files are in a folder named **Test_Data**, which you can put anywhere on your computer's file system.
 4. In Matlab, navigate the current directory to the .../**Test_Data/S1** folder.   
 This is where the data from the first subject we will be processing is located. Above Matlab command window, there is a drop-down folder path displaying the current directory (see screenshot below).  Click on the **browse** button (labeled with '…') to the right of the current directly and choose the **S1** folder.  The top of the window will then look something like this (although the details depend on what operating system you are using): 
 current_folder
