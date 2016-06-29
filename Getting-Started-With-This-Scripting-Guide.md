@@ -3,51 +3,51 @@
 If you haven't already done so, you need to download the ERPLAB Test_Data folder, which contains the data and other files that will be used in the examples below. You can download it from the [ERPLAB documentation area of this web site](https://github.com/lucklab/erplab/wiki).  You can put this folder anywhere on your computer's file system. 
 
 ### Accessing the History
-To see the history of everything that led up to the current EEG or ERP structure, you can simply type **EEG.history** or **ERP.history**.  You will then see something like this (assuming that you've done some processing steps in the EEGLAB GUI since it was last launched):
+To see the history of everything that led up to the current EEG or ERP structure, you can simply type **EEG.history** or **ERP.history**.  You will then see something like this (assuming that you've done some processing steps in the EEGLAB GUI since it was last launched):  
 
-EEG = pop_loadset( 'filename', 'S1_EEG.set', 'filepath', '/Users/luck/Documents/Software Development/ERPLAB Toolbox/Documentation/Tutorial/s1/');
+    EEG = pop_loadset( 'filename', 'S1_EEG.set', 'filepath', '/Users/luck/Documents/Software Development/ERPLAB Toolbox/Documentation/Tutorial/s1/');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = pop_editset(EEG, 'setname',  'S1_EEG');
+    EEG = pop_editset(EEG, 'setname',  'S1_EEG');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = pop_loadset('filename','S1_EEG.set','filepath','/Users/luck/Documents/Software_Development/erplab toolbox/documentation/Tutorial_Data (for testing)/S1 August 2011/');
+    EEG = pop_loadset('filename','S1_EEG.set','filepath','/Users/luck/Documents/Software_Development/erplab toolbox/documentation/Tutorial_Data (for testing)/S1 August 2011/');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG=pop_chanedit(EEG, 'lookup','/Users/luck/Documents/Software_Development/eeglab9_0_2_3b/plugins/dipfit2.2/standard_BESA/standard-10-5-cap385.elp');
+    EEG=pop_chanedit(EEG, 'lookup','/Users/luck/Documents/Software_Development/eeglab9_0_2_3b/plugins/dipfit2.2/standard_BESA/standard-10-5-cap385.elp');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-figure; pop_spectopo(EEG, 1, [0  2139038], 'EEG' , 'percent', 15, 'freq', [6 10 22], 'freqrange',[2 25],'electrodes','off');
+    figure; pop_spectopo(EEG, 1, [0  2139038], 'EEG' , 'percent', 15, 'freq', [6 10 22], 'freqrange',[2 25],'electrodes','off');
 
-EEG = pop_editset(EEG, 'setname', 'S1_Chan');
+    EEG = pop_editset(EEG, 'setname', 'S1_Chan');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = pop_saveset( EEG, 'savemode','resave');
+    EEG = pop_saveset( EEG, 'savemode','resave');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = pop_loadset('filename','S1_Chan.set','filepath','/Users/luck/Documents/Software_Development/erplab toolbox/documentation/Tutorial_Data (for testing)/S1 August 2011/');
+    EEG = pop_loadset('filename','S1_Chan.set','filepath','/Users/luck/Documents/Software_Development/erplab toolbox/documentation/Tutorial_Data (for testing)/S1 August 2011/');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = pop_editeventlist(EEG, '/Users/luck/Documents/Software_Development/erplab toolbox/documentation/Tutorial_Data (for testing)/S1 August 2011/event_mapping_1.txt', 'elist.txt', {'boundary'}, {-99});
+    EEG = pop_editeventlist(EEG, '/Users/luck/Documents/Software_Development/erplab toolbox/documentation/Tutorial_Data (for testing)/S1 August 2011/event_mapping_1.txt', 'elist.txt', {'boundary'}, {-99});
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-pop_eegplot( EEG, 1, 1, 1);
+    pop_eegplot( EEG, 1, 1, 1);
 
-EEG = pop_epochbin( EEG , [-200.0  800.0],  'pre');
+    EEG = pop_epochbin( EEG , [-200.0  800.0],  'pre');
 
-EEG = eeg_checkset( EEG );
+    EEG = eeg_checkset( EEG );
 
-EEG = pop_artmwppth( EEG, 'Channel', 1:16, 'Flag', 1, 'Threshold', 100, 'Twindow', [-200 798], 'Windowsize', 200, 'Windowstep', 100);
+    EEG = pop_artmwppth( EEG, 'Channel', 1:16, 'Flag', 1, 'Threshold', 100, 'Twindow', [-200 798], 'Windowsize', 200, 'Windowstep', 100);  
 
  
 
