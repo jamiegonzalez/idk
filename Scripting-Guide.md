@@ -43,5 +43,5 @@ Table of Contents
  * [The fprintf() command](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#the-fprintf-command)
  * [Loops](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#loops)
  * [Adding a loop to the script](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#adding-a-loop-to-the-script)
-* Example 4: A Complete Data Processing Script
+* [Example 4: A Complete Data Processing Script](https://github.com/lucklab/erplab/wiki/Example-4:-A-Complete-Data-Processing-Script)
 * Hints About Debugging Your Scripts
