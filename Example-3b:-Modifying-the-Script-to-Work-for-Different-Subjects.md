@@ -134,7 +134,7 @@ Similarly, if you did not put the correct path for the Test_Data folder in the *
 
 
 
-You will doubtless find this aggravating and frustrating.  I'm not sure if you will find this comforting, but for most scripts you will probably spend more time tracking down and fixing problems than you will spend actually writing the initial script.  That has always been my experience, and it's also true for professional programmers. Click here for some tips on debugging.
+You will doubtless find this aggravating and frustrating.  I'm not sure if you will find this comforting, but for most scripts you will probably spend more time tracking down and fixing problems than you will spend actually writing the initial script.  That has always been my experience, and it's also true for professional programmers. [Click here for some tips on debugging](https://github.com/lucklab/erplab/wiki/Hints-About-Debugging-Your-Scripts).
 
 ### Putting the bin descriptor file in the parent folder
 The next thing you need to fix is the location of the bin descriptor file, **'binlister_demo_1.txt'**.  In our script so far, we've assumed that this file is in the **S1** folder.  You will use the same bin descriptor file for every subject, so it doesn't make sense to have a separate copy in every subject's folder.  Instead, you should put it in the _parent_ folder (the folder that contains the **S1** folder and the folders for all the other subjects).  After you've done this, you will need to make some changes to your script so that it looks in the right place for this file.  First, you will define a variable named **parentfolder** in your script (and use it when defining the **subjectfolder** variable), as follows:  
