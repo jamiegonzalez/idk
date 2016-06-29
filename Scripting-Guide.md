@@ -21,12 +21,12 @@ Table of Contents
  * [Organizing your files](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#organizing-your-files)
  * [Keeping the GUI synced with your scripts](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#keeping-the-gui-synced-with-your-scripts)
  * [If you already know a little about scripts or programming…](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#if-you-already-know-a-little-about-scripts-or-programming)
-* Example 1: The World's Simplest EEGLAB/ERPLAB Script
- * Getting started
- * Loading a dataset with the GUI to create a history
- * Executing a command from the command line
- * Using eeglab redraw to synchronize with the GUI
- * Creating and executing the script
+* [Example 1: The World's Simplest EEGLAB/ERPLAB Script](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script)
+ * [Getting started](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#getting-started)
+ * [Loading a dataset with the GUI to create a history](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#loading-a-dataset-with-the-gui-to-create-a-history)
+ * [Executing a command from the command line](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#executing-a-command-from-the-command-line)
+ * [Using eeglab redraw to synchronize with the GUI](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#using-pop_loadset-and-eeglab-redraw-to-synchronize-with-the-gui)
+ * [Creating and executing the script](https://github.com/lucklab/erplab/wiki/Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script#creating-and-executing-the-script)
 * Example 2: An Even Simpler EEGLAB Script
 * Example 3: A Simple Script That Actually Does Something Useful
  * Getting Started
