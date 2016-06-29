@@ -26,7 +26,8 @@ EVENTLIST
 If you have some Matlab experience, you can drill further into this structure to see what it contains.
 2. The second (easier) way is to open the text file that you created (elist.txt) in Matlab's text editor. When it was created, ERPLAB put a link to the file in the Matlab command window, as shown by the underlined blue text in the following screenshot. Click on this link and the file will open. 
 EVENTLIST_LINK
-Take a look at this file to see that it has all the event code information.
+Take a look at this file to see that it has all the event code information.  
+    
     Equivalent Script Command:
 
     % Create an EventList, saving a text version in a file named 'elist.txt' in Matlab's current folder
