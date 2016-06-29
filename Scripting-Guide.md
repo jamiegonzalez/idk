@@ -15,7 +15,7 @@ Very Important Note: The histories and script examples given here won't look exa
 
 Table of Contents
 
-* [Getting Started With This Scripting Guide](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#accessing-the-history)
+* [Getting Started With This Scripting Guide](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide)
  * [Downloading the example data](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#downloading-the-example-data)
  * [Accessing the history](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#accessing-the-history)
  * [Organizing your files](https://github.com/lucklab/erplab/wiki/Getting-Started-With-This-Scripting-Guide#organizing-your-files)
