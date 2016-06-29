@@ -44,4 +44,4 @@ Table of Contents
  * [Loops](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#loops)
  * [Adding a loop to the script](https://github.com/lucklab/erplab/wiki/Example-3c:-Looping-Through-Multiple-Subjects#adding-a-loop-to-the-script)
 * [Example 4: A Complete Data Processing Script](https://github.com/lucklab/erplab/wiki/Example-4:-A-Complete-Data-Processing-Script)
-* Hints About Debugging Your Scripts
+* [Hints About Debugging Your Scripts](https://github.com/lucklab/erplab/wiki/Hints-About-Debugging-Your-Scripts)
