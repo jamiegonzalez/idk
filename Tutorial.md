@@ -18,9 +18,8 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 
 ## Table of Contents
 
-[Overview and Scripting](https://github.com/lucklab/erplab/wiki/Overview-and-Scripting)
-
-[Getting Started](https://github.com/lucklab/erplab/wiki/Getting-Started:-Tutorial)
+1. [Overview and Scripting](https://github.com/lucklab/erplab/wiki/Overview-and-Scripting)
+2. [Getting Started](https://github.com/lucklab/erplab/wiki/Getting-Started:-Tutorial)
 
 [Brief Description of the Example Experiment](https://github.com/lucklab/erplab/wiki/Brief-Description-of-the-Example-Experiment)
 
