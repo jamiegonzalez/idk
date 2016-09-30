@@ -7,7 +7,7 @@ Note that script commands can also be run from the Matlab command line, which ca
 
 
 ----
-<table style="width:100%;padding:15px">
+<table style="width:100%">
   <tr>
     <td></td>
     <td><a href="./Tutorial"> Tutorial</a></td>
