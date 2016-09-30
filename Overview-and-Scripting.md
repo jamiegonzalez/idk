@@ -7,4 +7,10 @@ Note that script commands can also be run from the Matlab command line, which ca
 
 
 ----
-<h5 align="center"> <a href="./Tutorial"> Tutorial</a> <a href="./Getting-Started:-Tutorial">  Getting Started >>  </a></h5>
+<table style="width:100%;padding:15px">
+  <tr>
+    <td></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Getting-Started:-Tutorial"> Getting Started >>  </a></td>
+  </tr>
+</table>
