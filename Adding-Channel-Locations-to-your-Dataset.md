@@ -77,4 +77,10 @@ You can now save the modified dataset by selecting **File > Save current dataset
     EEG=pop_saveset(EEG, 'filename', 'S1_Chan.set');
 
 ----
-<h5 align="center"> <a href="./Brief-Description-of-the-Example-Experiment"> << Brief Description of the Example Experiment </a> <a href="./Background-Concepts:-Datasets,-ERPsets,-and-bins">  Background-Concepts: Datasets, ERPsets, and bins >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Brief-Description-of-the-Example-Experiment"> << Brief Description of the Example Experiment </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-bins">  Background-Concepts: Datasets, ERPsets, and bins >>  </a></td>
+  </tr>
+</table>
