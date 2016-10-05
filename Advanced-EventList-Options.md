@@ -127,4 +127,10 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
   If you're interested, you can take a look at the text version of the EventList that you created. Simply open this file with the Matlab text editor. For details on the contents and format of this file, see the ERPLAB User's Manual. Later on we will show how you can edit this file and import it back into your EEG data.
 
 ----
-<h5 align="center"> <a href="./Creating-an-EventList"> << Creating an EventList </a> <a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Creating-an-EventList"> << Creating an EventList </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs >>  </a></td>
+  </tr>
+</table>
