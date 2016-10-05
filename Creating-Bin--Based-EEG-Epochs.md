@@ -58,4 +58,10 @@ _Note: EEGLAB routines typically ask you to enter time information in seconds, w
 Because the epoch length in this experiment is shorter than the interval between consecutive stimuli, the epoched data will now be missing a period of time between the end of one epoch and the beginning of the next epoch.  If, however, we used a 2000-ms epoch length, the last part of one epoch would contain the same EEG data as the beginning part of the next epoch.
 
 ----
-<h5 align="center"> <a href="./Advanced-EventList-Options"> << Advanced EventList Options </a> <a href="./Artifact-Detection">  Artifact Detection >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Advanced-EventList-Options"> << Advanced EventList Options </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Artifact-Detection">  Artifact Detection >>  </a></td>
+  </tr>
+</table>
