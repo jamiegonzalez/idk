@@ -42,4 +42,10 @@ Instead of event codes or event labels, you can choose to store **Bin Labels** i
 Note: We will eventually make it possible to use event labels in addition to event codes when using BINLISTER to assign events to bins.  However, this has not yet been implemented, so the main use of event labels at present is during viewing of the raw EEG data.
 
 ----
-<h5 align="center"> <a href="./Background-Concepts:-Datasets,-ERPsets,-and-Bins"> << Background Concepts: Datasets, ERPsets, and Bins </a> <a href="./Advanced-EventList-Options">  Advanced EventList Options >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-Bins"> << Background Concepts: Datasets, ERPsets, and Bins </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Advanced-EventList-Options">  Advanced EventList Options >>  </a></td>
+  </tr>
+</table>
