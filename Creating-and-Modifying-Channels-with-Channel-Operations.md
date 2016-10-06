@@ -109,4 +109,10 @@ After you click **RUN**, each channel that is being recomputed is displayed in t
 ![GUI](./images/Tutorial/Tutorial_Creating-and-Modifying-Channels_9.png)
 
 ----
-<h5 align="center"> <a href="./Combining-ERP-Waveforms-with-Bin-Operations"> << Combining ERP Waveforms with Bin Operations </a> <a href="./Assigning-Events-to-Bins-with-BINLISTER">  Assigning Events to Bins with BINLISTER >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Combining-ERP-Waveforms-with-Bin-Operations"> << Combining ERP Waveforms with Bin Operations </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Assigning-Events-to-Bins-with-BINLISTER">  Assigning Events to Bins with BINLISTER >>  </a></td>
+  </tr>
+</table>
