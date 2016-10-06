@@ -29,13 +29,13 @@ There are two important options. The first is **Create EventList text file outpu
 
 The second option is **Transfer EVENTLIST info to EEG.event**.  You will usually want to do this, because it gives you the ability to use the text labels you have just created for each event code when viewing the EEG in EEGLAB's plotting functions (e.g., **Plot > Channel data scroll**).  If you select this option, it will cause another window to pop up (after you click **APPLY**).  This window is shown in the screenshot to the left.  It allows you to choose whether the event info in the **EEG** structure will contain the numeric event codes, the code labels, or the bin labels for each event (which then determines how event codes are labeled when you plot the data).  You will usually want to select **Code Labels**.  The two screenshots below show what the EEG will look like when you view it with the original event codes (top screenshot) and with the event labels (bottom screenshot).  Note that a limited amount of space is provided by EEGLAB for showing the labels, so it is usually best to have relatively short labels (10 characters or less).
 
-null
+![ERPLAB Menu](./images/Manual/Manual_Creating-an-EVENTLIST_4.png)
 
 
+![ERPLAB Menu](./images/Manual/Manual_Creating-an-EVENTLIST_5.png)
 
-EEG_Display1
+![ERPLAB Menu](./images/Manual/Manual_Creating-an-EVENTLIST_6.png)
 
-EEG_Display2
 
 Instead of event codes or event labels, you can choose to store **Bin Labels** in the **EEG** structure.  This alternative applies only after you have assigned events to bins (either at this stage or by means of the [BINLISTER](./Assigning-Events-to-Bins-with-BINLISTER) routine at a later stage).  The bin label is a string that indicates the bin to which the epoch has been assigned.  The original event label or event is also provided (in parentheses) for your information.  For example, if an event code of 100 was assigned to Bin 1, the bin label for this event code would be changed to **B1(100)**.  If a given event code is assigned to multiple bins, the bins are separated by commas.  That is, if an event code of 100 was assigned to Bins 1 and 7, the label for this event code would be changed to **B1,7(100)**.  If event labels are present, they are used inside of the parentheses instead of event codes (e.g.,  **B1,7(target)**).
 

@@ -11,9 +11,10 @@ Rejection can be accomplished visually on the continuous EEG data by means of EE
 ![GUI](./images/Manual/Manual_Artifact-Rejection-in-Continuous-Data_2.png)
 
 ## Automated rejection of contaminated continuous data
-Rejection can be also accomplished automatically on the continuous EEG data by selecting **ERPLAB > Artifact detection in continuous data**.  This routine puts up the window shown below.
+Rejection can be also accomplished automatically on the continuous EEG data by selecting **ERPLAB > Artifact rejection in continuous data**.  This routine puts up the window shown below.
 
-continuous_rejection
+![GUI](./images/Manual/Manual_Artifact-Rejection-in-Continuous-Data_3.png)
+
 
 When this routine runs, it checks a series of moving windows for artifacts. You specify the length of these windows by specifying the **Moving Windows Width**, which is set to 500 ms in the screenshot shown above. The **Window Step** paramater is set to 250 ms in this example. This means that it will check for artifacts in 500-ms windows, starting every 250 ms (e.g., 0-500 ms, 250-750 ms, 500-1000 ms, 750-1250 ms, etc.).
 

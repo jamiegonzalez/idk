@@ -83,7 +83,7 @@ Now that the artifactual voltages produced by the blinks have been eliminated, w
 
 We will locate epochs with blinks occurring near the stimulus by selecting **ERPLAB > Artifact Detection > Blink rejection (alpha version)**.   You should enter the parameters shown in the screenshot below.  Because we are only concerned with marking those trials in which a blink occurred during the stimulus presentation, we will limit the test period to the time range immediately surrounding the stimulus event code, -200 to 200 ms (optimal parameters will depend on the duration of the blink; you can try varying this window to see whether it reliably detects blinks at the time of the stimulus and not blinks at other times).  We will use only the VEOG (channel 14) to detect blinks.  Finally, be sure to select a flag, so that we can uniquely label epochs in which blinks occurred.  Here we have chosen Flag 8.
 
-null
+![GUI](./images/Tutorial/Tutorial_Exporting-and-Importing-Eventlists_6.png)
 
 After clicking on **Accept**, you can see in the command window output that 1.6% of trials are detected as having blinks in this time period.  Scroll through the EEG data viewer window that has appeared and see which epochs have been marked, as we did in the earlier examples of artifact detection.  Note that most of the blinks have not been detected, because they did not occur at the time of the stimulus.  However, blinks at the time of the stimulus were rejected.  In particular, note epoch numbers 68, 121, 166, 221, 262.  Epoch 68 is shown below, and it is clear that this blink occurred at the time of stimulus presentation, as indicated by the fact that it surrounds the stimulus event code.  (Note that the bin marker has replaced the stimulus event code).  
 
@@ -96,7 +96,7 @@ After clicking on **Accept**, you can see in the command window output that 1.6%
     % Mark flag 1 and 8
     EEG = pop_artblink( EEG, [-200  200], 400, 0.7,  14, [ 1 8]);  
 
-eeg13
+![GUI](./images/Tutorial/Tutorial_Exporting-and-Importing-Eventlists_7.png)
 
 Now that we've detected the trials that we want to exclude in the uncorrected EEG data, we need to save the current EventList to a text file so that we can import it back into our ICA-corrected dataset.  To do this, select **ERPLAB > EventList > Export EEG EventList to text file**.  Enter **EventList_blinkdetection.txt** as the filename and click **Save**.   If you open this text file in Matlab's text editor, you can scroll down to the event numbered 135 (this was event #135 prior to epoching, but it was event #68 after epoching because the response events were not assigned to bins and did not generate epochs).  As you can see, this was one of the events we detected.  Both the 1st and 8th flags are present (Remember the 1st is always flagged when an artifact is detected for that bin.  We chose also to label the artifacts detected by this step with the 8th flag).  
 

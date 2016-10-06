@@ -3,7 +3,7 @@ Computing averaged ERPs from an epoched dataset is quite simple.  There is only 
 
 To compute averaged ERPs, you must first load one or more epoched datasets in EEGLAB.  You can then select **ERPLAB > Compute Averaged ERPs**. In the window that appears, enter the # of the dataset that contains the data you would like to average (or multiple datasets). For example, if you want to average the epochs in dataset #2, you would simply type '2' into the window.  If you wanted to average the epochs in datasets 2, 3, and 5, you would type '2 3 5' into the window.  Or, if the datasets are consecutive, you could type something like '1:3' into the window (as in the screenshot below). The current dataset is the default. If you aren't sure what the number of your dataset is, just look in the **Datasets** menu. Click **RUN** to compute the averaged ERPs.
 
-averaging_gui
+![GUI](./images/Manual/Manual_Computing-Averaged-ERPs_1.png)
 
  You will ordinarily want to exclude all epochs that have been marked as containing artifacts. It is also possible to ignore the artifact marks by selecting **Include ALL epochs**.  You can even include only the epochs with artifacts (by selecting **Include ONLY epochs marked with artifact rejection**), which could be helpful in seeing exactly how the artifacts are distorting the data.
 
@@ -16,6 +16,7 @@ When the averaged ERPs have been computed, a window will appear allowing you to 
 - You can choose to either overwrite the current ERPset or create a new ERPset.  ERPsets don't usually take up much RAM, so you will almost always want to create a new ERPset.
 - You need to choose a name for the ERPset.  This will be the name shown in the **ERPsets** menu.
 - You can optionally save the ERPset as a file.  If you click the **same as erpname** button, it will give the file the same name as the ERPset (recommended in most cases), but with a **.erp** extension.  By default, it will be saved in the current folder.  However, you can use the **Browse** button to browse through your file system to find a place for it (or you can include the path explicitly along with the filename).
-null
+
+![GUI](./images/Manual/Manual_Computing-Averaged-ERPs_2.png)
 
 _Note: The averaging routine can average together multiple datasets, which is very useful when a single subject's data are divided into different datasets.  In principle, this routine can also average together the data from different subjects.  However, we recommend against this.  Instead, the data from each subject should be averaged individually, and then the **ERPLAB > Average Across ERPsets** should be used to average together these averages._

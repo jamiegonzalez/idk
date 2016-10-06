@@ -23,15 +23,15 @@ As a reminder, here is a table showing the stimulus event codes. The event codes
     Event Code      Category      Probability       Correct Response
 
     11              Letter        Frequent          Left Hand
-    
+
     21              Digit         Rare              Right Hand
- 
+
     112             Letter        Rare              Left Hand
- 
+
     122             Digit         Frequent          Right Hand
 
     12              Letter        Rare              Right Hand
-  
+
     22              Digit         Frequent          Left Hand
 
     111             Letter        Frequent          Right Hand
@@ -54,7 +54,8 @@ Bins must be specified in order, beginning with Bin 1. The line after the bin nu
 
 To try assigning events to bins, type the two bin descriptors shown above into a text file and save it as **binlister_demo_1.txt** (note: this file may already be present in the **S1** folder). Then select **ERPLAB > Assign Bins (BINLISTER)** (S1_Chan_elist should be the active dataset). The window shown in the screenshot below will appear. Load the bin descriptor file that you just created, and type "test.txt" into the name of the text file for writing the results. Ordinarily you will not need to save the results to a text file, but this will help you see exactly how BINLISTER is working. Now make sure that everything else is set as shown in the screenshot, and then click **RUN**.
 
-Binlister
+![GUI](./images/Manual/Manual_Binlister_1.png)
+
 
 BINLISTER will take some time to go through all of the events in the EventList and create a new EventList with the new bin assignments. A new dataset will be created with the updated EventList. If you open test.txt with Matlab's text editor, you will see how it assigned the stimulus events to Bin 1 or Bin 2. For example, the first event code is a frequent stimulus and was therefore assigned to Bin 1. The second event code is a response, and it was not assigned to any bins. The third event code is a rare stimulus that was assigned to Bin 2. Note that event #73 was a frequent stimulus, but it was followed by an event code 8 (an incorrect response), so it was not assigned to any bins.
 
@@ -81,10 +82,10 @@ Run BINLISTER using this new bin descriptor file. If the active dataset is the o
     % /Users/etfoo/Desktop/tutorial_script/binlister demo 2.txt
     % Save output file as test.txt
     % Note that you will need to replace the path with the actual location in your file system
-    EEG  = pop_binlister( EEG , 'BDF'                                                  ... 
+    EEG  = pop_binlister( EEG , 'BDF'                                                  ...
                     , '/Users/etfoo/Desktop/tutorial_script/binlister demo 2.txt'  ...
                     , 'ExportEL' , '/Users/etfoo/Desktop/tutorial_script/test.txt' ...
-                    , 'ImportEL', 'no'                                             ... 
+                    , 'ImportEL', 'no'                                             ...
                     , 'Saveas', 'on'                                               ...
                     , 'SendEL2', 'EEG&Text'                                    ...
                     , 'Warning', 'on' );
@@ -133,7 +134,7 @@ In bin 1, this will cause the amount of time between the time-locking event and 
 
 You can access these fields from a script, or you can use **ERPLAB>EventList>Export Reaction Times to Text>From EEG** to save the values in a text file, which brings up the window shown in the screenshot below. This window allows you to specify the filename and the organization of the information saved in the file. There are two formats, basic and detailed.
 
-null
+![GUI](./images/Manual/Manual_Binlister_2.png)
 
 The basic format contains _N_ columns, one for each of the different RT labels you specified in the bin descriptor file. The RTs in a column are the single-trial RTs, in order of occurrence, corresponding to a given label (see screenshot below). Because there may be more occurrences of some types of RTs than others, NaN (not a number) is used in a column when there are no more occurrences of that RT left in the file. The label for each column is provided if **Include header** is checked. This format makes it easy to compute the mean RT (or median, SD, etc.) for a given trial type.  
 
@@ -161,7 +162,7 @@ The detailed format contains one reaction time value on each trial. This format 
 
 If you have already performed artifact detection before exporting the RTs, you can exclude trials for which an artifact was detected by selecting **Discard RTs with marked AR flags**.  
 
-    Equivalent Script Command: 
+    Equivalent Script Command:
 
     % Export Reaction Times to Text from EEG
     % Path is /Users/etfoo/Desktop/tutorial_script/
