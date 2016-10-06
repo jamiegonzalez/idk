@@ -53,4 +53,10 @@ _Hint: In most cases, high-pass filters should be applied to the continuous EEG,
     'Design', 'butter', 'Filter', 'bandpass', 'Order',  2, 'RemoveDC', 'on' );
 
 ----
-<h5 align="center"> <a href="./Plotting-Averaged-ERP-Waveforms"> << Plotting Averaged ERP Waveforms </a> <a href="./Combining-ERP-Waveforms-with-Bin-Operations">  Combining ERP Waveforms with Bin Operations >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Plotting-Averaged-ERP-Waveforms"> << Plotting Averaged ERP Waveforms </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Combining-ERP-Waveforms-with-Bin-Operations">  Combining ERP Waveforms with Bin Operations >>  </a></td>
+  </tr>
+</table>
