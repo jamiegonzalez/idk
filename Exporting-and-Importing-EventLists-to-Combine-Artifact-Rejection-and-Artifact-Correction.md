@@ -168,4 +168,10 @@ From here, one can proceed as before and compute average ERPs for those trials w
     ERP = pop_averager(EEG, 1, 1, 1 );
 
 ----
-<h5 align="center"> <a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool"> << Measuring amplitudes and latencies with the ERP Measurement Tool </a> <a href="./Tutorial">  Tutorial >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool"> << Measuring amplitudes and latencies with the ERP Measurement Tool </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td></td>
+  </tr>
+</table>
