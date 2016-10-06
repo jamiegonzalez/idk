@@ -142,4 +142,10 @@ Note that the left column in this text file shows the original item number of th
 _Note for programmers:_ The flags are shown in a binary format in the text file (to make it easier to see the individual flag values). However, they are stored in a single variable, and Matlab ordinarily uses decimal numbers to enter and print the value of a variable. For example: If you set flags 1 and 5 in an artifact detection tool, and you print out the value of the flag variable, you will see a value of 17.
 
 ----
-<h5 align="center"> <a href="./Creating-Bin--Based-EEG-Epochs"> << Creating Bin-Based EEG Epochs </a> <a href="./Creating-Averaged-ERPs">  Creating Averaged ERPs >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Creating-Bin--Based-EEG-Epochs"> << Creating Bin-Based EEG Epochs </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Creating-Averaged-ERPs">  Creating Averaged ERPs >>  </a></td>
+  </tr>
+</table>

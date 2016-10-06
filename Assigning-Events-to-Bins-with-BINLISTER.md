@@ -116,4 +116,10 @@ If you check the **Reset User Flags** box or **Reset Artifact Flags** box, the f
 The **Ignored Code(s)** field allows you to enter a list of event codes that will be completely ignored (just as if the **enable** value were set to 0).  Similarly, the **Forbidden Code(s)** field allows you to enter a list of event codes that will be treated as invalid data (just as if the **enable** value were set to -1 for all instances of those event codes).
 
 ----
-<h5 align="center"> <a href="./Creating-and-Modifying-Channels-with-Channel-Operations"> << Creating and Modifying Channels with Channel Operations </a> <a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool">  Measuring amplitudes and latencies with the ERP Measurement Tool >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Creating-and-Modifying-Channels-with-Channel-Operations"> << Creating and Modifying Channels with Channel Operations </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool">  Measuring amplitudes and latencies with the ERP Measurement Tool >>  </a></td>
+  </tr>
+</table>

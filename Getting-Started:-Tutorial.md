@@ -66,7 +66,6 @@ _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "loc
     pop_eegplot(EEG);
 
 ----
-
 <table style="width:100%">
   <tr>
     <td><a href="./Overview-and-Scripting"> << Overview and Scripting </a></td>
@@ -74,6 +73,4 @@ _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "loc
     <td><a href="./Brief-Description-of-the-Example-Experiment">  Brief Description of the Example Experiment >>  </a></td>
   </tr>
 </table>
-
-
 

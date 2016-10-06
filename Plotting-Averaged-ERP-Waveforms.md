@@ -39,4 +39,10 @@ There are many things you can do with the Plotting Waveform GUI. For example, yo
 ![GUI](./images/Tutorial/Tutorial_Plotting-Averaged-ERP-Waveforms_5.png)
 
 ----
-<h5 align="center"> <a href="./Creating-Averaged-ERPs"> << Creating Averaged ERPs </a> <a href="./Filtering-EEG-and-ERPs">  Filtering EEG and ERPs >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Creating-Averaged-ERPs"> << Creating Averaged ERPs </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Filtering-EEG-and-ERPs">  Filtering EEG and ERPs >>  </a></td>
+  </tr>
+</table>
