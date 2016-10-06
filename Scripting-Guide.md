@@ -47,13 +47,3 @@ This Scripting Guide does not assume that you know anything about programming in
  * [Adding a loop to the script](./Example-3c:-Looping-Through-Multiple-Subjects#adding-a-loop-to-the-script)
 * [Example 4: A Complete Data Processing Script](./Example-4:-A-Complete-Data-Processing-Script)
 * [Hints About Debugging Your Scripts](./Hints-About-Debugging-Your-Scripts)
-=======
- * [Putting the bin descriptor file in the parent folder](./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#putting-the-bin-descriptor-file-in-the-parent-folder)
- * [Changing the path for the electrode locations file](./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects#changing-the-path-for-the-electrode-locations-file)
-* [Example 3c: Looping Through Multiple Subjects](./Example-3c:-Looping-Through-Multiple-Subjects)
- * [Cell arrays](./Example-3c:-Looping-Through-Multiple-Subjects#cell-arrays)
- * [The fprintf() command](./Example-3c:-Looping-Through-Multiple-Subjects#the-fprintf-command)
- * [Loops](./Example-3c:-Looping-Through-Multiple-Subjects#loops)
- * [Adding a loop to the script](./Example-3c:-Looping-Through-Multiple-Subjects#adding-a-loop-to-the-script)
-* [Example 4: A Complete Data Processing Script](./Example-4:-A-Complete-Data-Processing-Script)
-* [Hints About Debugging Your Scripts](./Hints-About-Debugging-Your-Scripts)
