@@ -126,4 +126,11 @@ A local peak is defined as the most extreme point within the measurement window 
           'Resolution',2, 'Warning', 'on');
 
 ----
-<h5 align="center"> <a href="./Assigning Events to Bins with BINLISTER"> << Assigning-Events-to-Bins-with-BINLISTER </a> <a href="./Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction">  Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Assigning Events to Bins with BINLISTER"> << Assigning-Events-to-Bins-with-BINLISTER </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction">  Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction >>  </a></td>
+  </tr>
+</table>
+
