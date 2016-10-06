@@ -102,4 +102,11 @@ _Hint: There is no reason to first make a duplicate of the ERPset in this mode, 
     'nb3=b2 label Rare' 'nb4=sqrt((b1*b1)+(b2*b2)) label Vector length'})
 
 ----
-<h5 align="center"> <a href="./Filtering-EEG-and-ERPs"> << Filtering EEG and ERPs </a> <a href="./Creating-and-Modifying-Channels-with-Channel-Operations">  Creating and Modifying Channels with Channel Operations >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Filtering-EEG-and-ERPs"> << Filtering EEG and ERPs </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Creating-and-Modifying-Channels-with-Channel-Operations">  Creating and Modifying Channels with Channel Operations >>  </a></td>
+  </tr>
+</table>
+
