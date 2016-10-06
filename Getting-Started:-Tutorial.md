@@ -74,6 +74,3 @@ _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "loc
   </tr>
 </table>
 
-
-
-
