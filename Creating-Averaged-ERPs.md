@@ -63,4 +63,10 @@ You can now see the newly created ERPset in the **ERPsets** menu, as shown in th
     ERP = pop_savemyerp( ERP, 'erpname', 'S1_ERPs.set', 'filename', 'S1_ERPs.erp');
 
 ----
-<h5 align="center"> <a href="./Artifact-Detection"> << Artifact Detection </a> <a href="./Plotting-Averaged-ERP-Waveforms">  Plotting Averaged ERP Waveforms >>  </a></h5>
+<table style="width:100%">
+  <tr>
+    <td><a href="./Artifact-Detection"> << Artifact Detection </a></td>
+    <td><a href="./Tutorial"> Tutorial</a></td>
+    <td><a href="./Plotting-Averaged-ERP-Waveforms">  Plotting Averaged ERP Waveforms >>  </a></td>
+  </tr>
+</table>
