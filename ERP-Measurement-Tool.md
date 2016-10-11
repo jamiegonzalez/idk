@@ -64,6 +64,9 @@ This routine provides a measure of onset latency by finding the peak amplitude a
 
 ![GUI](./images/Manual/Manual_ERP-Measurement-Tool_4.png)
 
+The above image shows the selection of a 50% peak 'onset'. That means that the value returned is the time before the peak at which the ERP is 50% as large as the peak. We also include an option to find the 'offset' - the first time after the peak that the ERP drops to 50% as large as the peak.
+
+
 #### Saving the measurements
 The measured values are stored in a text file, which you can import into the statistical analysis package of your choice.  There are two output formats.  In the first (**One ERPset per line (wide format)**), each line contains the data from every requested bin and channel from a given ERPset.  Ordinarily, each ERPset will contain the data from one subject, so the result contains one line for each subject, as shown here:
 
