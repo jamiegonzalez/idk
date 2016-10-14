@@ -13,7 +13,7 @@ These tools can be found in the 'ERPLAB -> Datatype Transformations -> ' menu. A
 - Correct channel locations must be set for all electrodes.
 - All electrodes should have the same reference. No bipolar electrodes or reconstructed channels.
 
-With these requirements met, the CSD can be loaded from the ERPLAB menu. If you have bipolar channels, reconstructed HEOG channels, or channels where location information is not available, you can remove these using *EEGLAB -> Edit -> Select Data* or *ERPLAB -> EEG Channel Operations*, and running the CSD tool on a dataset without these channels.
+With these requirements met, the CSD can be loaded from the ERPLAB menu. If you have bipolar channels, reconstructed HEOG channels, or channels where location information is not available, you can remove these using **EEGLAB -> Edit -> Select Data** or **ERPLAB -> EEG Channel Operations**, and running the CSD tool on a dataset without these channels.
 ![GUI](./images/Manual/Manual_CSD_gui.png)
 
 Please inspect the sketch of electrode locations and check that this agrees with the actual electrode positioning. This is a 2D sketch of the head as seen from above, with the nose at the top. For more details about the parameter values, look in the [CSD Toolbox](http://psychophysiology.cpmc.columbia.edu/Software/CSDtoolbox/).
@@ -21,7 +21,7 @@ Please inspect the sketch of electrode locations and check that this agrees with
 With CSD data generated, data can be examined using most ERPLAB tools as if it were ERP data. For example, the ERPLAB Measurement Tool and ERP Viewer can be used to visualize CSD ERPs across locations and bins:
 ![GUI](./images/Manual/Manual_CSD_measure.png)
  
-Also, CSD can be visualized in ERPLAB scalp maps. This can be done in 2D or 3D. For example, with *ERPLAB -> Plot ERP -> Plot scalp maps* set up as this:
+Also, CSD can be visualized in ERPLAB scalp maps. This can be done in 2D or 3D. For example, with **ERPLAB -> Plot ERP -> Plot scalp maps** set up as this:
 ![GUI](./images/Manual/Manual_CSD_scalpplot.png)
 
 We can generate animations to show CSD like this:
