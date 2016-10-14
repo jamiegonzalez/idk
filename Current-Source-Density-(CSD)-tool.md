@@ -26,5 +26,4 @@ Also, CSD can be visualized in ERPLAB scalp maps. This can be done in 2D or 3D. 
 
 We can generate animations to show CSD like this:
 ![GUI](./images/Manual/Manual_CSD_animation_0_25_500.gif)
-![GUI](./images/Manual/Manual_CSD_animation_0_25_500.mp4)
 
