@@ -38,6 +38,7 @@ ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
 - [Averaging Across Erpsets (Creating Grand Averages)](./Averaging-Across-ERPSETS-(Creating-Grand-Averages))
 - [ERP Measurement Tool](./ERP-Measurement-Tool)
 - [Timing Details](./Timing-Details)
+- [Current Source Density (CSD) Tool](./Current-Source-Density-(CSD)-tool)
 
 Important note: The ERPLAB Discussion Forums have been retired. All comments and questions should be posted to the ERPLAB Email List.
 
