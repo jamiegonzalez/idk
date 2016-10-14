@@ -66,36 +66,23 @@ _Note for experts: The artifact and user flags are actually stored together in a
 
 A common use of user flags is to indicate different experimental conditions.  For example, imagine an experiment in which the target is green and the nontarget is red in the first half of the session, and the target is red and the nontarget is green in the second half of the session.  You could use exactly the same event codes in the two halves the session, but use different flag values to indicate the condition.  For example, you could use event code 100 for green and 101 for red.  You could set the rightmost flag to 0 for events when green was the target and you could set this flag to 1 for events when red was the target (using Matlab's text editor).  You could then have the following bin descriptors:
 
+```
 bin 1
-
 Target- Green stimulus (target = green)
-
 {100:fb<0>}
 
-
-
 bin 2
-
 Target- Red stimulus (target = red)
-
 {101:fb<1>}
 
-
-
 bin 3
-
 Nontarget- Green stimulus (target = red)
-
 {100:fb<1>}
 
-
-
 bin 4
-
 Nontarget- Red stimulus (target = green)
-
 {101:fb<0>}
-
+```
 
 
 _Note for ERPSS users: The syntax for a Bin Descriptor File is intended to be exactly like the syntax in ERPSS, except that there are no condition codes and artifact flags have been added. However, some aspects of the syntax are not fully specified in the ERPSS documentation, so we cannot guarantee that BINLISTER and ecdbl will work in exactly the same way. Please see the BDF documentation in ERPSS for details of the syntax (we will eventually provide a more complete description of the BinLister syntax)._
