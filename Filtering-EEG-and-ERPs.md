@@ -13,6 +13,7 @@ As an example, select **ERPLAB > Filter & Frequency Tools > Filters for ERP data
 
 ![GUI](./images/Tutorial/Tutorial_Filtering-EEG-and-ERPs_2.png)
 
+```Matlab
     Equivalent Script Command: %Basic Filtering for ERP
     %Channels [1:16], High pass 0, Low pass 30, Order 2, IIR Butterworth
     ERP = pop_filterp( ERP,1:16 , 'Cutoff',30, 'Design', 'butter', 'Filter', 'lowpass', 'Order',2 );
@@ -29,7 +30,7 @@ As an example, select **ERPLAB > Filter & Frequency Tools > Filters for ERP data
      'warning',
      'on');
     %The following command uses Matlab's Current Folder pop_savemyerp(ERP, 'erpname', 'S1_ERPs_30Hz.set', 'filename', ' S1_ERPs_30Hz.erp')  
-
+```
 
 Now let's try filtering continuous EEG data.  Make "S1_Chan" the active Dataset (loading it with **File > Load existing dataset** if necessary).  Select **ERPLAB > Filter & Frequency Tools > Filters for EEG data**.  Set the parameters as shown in the screenshot below, selecting a high-pass filter with a cutoff at 0.1 Hz and a low-pass filter with a cutoff at 30 Hz.  You should check the boxes for applying the filter to segments defined by boundary events (which you should always check unless you really know what you're doing) and for removing the mean value (which you should always do with DC recordings and which won't hurt for non-DC recordings).  The ERPLAB User's Manual provides more details.
 
@@ -42,7 +43,7 @@ Once you've set the parameters, click **APPLY**.  The filtering will take a litt
 _Hint: In most cases, high-pass filters should be applied to the continuous EEG, not the epoched EEG or averaged ERPs.  The reason is that, with typical cutoff values, a long period of continuous data is needed for these filters to work properly.  Low-pass filters can be applied at any time, because they do not need a very long time period with typical settings.  In most cases, however, it is best to apply low-pass filtering after averaging.  Otherwise, you will need to back up to the EEG and repeat several steps if you later decide to change the filter settings.  However, low-pass filtering can sometimes improve artifact detection, in which case you can apply the low-pass filter to either the continuous or epoched EEG prior to artifact detection._  
 
 
-
+```Matlab
     Equivalent Script Command: %Load S1_Chan from the current folder
     EEG = pop_loadset( 'filename', 'S1_Chan.set');
     %Basic Filtering for EEG with High pass
@@ -51,6 +52,7 @@ _Hint: In most cases, high-pass filters should be applied to the continuous EEG,
     %Boundary event code 'boundary'
     EEG  = pop_basicfilter( EEG,  1:16 , 'Boundary', 'boundary', 'Cutoff', [ 0.1 30], ...
     'Design', 'butter', 'Filter', 'bandpass', 'Order',  2, 'RemoveDC', 'on' );
+```
 
 ----
 <table style="width:100%">
