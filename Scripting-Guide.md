@@ -47,3 +47,4 @@ This Scripting Guide does not assume that you know anything about programming in
  * [Adding a loop to the script](./Example-3c:-Looping-Through-Multiple-Subjects#adding-a-loop-to-the-script)
 * [Example 4: A Complete Data Processing Script](./Example-4:-A-Complete-Data-Processing-Script)
 * [Hints About Debugging Your Scripts](./Hints-About-Debugging-Your-Scripts)
+
