@@ -63,3 +63,12 @@ When you type a command on the Matlab command line or run a script, you may chan
 
 ### If you already know a little about scripts or programming…
 The next few examples are designed for people who have little or no experience with scripting/programming.  If you have some basic knowledge, you can skip to [Example 3: A Simple Script That Actually Does Something Useful](./Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful).
+
+----
+<table style="width:100%">
+  <tr>
+    <td></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td><a href="./Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script">  Example 1: The World's Simplest EEGLAB ERPLAB Script >>  </a></td>
+  </tr>
+</table>
