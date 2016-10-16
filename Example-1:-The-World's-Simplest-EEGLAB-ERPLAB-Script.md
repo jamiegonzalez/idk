@@ -105,3 +105,12 @@ It is now time for you to finally run the script (with the **Debug** menu, the b
 When you run the script, you might not see much happen, but you should see some evidence of it in the command window.  Once the script is complete, you should be able to see **S1_EEG** in the **Datasets** menu.
 
 If you had trouble getting this to work, you can take a look at my version of the script, which is in Test_Data > Script_Examples > Script1.m. However, this script will not work on your computer without some modification, because it assumes that the Test_Data folder is in a specific location. But it might still be helpful to look at this script if you're having trouble getting your own script to work.
+
+----
+<table style="width:100%">
+  <tr>
+    <td><a href="./Getting-Started-With-This-Scripting-Guide">  Getting Started With This Scripting Guide >>  </a></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td><a href="./Example-2:-An-Even-Simpler-EEGLAB-Script">  Example 2: An Even Simpler EEGLAB Script >>  </a></td>
+  </tr>
+</table>
