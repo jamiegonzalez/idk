@@ -195,7 +195,7 @@ Now you can run the script for **S2**.  And then you can change this one line to
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful">  Example 3: A Simple Script That Actually Does Something Useful >>  </a></td>
+    <td><a href="./Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful"> << Example 3: A Simple Script That Actually Does Something Useful  </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td><a href="./Example-3c:-Looping-Through-Multiple-Subjects">  Example 3c: Looping Through Multiple Subjects >>  </a></td>
   </tr>
