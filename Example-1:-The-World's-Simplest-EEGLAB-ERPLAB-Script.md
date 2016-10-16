@@ -109,7 +109,7 @@ If you had trouble getting this to work, you can take a look at my version of th
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Getting-Started-With-This-Scripting-Guide">  Getting Started With This Scripting Guide >>  </a></td>
+    <td><a href="./Getting-Started-With-This-Scripting-Guide"> << Getting Started With This Scripting Guide </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td><a href="./Example-2:-An-Even-Simpler-EEGLAB-Script">  Example 2: An Even Simpler EEGLAB Script >>  </a></td>
   </tr>
