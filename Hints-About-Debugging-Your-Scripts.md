@@ -81,3 +81,11 @@ If you look closely, you will see that it contains the string **' /'** (a space 
 Now you have a very specific hypothesis about the source of the error. You can test this hypothesis by deleting the extra space in the line that defines the **subjectfolder** variable. Run the script after deleting the extra space, and verify that the error is now gone.
 
 This sort of tiny, hard-to-see error is often the cause of bugs in scripts. You might spend an hour staring at the code, only to realize that one stupid little character is the problem. This is very frustrating, but you can save a lot of time and frustration by taking a careful, systematic, hypothesis-testing approach to debugging. And don't forget that debugging is an essential skill that you must learn to be a good programmer. Good luck!
+
+<table style="width:100%">
+  <tr>
+    <td><a href="./Example-4:-A-Complete-Data-Processing-Script">  Example 4: A Complete Data Processing Script >>  </a></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td></td>
+  </tr>
+</table>
