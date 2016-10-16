@@ -218,3 +218,12 @@ At the end of each iteration of your loop, you will store the **ERP** you've cre
 You might want to take a look at the file Script3c.m to see how all of this is supposed to look.
 
 Once you have this new stuff inserted into your script, try running the script again. You should now see all of the ERPs in your **ERPsets** menu. With this stuff in your script, you no longer need to quit and relaunch EEGLAB before running your script.
+
+----
+<table style="width:100%">
+  <tr>
+    <td><a href="./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects">  Example 3b: Modifying the Script to Work for Different Subjects >>  </a></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td><a href="./Example-4:-A-Complete-Data-Processing-Script">  Example 4: A Complete Data Processing Script >>  </a></td>
+  </tr>
+</table>
