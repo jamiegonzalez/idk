@@ -9,6 +9,7 @@ Click the **PLOT** button with the default values, and you should see the follow
 
 At present, ERPLAB will create a separate panel for each scalp site and overlay the selected channels. In a future version, we will make this more flexible so that you can plot multiple ERPsets and choose which waveforms are overlaid and which waveforms are shown in different panels.For now, you can save the waveforms in a PDF file (by clicking the **PDF** button (i.e. toolbar - PDF button)in the upper toolbar of the resulting ERP plot), import them into a graphics program such as Adobe Illustrator, and then edit them. We recommend that you maximize the figure window before clicking the PDF button. Alternatively, you can export the waveforms as text files using the **ERPLAB > Export and Import ERP > Export ERP to Text** routines and then read them into a program such as Excel or Deltagraph for plotting.  
 
+```Matlab
     Equivalent Script Command:
 
     % Plotting Averaged ERP Waveform
@@ -23,6 +24,7 @@ At present, ERPLAB will create a separate panel for each scalp site and overlay 
 
     % Note that an ellipsis (...) can be used to break a long function call across multiple lines
     pop_ploterps( ERP, [ 1, 2],1:16);  
+```
 
 ### The toolbar on the figure
 Note that in the plotting window, ERPLAB provides a custom toolbar that provides a set of buttons to ERPLAB functions. Play around with it and you should be able to figure out how it works.
