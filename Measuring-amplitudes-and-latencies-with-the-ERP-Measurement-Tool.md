@@ -82,8 +82,10 @@ To do this, select **Area for positive waveforms (negative values will be zeroed
     S1_ERPs_diff     Rare_Category_(Letter)       12           CZ           0.5
     S1_ERPs_diff     Rare_Category_(Letter)       13           PZ           0.36  
 
+```Matlab
+    Equivalent Script Command:   
 
-    Equivalent Script Command:   % Numerical integration/Area between two fixed latencies
+    % Numerical integration/Area between two fixed latencies
     % Area for positive waveforms (negative values will be zeroed)
     % Path is /Users/etfoo/Desktop/tutorial_script/
     % Bin [1 2], Chan 11:13, between latencies 150: 300, prebaseline, precision 2
@@ -96,7 +98,7 @@ To do this, select **Area for positive waveforms (negative values will be zeroed
       [Amp Lat] = pop_geterpvalues( ALLERP, [ 150 300], [ 1 2],11:13 , 'Baseline', 'pre','Erpsets',3, ...
        'Filename', 'measures.txt', 'Foutput', 'erpset', 'Fracreplace', 'NaN', 'IncludeLat', 'no', ...
        'Measure', 'areap', 'Resolution',2, 'Warning', 'on' );  
-
+```
 ### Measuring peak amplitude and peak latency
 Peak amplitude and latency measures were historically important, because they were so easy to determine, but they have many downsides (see Chapter 6 in Luck, 2005, An Introduction to the Event-Related Potential Technique).  Most importantly, the peak of the underlying component may be nowhere near the peaks in the observed waveform from a given electrode site.  Nonetheless, there may be times when you want to measure peak amplitude or peak latency.
 
@@ -109,8 +111,9 @@ A local peak is defined as the most extreme point within the measurement window 
 
 ![GUI](./images/Tutorial/Tutorial_Measuring-Amplitudes-and-Latencies_9.png)
 
-
-    Equivalent Script Command:   % Measuring peak ampltidude and peak latency
+```Matlab
+    Equivalent Script Command:   
+     % Measuring peak ampltidude and peak latency
      % Path is/Users/etfoo/Desktop/tutorial_script/
      % Bin [3], Chan 11:13, between latencies 150: 250, prebaseline, precision 2
      % Save output file as measures.txt
@@ -124,7 +127,7 @@ A local peak is defined as the most extreme point within the measurement window 
          'Filename', 'measures.txt', 'Foutput', 'erpset', 'Fracreplace', 'NaN', 'IncludeLat', 'no', ...
          'Measure', 'peaklatbl', 'Neighborhood',10, 'Peakpolarity', 'positive', 'Peakreplace', 'absolute', ...
           'Resolution',2, 'Warning', 'on');
-
+```
 ----
 <table style="width:100%">
   <tr>
