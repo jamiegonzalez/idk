@@ -45,6 +45,7 @@ This "long" format looks nice and works well with Excel PivotTables.  However, m
 
 ```Matlab
     Equivalent Script Command:   
+
       % Mean amplitude between two fixed latencies
       % Path is/Users/etfoo/Desktop/tutorial_script/
       % Bin [1 2], Chan 11:13, between latencies 400:700, prebaseline, precision 2
@@ -115,6 +116,7 @@ A local peak is defined as the most extreme point within the measurement window 
 
 ```Matlab
     Equivalent Script Command:   
+
      % Measuring peak ampltidude and peak latency
      % Path is/Users/etfoo/Desktop/tutorial_script/
      % Bin [3], Chan 11:13, between latencies 150: 250, prebaseline, precision 2
