@@ -84,7 +84,7 @@ This sort of tiny, hard-to-see error is often the cause of bugs in scripts. You 
 
 <table style="width:100%">
   <tr>
-    <td><a href="./Example-4:-A-Complete-Data-Processing-Script">  Example 4: A Complete Data Processing Script >>  </a></td>
+    <td><a href="./Example-4:-A-Complete-Data-Processing-Script"> << Example 4: A Complete Data Processing Script  </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td></td>
   </tr>
