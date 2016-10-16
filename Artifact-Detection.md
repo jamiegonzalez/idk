@@ -35,6 +35,7 @@ Scroll through the data to make sure that the parameters you entered have actual
 
 The window for saving the newly created dataset is also brought up at this point. The idea is that you will scan through the dataset, and either save it (if everything looks OK) or click on **CANCEL** (if you want to change the parameters and try again). Once you have finished looking at the data, click **OK** in the window for saving the dataset if you are satisfied with the artifacts that were detected (it will be named "S1_EEG_elist_be_ar").  
 
+```Matlab
     Equivalent Script Command:
 
     % Artifact Detection with Moving window peak to peak threshold
@@ -57,6 +58,7 @@ The window for saving the newly created dataset is also brought up at this point
     %The following command uses Matlab's Current Folder
     EEG.setname='S1_EEG_elist_be_ar';
     EEG=pop_saveset(EEG, 'filename', 'S1_EEG_elist_be_ar.set');  
+```
 
 Note that the scrolling EEG display window ordinarily allows you to click on an epoch that has not been marked to manually mark it or to click on an epoch that has already been marked to unmark it. However, this ability is disabled when you are looking at the initial results of an artifact detection procedure, because the goal at this moment is to determine whether the automated procedure worked correctly. Once you are satisfied and have saved the dataset, you can open it again in the scrolling EEG display window, and then you can manually reject and unreject epochs.
 
@@ -77,10 +79,12 @@ Imagine that you want to do artifact rejection twice, once on the VEOG channel w
 
 To reset the artifact detection marks, make sure **Reset Artifact Rejection Marks, Reset Flags**, and **All flags** are selected, then click **OK**. After you click **OK**, a window pops up prompting you to name the new dataset.  
 
+```Matlab
     Equivalent Script Command:
 
     % Artifact Detection, Clear Artifact Detection Marks on EEG
     EEG = pop_resetrej(EEG, 1, 65535);  
+```
 
 ### Combining EEGLAB and ERPLAB Artifact Detection
 EEGLAB allows you to manually delete sections of the continuous EEG with artifacts from within the **Plot > Channel data (scroll)** window. This deletion is permanent (although you can always go back to a previous version of the data in which the data have not been deleted). Manual deletion also causes the insertion of a **boundary** event. This type of artifact rejection is performed on the continuous EEG, so it is prior to (and independent of) ERPLAB's artifact detection.
@@ -108,6 +112,7 @@ The **Step-like artifacts** function is well suited to detecting this type of ar
 
 After you click **Accept**, you will see in the command window that this routine found artifacts on 12.8% of trials. If you look at the scrolling data window that pops up, you will see that some of the epochs with these artifacts also had blink artifacts that were detected with the peak-to-peak amplitude routine that was previously run with these data (e.g., epoch 44 indicates a rejection of the HEOG channel by drawing this channel in red, and the data from several other channels are also drawn in red from the peak-to-peak artifact detection). However, other epochs were rejected solely because of the step function in the HEOG channel (e.g., epochs 208 and 209).  
 
+```Matlab
     Equivalent Script Command:
 
     % Artifact Detection, Step-like artifacts
@@ -116,6 +121,7 @@ After you click **Accept**, you will see in the command window that this routine
     % Channel 16 only, Mark flags 1 and 3 (you must always mark flag 1
     EEG = pop_artstep( EEG,>'Channel' , 16, 'Flag', 1, 'Threshold'  15 ...
                  , 'Twindow' , [-200 798], 'Windowsize' , 400, 'Windowstep' , 10);  
+```
 
 ### Looking at artifact information in the EventList
 
@@ -126,6 +132,7 @@ Information about the artifacts can also be found in the EventList. To see this,
 
 If you look at the column of artifact rejection flags (a_flags), you will see that every rejected trial has flag 1 set (the rightmost flag). Some of the events have flag 4 set from the peak-to-peak routine (e.g., item 157). Other events have flag 3 set from the step function routine (e.g., item 159), and other events have both flags 3 and 4 set (e.g., item 167), indicating that both types of artifacts were detected. This information can be useful if you want to perform behavioral analyses excluding trials with specific types of artifacts.  
 
+```Matlab
     Equivalent Script Command:
 
     % Export EEG Eventlist to Text file
@@ -136,6 +143,7 @@ If you look at the column of artifact rejection flags (a_flags), you will see th
 
     % The following command uses Matlab's Current Folder
     EEG = pop_exporteegeventlist(EEG, 'Export_EEG_EL.txt');  
+```
 
 Note that the left column in this text file shows the original item number of the event, from the original continuous dataset. The second column shows the bin epoch (bepoch) number, which is the item number after epoching. These numbers will be different when some event codes are not used as time-locking events when the data are epoched (e.g., the response event codes in the current example). If you are trying to find an event in the continuous data with **Plot > Channel data (scroll)**, you should use the item number (first column). If you are trying to find an event in the epoched data, you should use the bepoch number (second column).
 
