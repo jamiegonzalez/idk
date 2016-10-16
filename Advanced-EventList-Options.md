@@ -99,6 +99,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
 
     ![GUI](./images/Tutorial/Tutorial_Advanced-EventList-Options_7.png)
 
+```Matlab
     Equivalent Script Command:
 
     % Saving after Eventlist
@@ -112,6 +113,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
     % The following command uses Matlab's Current Folder
     EEG.setname='S1_Chan_elist';
     EEG=pop_saveset(EEG, 'filename', 'S1_Chan_elist.set');  
+```
 
 ### Verify your event codes  
 
