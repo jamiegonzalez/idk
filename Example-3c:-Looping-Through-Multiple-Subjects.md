@@ -222,7 +222,7 @@ Once you have this new stuff inserted into your script, try running the script a
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects">  Example 3b: Modifying the Script to Work for Different Subjects >>  </a></td>
+    <td><a href="./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects"> << Example 3b: Modifying the Script to Work for Different Subjects  </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td><a href="./Example-4:-A-Complete-Data-Processing-Script">  Example 4: A Complete Data Processing Script >>  </a></td>
   </tr>
