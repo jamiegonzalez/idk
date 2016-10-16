@@ -10,6 +10,7 @@ Click **Ok**, and you will see the window shown here:
 ![GUI](./images/Tutorial/Tutorial_Adding-Channel-Locations_2.png)
 
 
+```Matlab
     Equivalent Script Command:
 
 
@@ -20,7 +21,7 @@ Click **Ok**, and you will see the window shown here:
 
     EEG=pop_chanedit(EEG,'lookup',
     '/Users/etfoo/Documents/MATLAB/eeglab9_0_2_3b/plugins/dipfit2.2/standard_BESA/standard-10-5-cap385.elp');
-
+```
 
 
 For simple data files such as the one used in this tutorial, you can accept all of the default values and simply click **OK**.  This will add the coordinates to the current dataset.
@@ -36,7 +37,7 @@ Click **OK** and you will see the following plot:
 
 
 
-
+```Matlab
     Equivalent Script Command:
 
 
@@ -45,7 +46,7 @@ Click **OK** and you will see the following plot:
 
     figure; pop_spectopo(EEG, 1, [0  2139038], 'EEG' , 'percent', 15, 'freq', [6 10 22], 'freqrange',[2
     25],'electrodes','off');
-
+```
 
 
 Later parts of this tutorial will make use of this dataset, so you should save it to disk.  First, however, you should change the name of the dataset to **S1_Chan** so that you can differentiate between this version and the original version.  To do this, select **Edit > Dataset info**.  This will bring up the window shown below, and you should enter **S1_Chan** in the **Dataset name** field.  Click **OK**, and then look in the **Datasets** menu.  You should now see that it is named **S1_Chan**.
@@ -54,6 +55,7 @@ Later parts of this tutorial will make use of this dataset, so you should save i
 
 You can now save the modified dataset by selecting **File > Save current dataset as**.  We recommend that you give the file the same name as the dataset, but with a **.set** extension (**S1_Chan.set**).
 
+```Matlab
     Equivalent Script Command:
 
 
@@ -75,7 +77,7 @@ You can now save the modified dataset by selecting **File > Save current dataset
     EEG.setname='S1_Chan';
 
     EEG=pop_saveset(EEG, 'filename', 'S1_Chan.set');
-
+```
 ----
 <table style="width:100%">
   <tr>
