@@ -183,3 +183,12 @@ The first command saves the **EEG** structure into **ALLEEG**, and the second co
 
 
 Ordinarily, you will not want your scripts to put up windows that require your intervention; you'll want your scripts to run completely automatically. The ERPLAB routines have options that allow  you to control this. For example, the**'warning', 'on'** arguments in **pop_savemyerp** tell the function to put up a warning window if the file already exists. You will probably want to change this to **'warning', 'off'** in your scripts (as long as you are sure that you're not going to overwrite some important file).
+
+----
+<table style="width:100%">
+  <tr>
+    <td><a href="./Example-2:-An-Even-Simpler-EEGLAB-Script">  Example 2: An Even Simpler EEGLAB Script >>  </a></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td><a href="./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects">  Example 3b: Modifying the Script to Work or Different Subjects >>  </a></td>
+  </tr>
+</table>
