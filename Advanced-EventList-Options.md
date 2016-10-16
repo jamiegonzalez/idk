@@ -67,6 +67,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
 
     ERPLAB will then attach the **EVENTLIST** structure that you just created to the current dataset to produce a new dataset. Any operation that creates a new dataset will put up the save dataset window shown in the next screenshot.
 
+```Matlab
     Equivalent Script Command:
 
     % The first step is to create a file named elist_equations.txt with the following contents:
@@ -82,6 +83,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
     EEG = pop_editeventlist(EEG,'elist_equations.txt', 'elist.txt', {'boundary'}, {-99});
     % Copy event labels into the EEG structure
     EEG = pop_overwritevent( EEG, 'codelabel');
+```
 
 9. Specify a name and save your new datasetCheck the **Save it as file** box  
     Click the **Browse** button and select a save directory  
