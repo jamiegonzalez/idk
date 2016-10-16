@@ -187,7 +187,7 @@ Ordinarily, you will not want your scripts to put up windows that require your i
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Example-2:-An-Even-Simpler-EEGLAB-Script">  Example 2: An Even Simpler EEGLAB Script >>  </a></td>
+    <td><a href="./Example-2:-An-Even-Simpler-EEGLAB-Script"> << Example 2: An Even Simpler EEGLAB Script  </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td><a href="./Example-3b:-Modifying-the-Script-to-Work-for-Different-Subjects">  Example 3b: Modifying the Script to Work or Different Subjects >>  </a></td>
   </tr>
