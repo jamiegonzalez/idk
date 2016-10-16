@@ -495,7 +495,7 @@ Here's what the script looks like:
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Example-3c:-Looping-Through-Multiple-Subjects">  Example 3c: Looping Through Multiple Subjects >>  </a></td>
+    <td><a href="./Example-3c:-Looping-Through-Multiple-Subjects"> << Example 3c: Looping Through Multiple Subjects  </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td><a href="./Hints-About-Debugging-Your-Scripts">  Hints About Debugging Your Scripts >>  </a></td>
   </tr>
