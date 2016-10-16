@@ -191,3 +191,12 @@ Now you are ready to run this script on subject **S2**.  To do this, simply chan
 
 
 Now you can run the script for **S2**.  And then you can change this one line to **'S3'** to run the script on subject #3.  It has taken a while to get to this point, but now you can (I hope!) see how scripting can make your life easier once you get the hang of it.
+
+----
+<table style="width:100%">
+  <tr>
+    <td><a href="./Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful">  Example 3: A Simple Script That Actually Does Something Useful >>  </a></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td><a href="./Example-3c:-Looping-Through-Multiple-Subjects">  Example 3c: Looping Through Multiple Subjects >>  </a></td>
+  </tr>
+</table>
