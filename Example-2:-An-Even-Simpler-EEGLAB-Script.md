@@ -28,3 +28,12 @@ Try running the newly modified script and make sure that it still works.  If it 
 If EEGLAB can't find the file in the current folder, it will look through its path for the file.  You can experiment with this by moving **S1_EEG.set** to other locations that are in (or not in) your path.
 
 If you still had EEGLAB running after running the script described in the previous page of this documentation, you may notice that **S1_EEG** is listed twice in the **Datasets** menu. This happened because **ALLEEG** still had **S1_EEG** in it when you ran the script. When your script called the **eeg_store** function, it told it to store the current EEG in position 0 (zero) of the **ALLEEG** structure. There is no position 0, so eeg_store figured that you just wanted to append it onto the end of **ALLEEG**. If you want to make sure that it's stored in the first position in **ALLEEG**, you can specify position 1 by calling the function like this: **[ALLEEG, EEG, CURRENTSET] = eeg_store( ALLEEG, EEG, 1 );**
+
+----
+<table style="width:100%">
+  <tr>
+    <td><a href="./Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script">  Example 1: The World's Simplest EEGLAB ERPLAB Script >>  </a></td>
+    <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
+    <td><a href="./Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful">  Example 3: A Simple Script That Actually Does Something Useful >>  </a></td>
+  </tr>
+</table>
