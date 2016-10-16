@@ -50,6 +50,7 @@ Event codes (aka stimulus markers, trigger codes) will appear in the EEG plot as
 
 _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "locks up" Matlab so that other things won't work until that window has been dismissed. For example, you may not be able to open a text file with the Matlab text editor, or you may not be able to execute commands on the command line. Sometimes the open window is hidden by other windows. If you find that nothing seems to be working, take a look at Matlab's Windows menu to see if there are open windows that should be closed._
 
+```Matlab
  Equivalent Script Command:
 
     % Load S1_EEG.set
@@ -64,7 +65,7 @@ _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "loc
 
     % To view the EEG data enter the following command:
     pop_eegplot(EEG);
-
+```
 
 ----
 <table style="width:100%">
