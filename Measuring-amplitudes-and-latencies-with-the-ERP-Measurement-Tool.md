@@ -43,7 +43,9 @@ Note that the labels don't always line up nicely with the columns of values.  Th
 
 This "long" format looks nice and works well with Excel PivotTables.  However, most statistical programs want the file to have all the values for a single subject on one line.  The **One ERPset per line (wide format)** can be used for this purpose.  
 
-    Equivalent Script Command:   % Mean amplitude between two fixed latencies
+```Matlab
+    Equivalent Script Command:   
+      % Mean amplitude between two fixed latencies
       % Path is/Users/etfoo/Desktop/tutorial_script/
       % Bin [1 2], Chan 11:13, between latencies 400:700, prebaseline, precision 2
       % Save output file as measures.txt
@@ -55,7 +57,7 @@ This "long" format looks nice and works well with Excel PivotTables.  However, m
       [Amp Lat] = pop_geterpvalues( ALLERP, [ 400 700], [ 1 2],11:13 , 'Baseline', 'pre','Erpsets',3, ...
           'Filename', 'measures.txt', 'Foutput', 'erpset', 'Fracreplace', 'NaN', 'IncludeLat', 'no', ...
           'Measure', 'meanbl', 'Resolution',2, 'Warning', 'on' );  
-
+```
 ### Measuring integral/area over a latency range
 We will now try measuring the area under the curve rather than the mean amplitude.  Launch the ERP Measurement Tool again and select **Numerical integration/Area between two fixed latencies** in the popup menu at the top right of the Measurement Tool window.  You will then see another popup menu below that contains several different variants of area.  If you select **Numerical integration**, the Measurement Tool will compute the integral in the measurement interval.  Specifically, it will treat each sample point in the measurement window as a rectangle, with a height defined by the voltage at that point and a width defined by the sample period.  The integral is then defined as the sum of the areas of these rectangles.  With this approach, negative voltages in one portion of the measurement interval will cancel positive voltages at other portions.  This will be very much like the mean voltage, except that mean voltage sums the voltages at each time point and then divides by the number of time points, which is equal to dividing the area by the duration of the window.  There are some slight complications that arise when the boundaries of measurement window you specify do not fall exactly at sample times; for a detailed description of what happens in this situation, see the [section on Timing Details in the ERPLAB User's Manual](./Timing-Details).
 
