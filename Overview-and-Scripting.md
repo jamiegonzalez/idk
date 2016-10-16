@@ -10,7 +10,7 @@ Note that script commands can also be run from the Matlab command line, which ca
 <table style="width:100%">
   <tr>
     <td></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Getting-Started:-Tutorial"> Getting Started >>  </a></td>
+    <td><a href="./Tutorial"><img src="../images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Getting-Started:-Tutorial"> <img src="../images/ionicicons/ios7-arrow-forward.png" alt="tutorial icon" height="75"><br> <b> Getting Started  </a></td>
   </tr>
 </table>
