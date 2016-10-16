@@ -8,6 +8,7 @@ In our first example, we will take the VEOG signal (which was recorded as the po
 
 ![GUI](./images/Tutorial/Tutorial_Creating-and-Modifying-Channels_1.png)
 
+```Matlab
     Equivalent Script Command:
 
     %Load S1_Chan
@@ -15,7 +16,7 @@ In our first example, we will take the VEOG signal (which was recorded as the po
 
     %The following command uses Matlab's Current Folder
     EEG = pop_loadset( 'filename', 'S1_Chan.set');  
-
+```
 In this example, we will create a new channel (channel 17) that is the difference between the original unipolar VEOG channel (channel 14) and the average of Fp1 and Fp2 (channels 8 and 9), giving the new channel the label "biVEOG".  Put the equation for this new channel into the panel on the left side of the window, as shown in the screenshot below.  And because we are updating the current dataset, make sure that **Modify existing dataset (recursive updating)** is selected.
 
 ![GUI](./images/Tutorial/Tutorial_Creating-and-Modifying-Channels_2.png)
@@ -27,6 +28,7 @@ Once the window looks like the screenshot above, click **RUN**.  You can also se
 
 It's a bit difficult to see the new channel, because it is at the bottom of the window.  It would be nice to insert this new channel prior to the original VEOG channel rather than at the end, but it is difficult to do this in recursive mode.  The next example shows how to do this by creating a new dataset (independent transformations mode).  
 
+```Matlab
     Equivalent Script Command:
 
     % First we will load S1_Chan
@@ -38,7 +40,7 @@ It's a bit difficult to see the new channel, because it is at the bottom of the 
     % Create bipolar VEOG channel
     % ch17=ch14-((ch8+ch9)/2) label biVEOG
     EEG = pop_eegchanoperator( EEG, {'ch17=ch14-((ch8+ch9)/2) label biVEOG'});  
-
+```
 
 ### Inserting a bipolar VEOG channel by creating a new dataset
 In this example, we will use the independent transformations mode to create the bipolar VEOG channel and place it in the middle of the set of channels rather than at the end.  To get started, re-open the "S1_Chan" dataset (the existing S1_Chan dataset was modified in the previous example, and we want the original version).  Now select **ERPLAB > EEG Channel Operations** and set it up as shown in the screenshot below. Because we are creating a new dataset, we need to copy any of the original channels (listed as ch1, ch2, ch3, …) that we want to keep to the new channels (listed as nch1, nch2, nch3, …).  In this example, we first copy channels 1-13 from the current dataset to the new dataset, then add the bipolar VEOG as channel 14, and then copy channels 14-16 from the current dataset to channels 15-17 in the new dataset.  Note that the left side of each equation must indicate that we are creating channels within a new dataset (e.g., nch1) rather than adding or modifying channels within an existing dataset (e.g., ch1). And because we are creating a new dataset, make sure that **Create new dataset (independent transformations)** is selected.
@@ -52,6 +54,7 @@ This is a pretty long list of equations, and you wouldn't want to retype it ever
 
 Once you have the window set up as shown in the screen shot above, click the **RUN** button.  You will then be asked how to save the new dataset.  Name it "S1_Chan_biVEOG" (you can also save it to the disk if you'd like).  If you plot it using **Plot > Channel data (scroll)**, you will see something like the following screenshot (you may need to increase the plotting scale to make it look like this).  Note that the blinks look somewhat larger in the new biVEOG channel than in the original VEOG channel.  
 
+```Matlab
     Equivalent Script Command:   % Insert a bipolar VEOG channel by creating new dataset
       EEG = pop_eegchanoperator( EEG, {'nch1=ch1' 'nch2=ch2' 'nch3=ch3' 'nch4=ch4' 'nch5=ch5' 'nch6=ch6' ...
          'nch7=ch7' 'nch8=ch8' 'nch9=ch9' 'nch10=ch10' 'nch11=ch11' 'nch12=ch12' 'nch13=ch13' ...
@@ -61,7 +64,7 @@ Once you have the window set up as shown in the screen shot above, click the **R
       % EEG = pop_eegchanoperator( EEG, 'chan_mapping.txt');
       % Note that this routine uses the format of the equations to determine whether it should use recursive updating mode
       % (equations beginning with 'chXX = ') or independent transformations mode (equations beginning with 'nchXX = ').
-
+```
 
 ### Using the Reference Assistant to re-reference to the average of the left and right earlobes or mastoids
 You can also use Channel Operations to re-reference your data to a common, derived reference, such as the average of the left and right mastoids, the average of the left and right earlobes, or the average of all scalp sites.  In this example, we will re-reference to the average of the left and right earlobes (the next example will show how to re-reference to the average of all electrodes).
@@ -85,6 +88,7 @@ When everything is ready, click **RUN**.  This should update the current dataset
 
 _Hint: You can apply Channel Operations on either the EEG data in a dataset (using **ERPLAB > EEG Channel Operations**) or the ERP data in an ERPset (using **ERPLAB > ERP Channel Operations**).  In most cases, you will perform linear transformations of the data with these operations (i.e., new channels are created by adding together a set of scaled old channels).  The order of operations does not matter for linear operations.  Averaging is also a linear operation.  Consequently, performing channel operations on the EEG and then averaging will give you the same results as averaging the EEG and then performing channel operations.  However, artifact detection/rejection is a nonlinear process, so it will matter whether you perform channel operations before or after artifact detection.  Whether you do it before or after will depend on what you are trying to achieve.  For example, creating a bipolar VEOG channels (as in the first example of channel operations) can make it easier to find and reject blinks, so this is usually done prior to artifact detection.  In contrast, re-referencing to the average of the two earlobes won't usually change the results of artifact detection, so you can do it either before or after artifact detection (or even after averaging)._  
 
+```Matlab
     Equivalent Script Command:
 
     %Re-referencing average of left and right earlobes or mastoids
@@ -96,6 +100,7 @@ _Hint: You can apply Channel Operations on either the EEG data in a dataset (usi
       'ch11=ch11-.5*ch15 label Fz' 'ch12=ch12-.5*ch15 label Cz'...
       'ch13=ch13-.5*ch15 label Cz' 'ch14=ch14-.5*ch15 label VEOG'...
       'ch15=ch15 label A2' 'ch16=ch16 label HEOG' });  
+```
 
 ### Re-referencing to the average of all scalp sites
 Using the average of all electrode sites as the reference (called the average reference derivation) is quite popular, but it has some significant shortcomings that you should understand before using it (see Chapter 3 in _An Introduction to the Event-Related Potential Technique_).  The general approach used to re-reference to the average of the two earlobes in the previous example could be used to create the average reference derivation, but it would lead to very long equations (e.g., "nch1 = ch1 – (ch1 + ch2 + ch3 +…)/16").  To make this simpler, ERPLAB provides the **avgchan** function, which computes the average of a set of channels.  For example, you might want to use the average of all channels except the VEOG and HEOG channels to re-reference.  To do this, you need the average of channels 1-13 and 15 (excluding channels 14 and 16, which are the VEOG and HEOG channels), which you can obtain by specifying **avgchan(1:13,15)**.  The following screenshot shows how this would be implemented (you can load the equations from the file **chanops_avg_reference.txt**).  But make sure you start with the original version of S1_Chan, not the version that has already been updated.  That is, make sure that you've re-loaded the "S1_Chan" dataset, select **ERPLAB > EEG Channel Operations**, and make sure the equations area at the left of the Channel Operations window is empty (you can click **Clear equations** to clear any previous equations). You could also use the Reference Assistant to create the equations (by specifying **avgchan(1:13,15)** in the "Ch_REF = " field).
