@@ -7,6 +7,7 @@ Instead in ERPLAB, select **ERPLAB > Extract Bin-based Epochs**. This will open 
 
 ![GUI](./images/Tutorial/Tutorial_Creating-Bin-Based-EEG-Epochs_1.png)
 
+```Matlab
     Equivalent Script Command:
 
     % Create Bin-Based EEG Epochs
@@ -16,7 +17,7 @@ Instead in ERPLAB, select **ERPLAB > Extract Bin-based Epochs**. This will open 
     % Use 'all' to use the poststimulus period for baseline correction
     % Use two numbers in quotes (e.g., '-150 +50') to specify a custom interval for baseline correction
     EEG = pop_epochbin( EEG , [-200.0  800.0], 'pre')
-
+```
 
 The **Extract Bin Epochs** window allows you to select the time period for the epoch (relative to the event code).  **Baseline correction** will be enabled by default, and you will almost always want to do this.  The prestimulus period (**Pre**) is usually the period used for baseline correction.  That is, the average voltage during the prestimulus period for a given trial is subtracted from every point in the epoch (separately for each channel).  Alternatively, you can use the poststimulus interval (**Post**), the entire interval (**Whole**), or some time range of your choice (**Custom**).  
 
@@ -31,6 +32,7 @@ Click **OK** and it will name the new dataset "S1_EEG_elist_be" ("be" stands for
 
   Save the dataset to a file on your hard drive, because it will be needed for completing the section on   [combining artifact rejection and artifact correction](./Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction).  You can always do this later by selecting the appropriate dataset in the **Datasets** menu and then selecting **File > Save current dataset(s) or File > Save current dataset as**.
 
+```Matlab
     Equivalent Script Command:
 
     % Saving after Epoching
@@ -45,6 +47,7 @@ Click **OK** and it will name the new dataset "S1_EEG_elist_be" ("be" stands for
     EEG.setname='S1_EEG_elist_be';
 
     EEG=pop_saveset(EEG, 'filename', 'S1_EEG_elist_be.set')  
+```
 
 Make sure that this new dataset is the active dataset (by looking in the **Datasets** menu).
 Select **Plot > Channel data (scroll)**.
