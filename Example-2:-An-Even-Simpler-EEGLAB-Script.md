@@ -32,7 +32,7 @@ If you still had EEGLAB running after running the script described in the previo
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script">  Example 1: The World's Simplest EEGLAB ERPLAB Script >>  </a></td>
+    <td><a href="./Example-1:-The-World's-Simplest-EEGLAB-ERPLAB-Script"> << Example 1: The World's Simplest EEGLAB ERPLAB Script  </a></td>
     <td><a href="./Scripting-Guide"> Scripting Guide</a></td>
     <td><a href="./Example-3:-A-Simple-Script-That-Actually-Does-Something-Useful">  Example 3: A Simple Script That Actually Does Something Useful >>  </a></td>
   </tr>
