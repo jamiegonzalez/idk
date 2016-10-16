@@ -8,6 +8,7 @@ As our first example, we will use **ERPLAB > ERP Operations > ERP Bin Operations
 
 ![GUI](./images/Tutorial/Tutorial_Combining-ERP-Waveforms-with-Bin-Operations_1.png)
 
+```Matlab
     Equivalent Script Command:
 
     % Load ERP S1_ERPs_30Hz
@@ -27,7 +28,7 @@ As our first example, we will use **ERPLAB > ERP Operations > ERP Bin Operations
     % The following command uses Matlab's Current Folder
     ERP = pop_savemyerp(ERP, 'erpname', 'S1_ERPs_30Hz_copy.set', 'filename',...
        'S1_ERPs_30Hz_copy.set.erp', 'gui','no');  
-
+```
 Now select **ERPLAB > ERP Operations > ERP Bin Operations**.  The window shown below will appear.
 
 ![GUI](./images/Tutorial/Tutorial_Combining-ERP-Waveforms-with-Bin-Operations_2.png)
@@ -50,7 +51,7 @@ Uncheck the **all bins** box and select **only bin 3**. The result should look l
 
 ![GUI](./images/Tutorial/Tutorial_Combining-ERP-Waveforms-with-Bin-Operations_3.png)
 
-
+```Matlab
     Equivalent Script Command:
 
     % ERP bin operations
@@ -59,7 +60,7 @@ Uncheck the **all bins** box and select **only bin 3**. The result should look l
 
     % Plotting ERP Waveforms from bin 3 with default parameters
     pop_ploterps( ERP, 3, 1:16);  
-
+```
 In this example, we've simply added a new bin to the current ERPset.  Note, however, that you can also update the existing bins in this mode.  In addition, any changes you make in one equation can influence the results of the next equation.  For example, after creating the difference wave in bin 3, you could have an equation that uses this difference wave to create a new bin 4.
 
 ### Creating a new ERPset (independent transformations)
@@ -97,10 +98,11 @@ Name the ERP set as **S1_ERP_diff2** and save it to the disk.
 
 _Hint: There is no reason to first make a duplicate of the ERPset in this mode, because it always creates a new ERPset. In the **recursive updating** mode, however, creating a duplicate is useful (although not necessary) so that you can easily step backward and try again if you make a mistake or change your mind._  
 
+```Matlab
     Equivalent Script Command:   % Creating new bins
       ERP = pop_binoperator( ERP, {'nb1=b3 label Rare minus Frequent difference wave' 'nb2=b1 label Frequent' ...
     'nb3=b2 label Rare' 'nb4=sqrt((b1*b1)+(b2*b2)) label Vector length'})
-
+```
 ----
 <table style="width:100%">
   <tr>
