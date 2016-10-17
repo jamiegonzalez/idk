@@ -3,6 +3,7 @@ Up to this point, we have assigned events to bins when creating the EventList st
 
 To begin this example, select the "S1_Chan" dataset. The first step is to create an EventList. When we did this before, we used the advanced method, which allows you to provide a label for each event code and to assign each code to a bin. This time we will use the simple method, which just creates the EventList with whatever event codes or event labels are in the dataset. To do this, select **ERPLAB > EventList > Create EEG EventList – Basic**. It will put up a small window giving you a few basic options, but you should just click **Create**. You can then accept the default name for the new dataset (S1_Chan_elist). You can verify that the EventList was created by typing **EEG.EVENTLIST** in the Matlab command window.  
 
+```Matlab
     Equivalent Script Command:
 
     % Load S1_Chan
@@ -12,6 +13,7 @@ To begin this example, select the "S1_Chan" dataset. The first step is to create
 
     % Creates basic eventlist adding code -99 for 'boundary' events
     EEG = pop_creabasiceventlist(EEG, 'BoundaryNumeric', {-99}, 'BoundaryString', {'boundary'}, 'Warning', 'on');  
+```
 
 ### A simple BINLISTER example
 Now we are ready to start using BINLISTER. The general approach used by BINLISTER is as follows. Using the Matlab editor, you will create a text file that provides an abstract description of the kinds of event sequences that should be assigned to each bin (e.g., event code 20 preceded by event code 51 or 52 and followed 200-1500 ms later by event code 101). The abstract description for a given bin is called a _bin descriptor_, and the file containing the bin descriptors is called a _bin descriptor file_. BINLISTER reads this file, and then scans the **EVENTLIST** structure. Each event is compared with each of the bin descriptors. If it matches one or more of the bin descriptors, the list of bins for that event is updated.
@@ -76,6 +78,7 @@ To implement this, create a new text file called **binlister_demo_2.txt** (this 
 
 Run BINLISTER using this new bin descriptor file. If the active dataset is the one you created by running BINLISTER in the previous example, you will get a warning message asking you if you wish to overwrite the previous bin assignments (you can say yes). If you look at the EventList in test.txt, you will see that stimuli preceded by a rare stimulus (and the response to the rare stimulus) are no longer assigned to any bins.  
 
+```Matlab
     Equivalent Script Command:
 
     % Loads binlister file from selected drive
@@ -92,7 +95,7 @@ Run BINLISTER using this new bin descriptor file. If the active dataset is the o
 
     % The following command uses Matlab's Current Folder
     EEG = pop_binlister( EEG, 'binlister_demo_2.txt', 'no', 'test.txt', 0, [], [], 0, 2, 0);  
-
+```
 ### Specifying a time period for a response
 It is often desirable to specify the time period of a response relative to a stimulus. You can do this in the bin descriptor file by using the t<start-stop> syntax. We could change our first example to look for a stimulus followed by a response with 200-1000 ms, as follows:  
 
