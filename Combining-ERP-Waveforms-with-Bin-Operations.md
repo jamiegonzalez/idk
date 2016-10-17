@@ -106,9 +106,8 @@ _Hint: There is no reason to first make a duplicate of the ERPset in this mode, 
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Filtering-EEG-and-ERPs"> << Filtering EEG and ERPs </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Creating-and-Modifying-Channels-with-Channel-Operations">  Creating and Modifying Channels with Channel Operations >>  </a></td>
+    <td><a href="./Filtering-EEG-and-ERPs"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Filtering EEG and ERPs </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Creating-and-Modifying-Channels-with-Channel-Operations"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Creating and Modifying Channels with Channel Operations </a></td>
   </tr>
 </table>
-
