@@ -72,6 +72,6 @@ _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "loc
   <tr>
     <td><a href="./Overview-and-Scripting:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Overview and Scripting </a></td>
     <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
-    <td><a href="./Brief-Description-of-the-Example-Experiment"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Brief Description of the Example Experiment </a></td>
+    <td><a href="./Brief-Description-of-the-Example-Experiment:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Brief Description of the Example Experiment </a></td>
   </tr>
 </table>
