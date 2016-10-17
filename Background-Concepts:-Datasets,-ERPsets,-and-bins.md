@@ -8,8 +8,8 @@ A _bin_ is a set of averaged ERP waveforms, one for each electrode site, which w
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Adding-Channel-Locations-to-your-Dataset"> << Adding Channel Locations to your Dataset </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Creating-an-EventList">  Creating an Eventlist >>  </a></td>
+    <td><a href="./Adding-Channel-Locations-to-your-Dataset"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Adding Channel Locations to your Dataset </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Creating-an-EventList"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Creating an Eventlist </a></td>
   </tr>
 </table>
