@@ -1,7 +1,7 @@
 <TABLE>
    <TR>
      <TH>Requirements</TH>
-     <TH>Needed?</TH>
+     <TH>Completed?</TH>
    </TR>
    <TR>
       <TD>Loaded Data</TD>
