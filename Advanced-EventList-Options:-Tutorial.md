@@ -129,8 +129,8 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Creating-an-EventList"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Creating an EventList </a></td>
+    <td><a href="./Creating-an-EventList:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Creating an EventList </a></td>
     <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
-    <td><a href="./Creating-Bin--Based-EEG-Epochs"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Creating Bin-Based EEG Epochs </a></td>
+    <td><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Creating Bin-Based EEG Epochs </a></td>
   </tr>
 </table>
