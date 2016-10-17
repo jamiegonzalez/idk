@@ -81,8 +81,8 @@ You can now save the modified dataset by selecting **File > Save current dataset
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Brief-Description-of-the-Example-Experiment"> << Brief Description of the Example Experiment </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-bins">  Background-Concepts: Datasets, ERPsets, and bins >>  </a></td>
+    <td><a href="./Brief-Description-of-the-Example-Experiment"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Brief Description of the Example Experiment </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-bins"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Background-Concepts: Datasets, ERPsets, and bins </a></td>
   </tr>
 </table>
