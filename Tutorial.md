@@ -18,7 +18,7 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 
 ## Table of Contents
 ---
-1. [Overview and Scripting](./Overview-and-Scripting)
+1. [Overview and Scripting](./Overview-and-Scripting:-Tutorial)
 
 2. [Getting Started](./Getting-Started:-Tutorial)
 
