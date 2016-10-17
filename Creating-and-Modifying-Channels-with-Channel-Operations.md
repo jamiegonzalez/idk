@@ -116,8 +116,8 @@ After you click **RUN**, each channel that is being recomputed is displayed in t
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Combining-ERP-Waveforms-with-Bin-Operations"> << Combining ERP Waveforms with Bin Operations </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Assigning-Events-to-Bins-with-BINLISTER">  Assigning Events to Bins with BINLISTER >>  </a></td>
+    <td><a href="./Combining-ERP-Waveforms-with-Bin-Operations"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Combining ERP Waveforms with Bin Operations </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Assigning-Events-to-Bins-with-BINLISTER"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Assigning Events to Bins with BINLISTER </a></td>
   </tr>
 </table>
