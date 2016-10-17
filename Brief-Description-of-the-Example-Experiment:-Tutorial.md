@@ -33,6 +33,6 @@ These files were imported into EEGLAB (using **File > Import data > From Neurosc
   <tr>
     <td><a href="./Getting-Started:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Getting Started </a></td>
     <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
-    <td><a href="./Adding-Channel-Locations-to-your-Dataset"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Adding Channel Locations to your Dataset  </a></td>
+    <td><a href="./Adding-Channel-Locations-to-your-Dataset:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Adding Channel Locations to your Dataset  </a></td>
   </tr>
 </table>
