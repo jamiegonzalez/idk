@@ -179,7 +179,7 @@ From here, one can proceed as before and compute average ERPs for those trials w
 
 <table style="width:100%">
   <tr>
-    <td><a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Measuring amplitudes and latencies with the ERP Measurement Tool </a></td>
+    <td><a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Measuring amplitudes and latencies with the ERP Measurement Tool </a></td>
     <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
     <td></td>
   </tr>
