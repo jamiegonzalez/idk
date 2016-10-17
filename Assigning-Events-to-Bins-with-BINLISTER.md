@@ -105,8 +105,8 @@ The **Ignored Code(s)** field allows you to enter a list of event codes that wil
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Creating-and-Modifying-Channels-with-Channel-Operations"> << Creating and Modifying Channels with Channel Operations </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool">  Measuring amplitudes and latencies with the ERP Measurement Tool >>  </a></td>
+    <td><a href="./Creating-and-Modifying-Channels-with-Channel-Operations"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Creating and Modifying Channels with Channel Operations </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Measuring amplitudes and latencies with the ERP Measurement Tool  </a></td>
   </tr>
 </table>
