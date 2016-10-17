@@ -43,8 +43,8 @@ There are many things you can do with the Plotting Waveform GUI. For example, yo
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Creating-Averaged-ERPs"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Creating Averaged ERPs </a></td>
+    <td><a href="./Creating-Averaged-ERPs:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Creating Averaged ERPs </a></td>
     <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
-    <td><a href="./Filtering-EEG-and-ERPs"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Filtering EEG and ERPs  </a></td>
+    <td><a href="./Filtering-EEG-and-ERPs:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Filtering EEG and ERPs  </a></td>
   </tr>
 </table>
