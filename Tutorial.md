@@ -22,32 +22,32 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 
 2. [Getting Started](./Getting-Started:-Tutorial)
 
-3. [Brief Description of the Example Experiment](./Brief-Description-of-the-Example-Experiment)
+3. [Brief Description of the Example Experiment](./Brief-Description-of-the-Example-Experiment:-Tutorial)
 
-4. [Adding Channel Locations to your Dataset](./Adding-Channel-Locations-to-your-Dataset)
+4. [Adding Channel Locations to your Dataset](./Adding-Channel-Locations-to-your-Dataset:-Tutorial)
 
-5. [Background Concepts: Datasets, ERPsets, and Bins](./Background-Concepts:-Datasets,-ERPsets,-and-bins)
+5. [Background Concepts: Datasets, ERPsets, and Bins](./Background-Concepts:-Datasets,-ERPsets,-and-Bins:-Tutorial)
 
-6. [Creating an EventList](./Creating-an-EventList:-ERPLAB-Functions)
+6. [Creating an EventList](./Creating-an-EventList:-ERPLAB-Functions:-Tutorial)
 
-7. [Advanced EventList Options](./Advanced-EventList-Options)
+7. [Advanced EventList Options](./Advanced-EventList-Options:-Tutorial)
 
-8. [Creating Bin-Based EEG Epochs](./Creating-Bin--Based-EEG-Epochs)
+8. [Creating Bin-Based EEG Epochs](./Creating-Bin--Based-EEG-Epochs:-Tutorial)
 
-9. [Artifact Detection](./Artifact-Detection)
+9. [Artifact Detection](./Artifact-Detection:-Tutorial)
 
-10. [Creating Averaged ERPs](./Creating-Averaged-ERPs)
+10. [Creating Averaged ERPs](./Creating-Averaged-ERPs:-Tutorial)
 
-11. [Plotting Averaged ERP Waveforms](./Plotting-Averaged-ERP-Waveforms)
+11. [Plotting Averaged ERP Waveforms](./Plotting-Averaged-ERP-Waveforms:-Tutorial)
 
-12. [Filtering EEG and ERPs](./Filtering-EEG-and-ERPs)
+12. [Filtering EEG and ERPs](./Filtering-EEG-and-ERPs:-Tutorial)
 
-13. [Combining ERP Waveforms with Bin Operations](./Combining-ERP-Waveforms-with-Bin-Operations)
+13. [Combining ERP Waveforms with Bin Operations](./Combining-ERP-Waveforms-with-Bin-Operations:-Tutorial)
 
-14. [Creating and Modifying Channels with Channel Operations](./Creating-and-Modifying-Channels-with-Channel-Operations)
+14. [Creating and Modifying Channels with Channel Operations](./Creating-and-Modifying-Channels-with-Channel-Operations:-Tutorial)
 
-15. [Assigning Events to Bins with BINLISTER](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
+15. [Assigning Events to Bins with BINLISTER](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial:-Tutorial)
 
-16. [Measuring amplitudes and latencies with the ERP Measurement Tool](./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool)
+16. [Measuring amplitudes and latencies with the ERP Measurement Tool](./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool:-Tutorial)
 
-17. [Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction](./Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction)
+17. [Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction](./Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction:-Tutorial)
