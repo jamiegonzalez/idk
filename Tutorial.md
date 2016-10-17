@@ -46,7 +46,7 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 
 14. [Creating and Modifying Channels with Channel Operations](./Creating-and-Modifying-Channels-with-Channel-Operations:-Tutorial)
 
-15. [Assigning Events to Bins with BINLISTER](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial:-Tutorial)
+15. [Assigning Events to Bins with BINLISTER](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
 
 16. [Measuring amplitudes and latencies with the ERP Measurement Tool](./Measuring-amplitudes-and-latencies-with-the-ERP-Measurement-Tool:-Tutorial)
 
