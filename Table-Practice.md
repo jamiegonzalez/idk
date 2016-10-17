@@ -1,7 +1,7 @@
 <TABLE>
    <TR>
       <TD>Loaded Data</TD>
-      <TD> ... </TD>
+      <TD> &#10004 </TD>
    </TR>
    <TR>
       <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
