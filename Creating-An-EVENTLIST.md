@@ -44,9 +44,8 @@ Note: We will eventually make it possible to use event labels in addition to eve
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-Bins"> << Background Concepts: Datasets, ERPsets, and Bins </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Advanced-EventList-Options">  Advanced EventList Options >>  </a></td>
+    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-Bins"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Background Concepts: Datasets, ERPsets, and Bins </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Advanced-EventList-Options"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Advanced EventList Options </a></td>
   </tr>
 </table>
-
