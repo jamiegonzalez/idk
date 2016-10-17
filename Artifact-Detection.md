@@ -152,8 +152,8 @@ _Note for programmers:_ The flags are shown in a binary format in the text file 
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Creating-Bin--Based-EEG-Epochs"> << Creating Bin-Based EEG Epochs </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Creating-Averaged-ERPs">  Creating Averaged ERPs >>  </a></td>
+    <td><a href="./Creating-Bin--Based-EEG-Epochs"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Creating Bin-Based EEG Epochs </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Creating-Averaged-ERPs"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Creating Averaged ERPs  </a></td>
   </tr>
 </table>
