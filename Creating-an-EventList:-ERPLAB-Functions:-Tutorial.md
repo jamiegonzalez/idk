@@ -33,8 +33,19 @@ If you have some Matlab experience, you can drill further into this structure to
 
 Take a look at this file to see that it has all the event code information.  
 
+```Matlab
     Equivalent Script Command:
 
     % Create an EventList, saving a text version in a file named 'elist.txt' in Matlab's current folder
     EEG  = pop_creabasiceventlist( EEG , 'Eventlist', 'elist.txt', 'BoundaryNumeric', { -99 } ...
                                  , 'BoundaryString', { 'boundary' }, 'Warning', 'on' );
+```
+
+----
+<table style="width:100%">
+  <tr>
+    <td><a href="./Background-Concepts:-Datasets,-ERPsets,-and-Bins"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Background Concepts: Datasets, ERPsets, and Bins </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Advanced-EventList-Options"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Advanced EventList Options </a></td>
+  </tr>
+</table>
