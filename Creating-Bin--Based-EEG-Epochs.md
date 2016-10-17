@@ -63,8 +63,8 @@ Because the epoch length in this experiment is shorter than the interval between
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Advanced-EventList-Options"> << Advanced EventList Options </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Artifact-Detection">  Artifact Detection >>  </a></td>
+    <td><a href="./Advanced-EventList-Options"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Advanced EventList Options </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Artifact-Detection"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Artifact Detection </a></td>
   </tr>
 </table>
