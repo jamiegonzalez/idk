@@ -70,8 +70,8 @@ You can now see the newly created ERPset in the **ERPsets** menu, as shown in th
 ----
 <table style="width:100%">
   <tr>
-    <td><a href="./Artifact-Detection"> << Artifact Detection </a></td>
-    <td><a href="./Tutorial"> Tutorial</a></td>
-    <td><a href="./Plotting-Averaged-ERP-Waveforms">  Plotting Averaged ERP Waveforms >>  </a></td>
+    <td><a href="./Artifact-Detection"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Artifact Detection </a></td>
+    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
+    <td><a href="./Plotting-Averaged-ERP-Waveforms"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Plotting Averaged ERP Waveforms </a></td>
   </tr>
 </table>
