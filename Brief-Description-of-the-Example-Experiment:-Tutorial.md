@@ -29,10 +29,28 @@ Letters and digits were presented in an unpredictable order within each trial bl
 These files were imported into EEGLAB (using **File > Import data > From Neuroscant .CNT File**) and then merged together (with **File > Append datasets**).  The procedure you follow will depend on your data acquisition system.  Note that EEGLAB places a boundary event code at the boundary between the original files to mark the fact that a temporal discontinuity was present at those times.  This is important, because some functions (e.g., filters) either implicitly or explicitly assume that consecutive data points in the **EEG** reflect temporally consecutive moments in time (see the section on boundary events in the ERPLAB User's Manual).  The end result was saved in a file named S1_EEG.set (or S2, S3, etc., to indicate each individual subject).
 
 ----
-<table style="width:100%">
+<table >
   <tr>
-    <td><a href="./Getting-Started:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75"><br> <b> Getting Started </a></td>
-    <td><a href="./Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75"><br> <b> Tutorial</a></td>
-    <td><a href="./Adding-Channel-Locations-to-your-Dataset:-Tutorial"> <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75"><br> <b> Adding Channel Locations to your Dataset  </a></td>
+    <td  align="right" width="45%">
+      <a href="./Getting-Started:-Tutorial">
+        <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75">
+        <br>
+        Getting Started
+      </a>
+    </td>
+    <td  align="center" width="10%">
+      <a href="./Tutorial">
+        <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75">
+        <br>
+        Tutorial
+       </a>
+    </td>
+    <td  align="left" width="45%">
+      <a href="./Adding-Channel-Locations-to-your-Dataset:-Tutorial">
+        <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
+        <br>
+        Adding Channel Locations to your Dataset
+      </a>
+    </td>
   </tr>
 </table>
