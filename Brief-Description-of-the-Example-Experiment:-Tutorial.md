@@ -29,6 +29,7 @@ Letters and digits were presented in an unpredictable order within each trial bl
 These files were imported into EEGLAB (using **File > Import data > From Neuroscant .CNT File**) and then merged together (with **File > Append datasets**).  The procedure you follow will depend on your data acquisition system.  Note that EEGLAB places a boundary event code at the boundary between the original files to mark the fact that a temporal discontinuity was present at those times.  This is important, because some functions (e.g., filters) either implicitly or explicitly assume that consecutive data points in the **EEG** reflect temporally consecutive moments in time (see the section on boundary events in the ERPLAB User's Manual).  The end result was saved in a file named S1_EEG.set (or S2, S3, etc., to indicate each individual subject).
 
 ----
+<!--Bottom Navigation HTML-->
 <table >
   <tr>
     <td  align="right" width="40%">
