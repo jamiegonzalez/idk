@@ -31,21 +31,21 @@ These files were imported into EEGLAB (using **File > Import data > From Neurosc
 ----
 <table >
   <tr>
-    <td  align="right" width="45%">
+    <td  align="right" width="40%">
       <a href="./Getting-Started:-Tutorial">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75">
         <br>
         Getting Started
       </a>
     </td>
-    <td  align="center" width="10%">
+    <td  align="center" width="20%">
       <a href="./Tutorial">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75">
         <br>
         Tutorial
        </a>
     </td>
-    <td  align="left" width="45%">
+    <td  align="left" width="40%">
       <a href="./Adding-Channel-Locations-to-your-Dataset:-Tutorial">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
         <br>
