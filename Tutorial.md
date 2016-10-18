@@ -1,6 +1,6 @@
 <h2 align="center">ERPLAB TOOLBOX TUTORIAL </h2>
 <h5 align="center">
-Version 4.0<br>
+Version 6.0<br>
 01 October 2013<br><br>
 Tutorial written by Steve Luck, Javier Lopez-Calderon, Stan Huang, and Eric Foo <br><br>
 ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
