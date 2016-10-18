@@ -1,7 +1,7 @@
 <h2 align="center">ERPLAB TOOLBOX Manual </h2>
 <h5 align="center">
-Version 4.0<br>
-01 October 2013<br><br>
+Version 6.0<br>
+18 October 2016<br><br>
 User's Manual written by Steve Luck, Candace Markley, Javier Lopez-Calderon, Eric Foo, and Jason Arita<br><br>
 ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
 </h5>
