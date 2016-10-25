@@ -23,7 +23,7 @@ The function `Delete Time Segments` deletes segments of continuous EEG data betw
 ----
 ### Shift Event Codes 
 
-The `Shift Event Codes` function moves the timing of user-specified event codes either forward or backwards in time. This is mainly used to counter the delay between stimulus presentation on a monitor and the onset of the subsequent stimulus event code. 
+The `Shift Event Codes` function moves the timing of user-specified event codes either forward or backwards in time. This is mainly used to counter the delay between stimulus presentation on a monitor and the onset of the subsequent stimulus event code. `Earlier` rounding is recommended to offset the fact that event code times are ordinarily rounded up during the digitization process.
  
 - Location: `ERPLAB > Preprocess Continuous EEG Data > Shift Event Codes`
 - Input:
@@ -33,9 +33,10 @@ The `Shift Event Codes` function moves the timing of user-specified event codes 
     - If timeshift is negative, the event code time-values are shifted to the left (e.g decreasing delay).
     - If timeshift is 0, the EEG's time values are not shifted.
   - **Rounding**: Type of rounding to use
-    - 'nearest'    (default) Round to the nearest integer          
-    - 'floor'      Round to nearest ingtowards positive infinity
-    - 'ceiling'    Round to nearest integer towards negative infinity
+    - 'earlier'    (default) Round to nearest integer towards negative infinity
+      - This is recommended to offset the fact that event code times are ordinarily rounded up during the digitization process.
+    - 'nearest'    Round to the nearest integer          
+    - 'later'      Round to nearest towards positive infinity
   - **Display EEG**        - true/false  - Display a plot of the EEG when finished
 
 - Related POP-function: `pop_erplabShiftEventCodes`
@@ -79,4 +80,3 @@ ignoreChannels        = 0.015;
 interpolationMethod   = 'floor';
 outputEEG             = pop_erplabInterpolateElectrodes(EEG, replaceChannels, ignoreChannels, interpolationMethod);
 ```     
-
