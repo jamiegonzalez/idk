@@ -17,6 +17,7 @@ ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
 - [Basic ERPLAb Processing Steps](./Basic-ERPLAB-Processing-Steps)
 - [Important Background Concepts and Data Structures](./Important-Background-Concepts-and-Data-Structures)
 - [Using EEGLAB](./Using-EEGLAB)
+- [Preprocessing Continuous EEG](./Continuous-EEG-Preprocessing)
 - [The EventList Structure](./The-EVENTLIST-Structure)
 - [Creating an EventList](./Creating-An-EVENTLIST)
 - [Exporting, Editing, and Importing EventLists](./Exporting,-Editing,-and-Importing-EVENTLISTS)
