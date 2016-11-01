@@ -10,22 +10,23 @@
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
-      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
-      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"></TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
       <TD align="center"> </TD>
    </TR>
 <TR>
-      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
-      <TD align="center"> </TD>
-   </TR>
-<TR>
-      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
       <TD align="center"> </TD>
    </TR>
 </TABLE>
+
 
 The next step after creating the EventList is usually to sort the events into different bins (in preparation for averaging).  However, we already did this by assigning bins for the rare and frequent stimuli when we created the EventList using the **Advanced** button. If you skipped that step, go back up a step or use [BINLISTER](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial) to do the bin assignments before proceding with the rest of this tutorial.
 
