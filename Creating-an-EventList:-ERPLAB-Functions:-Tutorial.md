@@ -11,22 +11,23 @@ We are now ready to get into the ERPLAB functions.  We will begin with some hous
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
-      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
-      <TD align="center"> </TD>
+      <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
+      <TD align="center">  </TD>
    </TR>
    <TR>
-      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
       <TD align="center"> </TD>
    </TR>
 <TR>
-      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
       <TD align="center"> </TD>
    </TR>
 <TR>
-      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
       <TD align="center"> </TD>
    </TR>
 </TABLE>
+
 
 The event codes are embedded in a dataset within EEGLAB's **EEG** structure, which is pretty complicated.  To make it easier to see and manipulate the event codes, ERPLAB creates an EventList, which is a list of all of the event codes and associated information.  Internally, ERPLAB stores this as an **EVENTLIST** structure (which is appended onto the **EEG** structure as **EEG.EVENTLIST**).  But the EventList can also be saved in a text file, where you can easily see and manipulate the event information. If you make any changes, you can import it back into the **EEG** structure.  We will show an example of this later in the tutorial.
 
