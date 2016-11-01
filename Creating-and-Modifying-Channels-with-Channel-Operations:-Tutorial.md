@@ -1,4 +1,32 @@
 ## Creating and Modifying Channels with Channel Operations
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+</TABLE>
+
 We will now discuss how you can create and modify channels.  The most common use for this is to re-reference all (or most) channels to a different reference electrode (or combination of electrodes).  A second use is to create a bipolar channel that better isolates an artifact (e.g., to isolate the vertical or horizontal EOG signals).  A third use is to replace a bad channel with interpolated values from surrounding channels (which is described in the [ERPLAB User's Manual](./Manual)). These operations can be done either on the EEG in a dataset (E**RPLAB > EEG Channel Operations**) or on the ERPs in an ERPset (**ERPLAB > ERP Channel Operations**).
 
 Like Bin Operations, Channel Operations has two modes of operation.  In one mode, you use a set of equations to modify existing channels and add new channels within the current dataset or ERPset.  In this mode, you can modify one channel and then use this modified channel to create or modify another channel (this is called _recursive updating_).  In another mode, the current dataset or ERPset serves as the input to a set of equations that create a new set of channels in a new ERPset (this is called creating a set of _independent transformations_).  Either mode can be used for most situations, but only the independent transformations mode can be used to re-order the channels, and the recursive updating mode can be more efficient for certain complicated transformations.  We will show examples of both modes here.
