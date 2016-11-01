@@ -1,4 +1,33 @@
 ## Filtering EEG and ERPs
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+</TABLE>
+
+
 ERPLAB contains a set of filters that can be applied to continuous EEG, to segmented EEG, and to averaged ERPs.  Separate routines are used for filtering EEG (**ERPLAB > Filter & Frequency Tools >  Filters for EEG data**) and for filtering ERPs (**ERPLAB > Filter & Frequency Tools > Filters for ERP data**).  The routines are nearly identical, except for a few options.  We will start by discussing the filtering of averaged ERPs.  Make sure that "S1_ERPs" is selected in the **ERPsets** menu, and then select **ERPLAB > Filter & Frequency Tools > Filters for ERP data**. You will see a window similar to the screenshot below.  This window allows you to set various properties of the filter.  First, you can determine whether to apply a low-pass filter (filtering out high frequencies) and/or a high-pass filter (filtering out low frequencies).  For each of these, you can select the 50% amplitude cutoff point by typing a number in the corresponding text field or by adjusting the sliders.  You can also adjust the slope of the filter's roll-off in the **Roll-off & filter order** panel in units of decibels per octave (**dB/oct**) or in units decibels per decade (**dB/dec**) or in terms of the filter's order (if you change one, the others will automatically change).
 
 You can see the frequency response function of the resulting filter (the extent to which each frequency is passed by the filter) in the graph at the top of the window (assuming that the **Plot** panel is set to **Frequency response**).  Try playing around with the various filter parameters to see how it changes the frequency response function.
