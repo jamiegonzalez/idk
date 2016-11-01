@@ -1,4 +1,32 @@
 ## Plotting Averaged ERP Waveforms
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+</TABLE>
+
 Now that you have created an ERPset, you can look at its contents by selecting **ERPLAB > Plot ERP > Plot ERP Waveforms**, which brings up the window shown in the next screenshot. The top half of the window allows you to specify what information to plot (bins, channels, etc.), and the bottom half allows you to control the details of the plotting (vertical scale, line width, font size, etc.). The window will remember the settings from the last time you used it, but you can revert to the default settings by clicking the **RESET VALUES** button (e.g., when you want to plot a new ERPset that has a different epoch length, set of channels, etc.).
 
 ![GUI](./images/Tutorial/Tutorial_Plotting-Averaged-ERP-Waveforms_1.png)
