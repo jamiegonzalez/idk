@@ -1,4 +1,32 @@
 ## Artifact Detection
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+</TABLE>
+
 The next step after epoching is usually artifact detection. ERPLAB makes a distinction between _artifact detection_ and _artifact rejection_. **Artifact detection** is the process of marking epochs that contain artifacts. **Artifact rejection** is the process of excluding trials containing artifacts. The ERPLAB artifact detection routines do not throw out any data; epochs with artifacts are merely marked. Artifact rejection occurs during averaging; marked epochs are simply excluded from the averaging process.
 
 EEGLAB provides a method for manually rejecting (deleting) sections of the EEG data, and ERPLAB contains a method for automatically finding sections of "crazy" data and rejecting (deleting) them.  However, we strongly recommend that you use these only when it is absolutely necessary to delete the sections of EEG (e.g., deleting "crazy" data periods prior to ICA), and that you use artifact detection (marking of artifacts) for dealing with artifacts in all other cases.  Also, note that the deletion of sections of the EEG also leads to deletion of the event codes within those sections.  Consequently, if you are going to delete sections of EEG (with any method), **you must do so before the EVENTLIST has been created**.  In contrast, artifact detection should typically be conducted as the final step before averaging.
