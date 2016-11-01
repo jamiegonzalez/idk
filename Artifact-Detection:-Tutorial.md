@@ -10,22 +10,23 @@
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
-      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
-      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
       <TD align="center"> &#10003 </TD>
    </TR>
 <TR>
-      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
       <TD align="center"> </TD>
    </TR>
 <TR>
-      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
       <TD align="center"> </TD>
    </TR>
 </TABLE>
+
 
 The next step after epoching is usually artifact detection. ERPLAB makes a distinction between _artifact detection_ and _artifact rejection_. **Artifact detection** is the process of marking epochs that contain artifacts. **Artifact rejection** is the process of excluding trials containing artifacts. The ERPLAB artifact detection routines do not throw out any data; epochs with artifacts are merely marked. Artifact rejection occurs during averaging; marked epochs are simply excluded from the averaging process.
 
