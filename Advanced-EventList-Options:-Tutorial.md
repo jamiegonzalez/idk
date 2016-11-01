@@ -1,6 +1,34 @@
 ## Advanced EventList Options
 When you create an EventList, you can add some additional information using the **ADVANCED** button in the Create EventList window (see screenshot below).
 
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+</TABLE>
+
+
 The **ADVANCED** button allows you to define a text label for each numeric event code (or vice versa), which helps to avoid the errors that often occur in experiments with many different event codes. It also allows you to define the bins that you will use to sort your EEG epochs for averaging. In most cases, you will define your bins in a later step (using something called BINLISTER), but it can be done at this step if your bins are very simple. You will use the **ADVANCED** button if you want to create event labels from numeric event codes or if you want to assign the events to bins, but you don't need it if you don't want event labels and you will be using BINLISTER to assign events to bins.
 
 1. Open the **Create Basic EventList GUI** window (shown below).In EEGLAB, make sure that S1_Chan is selected in the Datasets menu.  
