@@ -1,6 +1,33 @@
 ## Creating an EventList
 We are now ready to get into the ERPLAB functions.  We will begin with some housekeeping, then do artifact rejection, and finally averaging.
 
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+</TABLE>
+
 The event codes are embedded in a dataset within EEGLAB's **EEG** structure, which is pretty complicated.  To make it easier to see and manipulate the event codes, ERPLAB creates an EventList, which is a list of all of the event codes and associated information.  Internally, ERPLAB stores this as an **EVENTLIST** structure (which is appended onto the **EEG** structure as **EEG.EVENTLIST**).  But the EventList can also be saved in a text file, where you can easily see and manipulate the event information. If you make any changes, you can import it back into the **EEG** structure.  We will show an example of this later in the tutorial.
 
 1. To use ERPLAB, first create an EventList for the **EEG** stored in your dataset. In the ERPLAB menu, select **EventList > Create EEG EVENTLIST**. (A warning may popup warning you that some of all of your events contain an event-based event label, and not a numeric event code. For now, ignore it and click the **Continue** button)
