@@ -1,4 +1,31 @@
 ## Combining ERP Waveforms with Bin Operations
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+</TABLE>
+
 The **ERPLAB > ERP Bin Operations** routine allows you to create new bins by combining existing bins from the current ERPset.  This is most often used to create difference waves or to average across bins.
 
 Bin Operations has two modes of operation.  In one mode, you use a set of equations to modify existing bins and add new bins within the current ERPset.  In this mode, you can modify one bin and then use this modified bin to create or modify another bin (this is called _recursive updating_).  In another mode, the current ERPset serves as the input to a set of equations that create a new set of bins in a new ERPset (this is called performing a set of _independent transformations_).  We will begin with modifying an existing ERPset, which is the simplest way to simply add a few bins.
