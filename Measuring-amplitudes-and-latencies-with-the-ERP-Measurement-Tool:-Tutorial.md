@@ -142,21 +142,21 @@ A local peak is defined as the most extreme point within the measurement window 
       <a href="./Assigning Events to Bins with BINLISTER:-Tutorial">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75">
         <br>
-        Assigning-Events-to-Bins-with-BINLISTER
+        <b> Assigning-Events-to-Bins-with-BINLISTER
       </a>
     </td>
     <td  align="center" width="20%">
       <a href="./Tutorial">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75">
         <br>
-        Tutorial
+       <b> Tutorial
        </a>
     </td>
     <td  align="left" width="40%">
       <a href="./Exporting-and-Importing-EventLists-to-Combine-Artifact-Rejection-and-Artifact-Correction:-Tutorial">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
         <br>
-        Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction
+        <b> Exporting and Importing EventLists to Combine Artifact Rejection and Artifact Correction
       </a>
     </td>
   </tr>
