@@ -1,4 +1,32 @@
 ## Assigning Events to Bins with BINLISTER
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD>Loaded Data</TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+</TABLE>
+
 Up to this point, we have assigned events to bins when creating the EventList structure. This is fine for very simple experiments, but it is insufficient for most real studies. We will now consider how events are assigned to bins for typical studies using the BINLISTER routine (see the ERPLAB User's Manual for more details).
 
 To begin this example, select the "S1_Chan" dataset. The first step is to create an EventList. When we did this before, we used the advanced method, which allows you to provide a label for each event code and to assign each code to a bin. This time we will use the simple method, which just creates the EventList with whatever event codes or event labels are in the dataset. To do this, select **ERPLAB > EventList > Create EEG EventList – Basic**. It will put up a small window giving you a few basic options, but you should just click **Create**. You can then accept the default name for the new dataset (S1_Chan_elist). You can verify that the EventList was created by typing **EEG.EVENTLIST** in the Matlab command window.  
