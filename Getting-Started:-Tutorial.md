@@ -31,7 +31,7 @@ Select the file **S1_EEG.set** and click the **Open** button.
 
     _Tip: Using EEGLAB and ERPLAB requires a little bit of patience.  If you try to start the next procedure before the current procedure is done, you will cause problems that will ultimately slow you down.  This is especially true during procedures that create or load datasets.  So just take a sip of coffee and wait until you see "Done" in the command window before you take the next step.  Also, ensuring your computer has lots of RAM (and the 64-bit version of Matlab along with a 64-bit operating system) can make things go much faster._
 
-6. Confirm the dataset has finished loading, by selecting the **Datasets** menu, as shown in the following screenshot:
+6. Confirm that the dataset has finished loading, by selecting the **Datasets** menu, as shown in the following screenshot:
 
 ![GUI](./images/Tutorial/Tutorial_Getting-Started_2.png)
 
