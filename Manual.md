@@ -1,12 +1,11 @@
 <h2 align="center">ERPLAB TOOLBOX Manual </h2>
 <h5 align="center">
-Version 6.0<br>
-18 October 2016<br><br>
+Version 6.0<br><br>
 User's Manual written by Steve Luck, Candace Markley, Javier Lopez-Calderon, Eric Foo, and Jason Arita<br><br>
 ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
 </h5>
 
-
+ERPLAB has primarily been tested using EEG collected with Brain Products ActiCHamp and Biosemi ActiveTwo systems, along with a smaller amount of testing using EEG collected with Neuroscan and EGI systems. Consequently, you should be particularly careful when using this version of ERPLAB with data collected with systems other than Brain Products ActiCHamp or Biosemi ActiveTwo.
 
 
 ## Table of Contents
