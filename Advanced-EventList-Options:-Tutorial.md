@@ -1,5 +1,5 @@
 ## Advanced EventList Options
-When you create an EventList, you can add some additional information using the **ADVANCED** button in the Create EventList window (see screenshot below). The **ADVANCED** tools are important if you have complex text-based event labels (or want to create them) or if you have a very simple scheme that links event codes to bins.  If neither of these situations applies to you, feel free to skip to the next section of the tutorial.
+When you create an EventList, you can add some additional information using the **ADVANCED** button in the Create EventList window (see screenshot below). The **ADVANCED** tools are important if you have complex text-based event labels (or want to create them) or if you have a very simple scheme that links event codes to bins.  Most people won't use the **ADVANCED** button, but it is important for the present tutorial.
 
 <TABLE>
    <TR>
