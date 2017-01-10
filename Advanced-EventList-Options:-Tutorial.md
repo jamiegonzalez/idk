@@ -44,7 +44,7 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 
 3. Define this information for a single trial block from our example experiment. Enter the following information into the **Event Info** area (upper left corner) of the **Create Advanced EventList** window:  
 
-<table>
+    <table>
 <tbody>
 <tr>
 <td>Event Code:</td>
