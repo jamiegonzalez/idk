@@ -44,6 +44,27 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 
 3. Define this information for a single trial block from our example experiment. Enter the following information into the **Event Info** area (upper left corner) of the **Create Advanced EventList** window:  
 
+<table>
+<tbody>
+<tr>
+<td>Event Code:</td>
+<td><strong>22 </strong></td>
+</tr>
+<tr>
+<td>Event Label:</td>
+<td><strong>Frequent_Digit</strong></td>
+</tr>
+<tr>
+<td>Bin number:</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>Bin description:</td>
+<td><strong>Frequent Category (digit)</strong></td>
+</tr>
+</tbody>
+</table>
+
     Event Code:	**22**  
     Event Label:	**Frequent_Digit**  
     Bin number:	**1**  
