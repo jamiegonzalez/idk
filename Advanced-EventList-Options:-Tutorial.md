@@ -130,7 +130,9 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 </table>
 
 5. Save the event code **equation list** in the **Equation List** pane (bottom-left), click on the **Save list** button  
+
     Navigate to your save directory and type in the filename: **elist_equations.txt**  
+
     Click the **Save** button. The save file name and path should now appear in the **Equation List** pane.  
 
     Because you will need to do this step for every subject, the saved file **elist_equations.txt** can now be loaded in again for the next subject (by clicking **open list**). If you want, you can load the file **event_mapping_1.txt**, which contains the table of events for this example. You can edit this file with the Matlab text editor, which is more convenient than using the ERPLAB GUI for large tables of event information. To see the format, open the **event_mapping_1.txt** file with Matlab's text editor.  
@@ -138,9 +140,13 @@ The **ADVANCED** button allows you to define a text label for each numeric event
     ![GUI](./images/Tutorial/Tutorial_Advanced-EventList-Options_3.png)
 
 6. Save the EventList in a text file (to look at it later) Locate the **Write resulting EVENTLIST to** pane in the bottom-right corner  
+
     Check the box labeled **Text File**  
+
     Click the **Browse** button to save the file as **elist.txt**. (The .txt extension is not required, but it's a good idea)  
+
     Check the box labeled **Transfer EVENTLIST info to EEG.event**  
+
 7. Transfer EventList to the EEG.event variableCheck the box labelled **Transfer EVENTLIST info to EEG.event**  
 
     EEGLAB keeps track of event information in the **EEG.event** structure, but EEGLAB doesn't automatically "know" anything about ERPLAB's EventList. Moreover, the **EEG.event** structure can store either a numeric event code or a text-based event label for a given event, but not both. By checking this box, you will have the opportunity to transfer your newly created labels into **EEG.event** so that they will be available for use by EEGLAB functions (such as the function for plotting the EEG data).  
