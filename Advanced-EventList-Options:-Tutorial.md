@@ -65,7 +65,7 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 </tbody>
 </table>
 
-Then click the **Update Line** button to add the event information to the **Currently edited eventcodes list** (left pane). For each event, the **Event Info** area defines the event codes, event labels, bin numbers, and bin descriptions for each event. In our experiment, letters were rare (event code 12) and numbers were frequent (event code 22).  
+    Then click the **Update Line** button to add the event information to the **Currently edited eventcodes list** (left pane). For each event, the **Event Info** area defines the event codes, event labels, bin numbers, and bin descriptions for each event. In our experiment, letters were rare (event code 12) and numbers were frequent (event code 22).  
 
 4. Next, define the _rare letter event_. Click on the **new line** entry in the **Currently edited eventcodes** pane. Enter the following information for the _rare letter event_  
 
