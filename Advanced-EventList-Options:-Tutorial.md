@@ -32,8 +32,7 @@ When you create an EventList, you can add some additional information using the 
 
 The **ADVANCED** button allows you to define a text label for each numeric event code (or vice versa), which helps to avoid the errors that often occur in experiments with many different event codes. It also allows you to define the bins that you will use to sort your EEG epochs for averaging. In most cases, you will define your bins in a later step (using something called BINLISTER), but it can be done at this step if your bins are very simple. You will use the **ADVANCED** button if you want to create event labels from numeric event codes or if you want to assign the events to bins, but you don't need it if you don't want event labels and you will be using BINLISTER to assign events to bins.
 
-1. First, make sure that **S1_Chan** is selected as the active dataset in the Datasets menu (because we are going to re-create the eventless). Then open the **Create Basic EventList GUI** window (shown below). 
-    In ERPLAB, select **EventList > Create EEG EventList**  
+1. First, make sure that **S1_Chan** is selected as the active dataset in the Datasets menu (because we are going to re-create the eventless). Then select **EventList > Create EEG EventList**  
 ![GUI](./images/Tutorial/Tutorial_Advanced-EventList-Options_1.png)
 
 2. Open the Create Advanced EventList GUI (shown below)Click the **Advanced** button to open the **Create Advanced EventList** window  
