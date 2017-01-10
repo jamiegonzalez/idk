@@ -69,7 +69,7 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 
 4. Next, define the _rare letter event_. Click on the **new line** entry in the **Currently edited eventcodes** pane. Enter the following information for the _rare letter event_  
 
-<table>
+    <table>
 <tbody>
 <tr>
 <td>Event Code:</td>
@@ -90,13 +90,13 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 </tbody>
 </table>
 
-Don't forget to click **Update Line** after entering the information for each type of event or the information will not be added to the table.   
+    Don't forget to click **Update Line** after entering the information for each type of event or the information will not be added to the table.   
 
-Note: Your bin numbers must start at 1 and be consecutive with no breaks (the event codes need not be consecutive, and they can be any integer number that Matlab can represent).  
+    Note: Your bin numbers must start at 1 and be consecutive with no breaks (the event codes need not be consecutive, and they can be any integer number that Matlab can represent).  
 
-It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.
+    It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.
 
-<table>
+    <table>
 <tbody>
 <tr>
 <td>Event Code:</td>
