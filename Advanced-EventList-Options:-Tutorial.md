@@ -94,7 +94,7 @@ Don't forget to click **Update Line** after entering the information for each ty
 
 Note: Your bin numbers must start at 1 and be consecutive with no breaks (the event codes need not be consecutive, and they can be any integer number that Matlab can represent).  
 
-    It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.
+It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.
 
 <table>
 <tbody>
