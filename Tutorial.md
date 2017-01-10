@@ -7,9 +7,9 @@ ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
 
 ERPLAB has primarily been tested using EEG collected with Brain Products ActiCHamp and Biosemi ActiveTwo systems, along with a smaller amount of testing using EEG collected with Neuroscan and EGI systems. Consequently, you should be particularly careful when using this version of ERPLAB with data collected with systems other than the Biosemi ActiveTwo.
 
-The goal of this tutorial is to provide step-by-step instructions for the processing of a simple data set.  For an overview of ERPLAB Toolbox and detailed information about each specific function, see the [ERPLAB User's Manual](https://github.com/lucklab/erplab/wiki/Manual). A Frequently Asked Questions document is also available.  All documentation is available at http://erpinfo.org/erplab/erplab-documentation.
+The goal of this tutorial is to provide step-by-step instructions for the processing of a simple data set.  For an overview of ERPLAB Toolbox and detailed information about each specific function, see the [ERPLAB User's Manual](https://github.com/lucklab/erplab/wiki/Manual). A Frequently Asked Questions document is also available.  All documentation is available on our [GitHub Wiki page](https://github.com/lucklab/erplab/wiki).
 
-If you have bug reports, requests for features, questions about using the software, and comments of general interest, please post them to the ERPLAB Email List.  To communicate privately with the developers, send an email to erplabtoolbox@gmail.com.
+If you have bug reports, requests for features, questions about using the software, and comments of general interest, please post them to the ERPLAB Email List.  To communicate privately with the developers, send an email to [erplabtoolbox@gmail.com](mailto:erplabtoolbox@gmail.com).
 
 Please keep in mind that this is **FREE** software, and we do not have the resources to provide the level of support that commercial software vendors can provide.
 
