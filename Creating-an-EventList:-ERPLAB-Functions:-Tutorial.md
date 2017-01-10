@@ -37,7 +37,7 @@ The following popup window titled _Create Basic EventList GUI_ will appear:
 
 ![GUI](./images/Tutorial/Tutorial_Creating-an-EventList_1.png)
 
-2. Check the option **Export EventList to text file** and enter the filename: **elist.txt**. To save to a specific folder location, click the **Browse** button. Otherwise, the **elist.txt** file will be save to Matlab's current directory. This is to get a better idea of what an EventList is, however in most cases you will simply click the **Create** button.
+2. Check the option **Export EventList to text file** and enter the filename: **elist.txt**. To save to a specific folder location, click the **Browse** button. Otherwise, the **elist.txt** file will be save to Matlab's current directory. We are having you export the EventList as a text file in this example so that you can see the contents of the EventList that you're creating; for most real experiments, you will not select this option.
 
 3. Check the option **Create numeric equivalents of nonnumeric event codes when possible (e.g., S12 becomes 12)**. Some systems (e.g., EGI and Brain Products) use text strings rather than numeric values as event codes. In some systems, this is very subtle (e.g., the codes might be 'S21', which looks like a number but isn't). You must convert these to numeric values. This can be done with the advanced options in Create EventList, as described next. Alternatively, if your event markers contain both numeric and non-numeric information (e.g., 'S21'), you can use a function called letterkilla to strip out the non-numeric information. From the Matlab command window or a script, you will type **EEG = letterkilla(EEG)**; You can then type **eeglab redraw** to make the updated dataset available from the EEGLAB GUI.
 
