@@ -93,11 +93,39 @@ The **ADVANCED** button allows you to define a text label for each numeric event
     Don't forget to click **Update Line** after entering the information for each type of event or the information will not be added to the table.   
 
     Note: Your bin numbers must start at 1 and be consecutive with no breaks (the event codes need not be consecutive, and they can be any integer number that Matlab can represent).  
-    It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.  
-    Event Code:       **9**                       Event Code:	**8**  
-    Event Label:      **Corr_Resp**               Event Label:	**Err_Resp**  
-    Bin number:       (blank)                     Bin number:	(blank)  
-    Bin description:  (blank)                     Bin description:(blank)  
+    It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.  <br />
+<table>
+<tbody>
+<tr>
+<td>Event Code:</td>
+<td><strong>9</strong></td>
+<td></td>
+<td>Event Code:</td>
+<td><strong>8</strong></td>
+</tr>
+<tr>
+<td>Event Label:</td>
+<td><strong>Corr_Resp</strong></td>
+<td></td>
+<td>Event Label:</td>
+<td><strong>Err_Resp</strong></td>
+</tr>
+<tr>
+<td>Bin number:</td>
+<td>(blank)</td>
+<td></td>
+<td>Bin number:</td>
+<td>(blank)</td>
+</tr>
+<tr>
+<td>Bin description:</td>
+<td>(blank)</td>
+<td></td>
+<td>Bin description:</td>
+<td>(blank)</td>
+</tr>
+</tbody>
+</table>
 
 5. Save the event code **equation list** in the **Equation List** pane (bottom-left), click on the **Save list** button  
     Navigate to your save directory and type in the filename: **elist_equations.txt**  
