@@ -32,17 +32,17 @@ When you create an EventList, you can add some additional information using the 
 
 The **ADVANCED** button allows you to define a text label for each numeric event code (or vice versa), which helps to avoid the errors that often occur in experiments with many different event codes. It also allows you to define the bins that you will use to sort your EEG epochs for averaging. In most cases, you will define your bins in a later step (using something called BINLISTER), but it can be done at this step if your bins are very simple. You will use the **ADVANCED** button if you want to create event labels from numeric event codes or if you want to assign the events to bins, but you don't need it if you don't want event labels and you will be using BINLISTER to assign events to bins.
 
-1. First, make sure that **S1_Chan** is selected as the active dataset in the Datasets menu (because we are going to re-create the eventless). Then select **EventList > Create EEG EventList**  
+1. First, make sure that **S1_Chan** is selected as the active dataset in the Datasets menu (because we are going to re-create the eventless). Then select **EventList > Create EEG EventList.**  
 ![GUI](./images/Tutorial/Tutorial_Advanced-EventList-Options_1.png)
 
-2. Open the Create Advanced EventList GUI (shown below)Click the **Advanced** button to open the **Create Advanced EventList** window  
+2. Click the **Advanced** button to open the **Create Advanced EventList** window.
 ![GUI](./images/Tutorial/Tutorial_Advanced-EventList-Options_2.png)
 
     The **Create Advanced EventList** panel allows you to define a set of events for the experiment. Each event contains a numeric event code and text-based event label, as well as an optional bin number and bin label.  
 
-    **Note: ERPLAB requires that each event have a numeric event code**. If your data acquisition system uses text-based labels instead of numeric codes, you must define a numeric event code for each text-based event label. If your data acquisition system uses numeric codes, you are not required to create text-based labels for each code, but it's a good idea. You can also define a bin for all (or some) of your event codes, along with a label for that bin. We will do that in this example, but it is not necessary if you will be using BINLISTER in a later step to define your bins.  
+    **Note: ERPLAB requires that each event has a numeric event code**. If your data acquisition system uses text-based labels instead of numeric codes, you must define a numeric event code for each text-based event label. If your data acquisition system uses numeric codes, you are not required to create text-based labels for each code, but it can be useful to help remember what each numeric event code means. You can also define a bin for all (or some) of your event codes, along with a label for that bin. We will do that in this example, but it is not necessary if you will be using BINLISTER in a later step to define your bins.  
 
-3. Define this information for a single trial block from our example experiment.Enter the following information into the **Event Info** area (upper left corner) of the **Create Advanced EventList** window:  
+3. Define this information for a single trial block from our example experiment. Enter the following information into the **Event Info** area (upper left corner) of the **Create Advanced EventList** window:  
 
     Event Code:	**22**  
     Event Label:	**Frequent_Digit**  
