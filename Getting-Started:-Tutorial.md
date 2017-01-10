@@ -60,7 +60,7 @@ _Tip: Selecting an EEGLAB or ERPLAB command that puts up a window typically "loc
     % Note that the dataset will not appear in the Datasets menu in the EEGLAB GUI
     EEG = pop_loadset('filename', 'S1_EEG.set', 'filepath',  '../Test_Data/S1/');
 
-    %Alternatively, the following version will look for the file in Matlab's Current Folder
+    %The following version will look for the file in Matlab's Current Folder
     EEG = pop_loadset('filename', 'S1_EEG.set');
 
     % To view the EEG data enter the following command:
