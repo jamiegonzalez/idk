@@ -1,7 +1,7 @@
 <h2 align="center">ERPLAB TOOLBOX TUTORIAL </h2>
 <h5 align="center">
-Version 6.0<br><br>
-Tutorial written by Steve Luck, Javier Lopez-Calderon, Stan Huang, and Eric Foo <br><br>
+Version 6.1<br><br>
+Tutorial written by Steve Luck, Javier Lopez-Calderon, Stan Huang, Jason Arita, and Eric Foo <br><br>
 ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
 </h5>
 
