@@ -19,6 +19,11 @@ Colon operator|	: or -|	.{10:20} or .{10-20}
  Flag operator-Test artifact flag| 	 :fa<_binary #_>|	.{11:fa<000000001>}
  Flag operator-Write user flag|	 :wb<_binary #_>|	 .{11:wb<10000000>}
  Flag operator-Test user flag|	 :fb<_binary #_>|	.{11:wb<10000000>}
+
+----
+See also:
+* [Manual: Binlister](../Assigning-Events-to-Bins-with-BINLISTER)
+* [Tutorial: Binlister](../Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
