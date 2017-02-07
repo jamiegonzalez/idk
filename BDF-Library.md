@@ -10,15 +10,15 @@ Operator |	Format | Example
 ----- | ----- | -----
  Home-item operator	| .|	.{11}
  NOT operator|	  ~|	 .{~11}
- Event-list operator|	 {_event_#_}|	 .{11}
+ Event-list operator|	 {_event #_}|	 .{11}
  OR operator|	 ; or ,|	 .{11;22;33} or .{11,22,33}
 Colon operator|	: or -|	.{10:20} or .{10-20}
- Reaction-time operator|	 :rt<“_variable_name_”>|	 .{11}{9:rt<“correct_resp”>}
- Time-condition operator|	 t<_start_#_ms_ - _stop_#_ms_>|	 .{11}{t<100-1000>9}
- Flag operator-Write artifact flag| :wa<_binary_#>_|	 .{11:wa<000000001>}
- Flag operator-Test artifact flag| 	 :fa<_binary_#_>|	.{11:fa<000000001>}
- Flag operator-Write user flag|	 :wb<_binary_#_>|	 .{11:wb<10000000>}
- Flag operator-Test user flag|	 :fb<_binary_#_>|	.{11:wb<10000000>}
+ Reaction-time operator|	 :rt<“_variable name_”>|	 .{11}{9:rt<“correct_resp”>}
+ Time-condition operator|	 t<_start # ms_ - _stop # ms_>|	 .{11}{t<100-1000>9}
+ Flag operator-Write artifact flag| :wa<_binary #>_|	 .{11:wa<000000001>}
+ Flag operator-Test artifact flag| 	 :fa<_binary #_>|	.{11:fa<000000001>}
+ Flag operator-Write user flag|	 :wb<_binary #_>|	 .{11:wb<10000000>}
+ Flag operator-Test user flag|	 :fb<_binary #_>|	.{11:wb<10000000>}
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
