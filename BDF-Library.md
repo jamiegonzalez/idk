@@ -22,8 +22,8 @@ Colon operator|	: or -|	.{10:20} or .{10-20}
 
 ----
 See also:
-* [Manual: Binlister](../Assigning-Events-to-Bins-with-BINLISTER)
-* [Tutorial: Binlister](../Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
+* [Manual: Binlister](./Assigning-Events-to-Bins-with-BINLISTER)
+* [Tutorial: Binlister](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
