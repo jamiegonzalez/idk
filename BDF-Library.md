@@ -35,10 +35,10 @@ Rare followed by correct response
 
 ----
 See also:
-- [Tutorial: Binlister Demo 1](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-1)
-- [Tutorial: Binlister Demo 2](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-2)
-- [Tutorial: Binlister Demo 3](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-3)
-- [Tutorial: Binlister Demo 4](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-4)
+- [Tutorial: Binlister Demo 1](#tutorial-binlister-demo-1)
+- [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
+- [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
+- [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Tutorial: Binlister Demo 2
@@ -54,10 +54,10 @@ Rare followed by correct response
 
 ----
 See also:
-- [Tutorial: Binlister Demo 1](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-1)
-- [Tutorial: Binlister Demo 2](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-2)
-- [Tutorial: Binlister Demo 3](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-3)
-- [Tutorial: Binlister Demo 4](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-4)
+- [Tutorial: Binlister Demo 1](#tutorial-binlister-demo-1)
+- [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
+- [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
+- [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Tutorial: Binlister Demo 3
@@ -73,10 +73,10 @@ Rare followed by correct response without incorrect response
 
 ----
 See also:
-- [Tutorial: Binlister Demo 1](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-1)
-- [Tutorial: Binlister Demo 2](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-2)
-- [Tutorial: Binlister Demo 3](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-3)
-- [Tutorial: Binlister Demo 4](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-4)
+- [Tutorial: Binlister Demo 1](#tutorial-binlister-demo-1)
+- [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
+- [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
+- [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Tutorial: Binlister Demo 4
@@ -94,8 +94,8 @@ Exclude double responses. The bin descriptors look for a stimulus (e.g. 11;122;2
 
 ----
 See also:
-- [Tutorial: Binlister Demo 1](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-1)
-- [Tutorial: Binlister Demo 2](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-2)
-- [Tutorial: Binlister Demo 3](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-3)
-- [Tutorial: Binlister Demo 4](https://github.com/lucklab/erplab/wiki/_new#tutorial-binlister-demo-4)
+- [Tutorial: Binlister Demo 1](#tutorial-binlister-demo-1)
+- [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
+- [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
+- [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
