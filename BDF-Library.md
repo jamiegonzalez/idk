@@ -15,8 +15,8 @@ Operator |	Format | Example
 Colon operator|	: or -|	.{10:20} or .{10-20}
  Reaction-time operator|	 :rt<“_variable name_”>|	 .{11}{9:rt<“correct_resp”>}
  Time-condition operator|	 t<_start # ms_ - _stop # ms_>|	 .{11}{t<100-1000>9}
- Flag operator-Write artifact flag| :wa<_binary #>_|	 .{11:wa<000000001>}
- Flag operator-Test artifact flag| 	 :fa<_binary #_>|	.{11:fa<000000001>}
+ Flag operator-Write artifact flag| :wa<_binary #>_|	 .{11:wa<00000001>}
+ Flag operator-Test artifact flag| 	 :fa<_binary #_>|	.{11:fa<00000001>}
  Flag operator-Write user flag|	 :wb<_binary #_>|	 .{11:wb<10000000>}
  Flag operator-Test user flag|	 :fb<_binary #_>|	.{11:wb<10000000>}
 
