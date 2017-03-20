@@ -38,96 +38,92 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 2. Click the **Advanced** button to open the **Create Advanced EventList** window.
 ![GUI](./images/Tutorial/Tutorial_Advanced-EventList-Options_2.png)
 
-    The **Create Advanced EventList** panel allows you to define a set of events for the experiment. Each event contains a numeric event code and text-based event label, as well as an optional bin number and bin label.  
+   The **Create Advanced EventList** panel allows you to define a set of events for the experiment. Each event contains a numeric event code and text-based event label, as well as an optional bin number and bin label.  
 
-    **Note: ERPLAB requires that each event has a numeric event code**. If your data acquisition system uses text-based labels instead of numeric codes, you must define a numeric event code for each text-based event label. If your data acquisition system uses numeric codes, you are not required to create text-based labels for each code, but it can be useful to help remember what each numeric event code means. You can also define a bin for all (or some) of your event codes, along with a label for that bin. We will do that in this example, but it is not necessary if you will be using BINLISTER in a later step to define your bins.  
+   **Note: ERPLAB requires that each event has a numeric event code**. If your data acquisition system uses text-based labels instead of numeric codes, you must define a numeric event code for each text-based event label. If your data acquisition system uses numeric codes, you are not required to create text-based labels for each code, but it can be useful to help remember what each numeric event code means. You can also define a bin for all (or some) of your event codes, along with a label for that bin. We will do that in this example, but it is not necessary if you will be using BINLISTER in a later step to define your bins.  
 
 3. Define this information for a single trial block from our example experiment. Enter the following information into the **Event Info** area (upper left corner) of the **Create Advanced EventList** window:  
+   <table>
+   <tbody>
+   <tr>
+   <td>Event Code:</td>
+   <td><strong>22 </strong></td>
+   </tr>
+   <tr>
+   <td>Event Label:</td>
+   <td><strong>Frequent_Digit</strong></td>
+   </tr>
+   <tr>
+   <td>Bin number:</td>
+   <td><strong>1</strong></td>
+   </tr>
+   <tr>
+   <td>Bin description:</td>
+   <td><strong>Frequent Category (digit)</strong></td>
+   </tr>
+   </tbody>
+   </table>
+   Then click the **Update Line** button to add the event information to the **Currently edited eventcodes list** (left pane). For each event, the **Event Info** area defines the event codes, event labels, bin numbers, and bin descriptions for each event. In our experiment, letters were rare (event code 12) and numbers were frequent (event code 22).  
 
-    <table>
-<tbody>
-<tr>
-<td>Event Code:</td>
-<td><strong>22 </strong></td>
-</tr>
-<tr>
-<td>Event Label:</td>
-<td><strong>Frequent_Digit</strong></td>
-</tr>
-<tr>
-<td>Bin number:</td>
-<td><strong>1</strong></td>
-</tr>
-<tr>
-<td>Bin description:</td>
-<td><strong>Frequent Category (digit)</strong></td>
-</tr>
-</tbody>
-</table>
+4. Next, define the _rare letter event_. Click on the **new line** entry in the **Currently edited eventcodes** pane. Enter the following information for the _rare letter event_
+   <table>
+   <tbody>
+   <tr>
+   <td>Event Code:</td>
+   <td><strong>12 </strong></td>
+   </tr>
+   <tr>
+   <td>Event Label:</td>
+   <td><strong>Rare_Letter</strong></td>
+   </tr>
+   <tr>
+   <td>Bin number:</td>
+   <td><strong>2</strong></td>
+   </tr>
+   <tr>
+   <td>Bin description:</td>
+   <td><strong>Rare Category (letters)</strong></td>
+   </tr>
+   </tbody>
+   </table>
+   Don't forget to click **Update Line** after entering the information for each type of event or the information will not be added to the table.   
 
-    Then click the **Update Line** button to add the event information to the **Currently edited eventcodes list** (left pane). For each event, the **Event Info** area defines the event codes, event labels, bin numbers, and bin descriptions for each event. In our experiment, letters were rare (event code 12) and numbers were frequent (event code 22).  
+   Note: Your bin numbers must start at 1 and be consecutive with no breaks (the event codes need not be consecutive, and they can be any integer number that Matlab can represent).  
 
-4. Next, define the _rare letter event_. Click on the **new line** entry in the **Currently edited eventcodes** pane. Enter the following information for the _rare letter event_  
+   It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.
 
-    <table>
-<tbody>
-<tr>
-<td>Event Code:</td>
-<td><strong>12 </strong></td>
-</tr>
-<tr>
-<td>Event Label:</td>
-<td><strong>Rare_Letter</strong></td>
-</tr>
-<tr>
-<td>Bin number:</td>
-<td><strong>2</strong></td>
-</tr>
-<tr>
-<td>Bin description:</td>
-<td><strong>Rare Category (letters)</strong></td>
-</tr>
-</tbody>
-</table>
-
-    Don't forget to click **Update Line** after entering the information for each type of event or the information will not be added to the table.   
-
-    Note: Your bin numbers must start at 1 and be consecutive with no breaks (the event codes need not be consecutive, and they can be any integer number that Matlab can represent).  
-
-    It will still be useful to define labels for the response codes so that we will not have to remember that code 9 denotes a correct response and code 8 denotes an incorrect response. The table below shows how to define these events.
-
-    <table>
-<tbody>
-<tr>
-<td>Event Code:</td>
-<td><strong>9</strong></td>
-<td></td>
-<td>Event Code:</td>
-<td><strong>8</strong></td>
-</tr>
-<tr>
-<td>Event Label:</td>
-<td><strong>Corr_Resp</strong></td>
-<td></td>
-<td>Event Label:</td>
-<td><strong>Err_Resp</strong></td>
-</tr>
-<tr>
-<td>Bin number:</td>
-<td>(blank)</td>
-<td></td>
-<td>Bin number:</td>
-<td>(blank)</td>
-</tr>
-<tr>
-<td>Bin description:</td>
-<td>(blank)</td>
-<td></td>
-<td>Bin description:</td>
-<td>(blank)</td>
-</tr>
-</tbody>
-</table>
+   <table>
+   <tbody>
+   <tr>
+   <td>Event Code:</td>
+   <td><strong>9</strong></td>
+   <td></td>
+   <td>Event Code:</td>
+   <td><strong>8</strong></td>
+   </tr>
+   <tr>
+   <td>Event Label:</td>
+   <td><strong>Corr_Resp</strong></td>
+   <td></td>
+   <td>Event Label:</td>
+   <td><strong>Err_Resp</strong></td>
+   </tr>
+   <tr>
+   <td>Bin number:</td>
+   <td>(blank)</td>
+   <td></td>
+   <td>Bin number:</td>
+   <td>(blank)</td>
+   </tr>
+   <tr>
+   <td>Bin description:</td>
+   <td>(blank)</td>
+   <td></td>
+   <td>Bin description:</td>
+   <td>(blank)</td>
+   </tr>
+   </tbody>
+   </table>
 
 5. Save the event code **equation list** in the **Equation List** pane (bottom-left), click on the **Save list** button  
 
@@ -150,6 +146,7 @@ The **ADVANCED** button allows you to define a text label for each numeric event
 7. Transfer EventList to the EEG.event variableCheck the box labelled **Transfer EVENTLIST info to EEG.event**  
 
     EEGLAB keeps track of event information in the **EEG.event** structure, but EEGLAB doesn't automatically "know" anything about ERPLAB's EventList. Moreover, the **EEG.event** structure can store either a numeric event code or a text-based event label for a given event, but not both. By checking this box, you will have the opportunity to transfer your newly created labels into **EEG.event** so that they will be available for use by EEGLAB functions (such as the function for plotting the EEG data).  
+
 8. Apply the EventListClick the **APPLY** button to create the EventList and add it to the current ERP dataset.  
 
     The information about event mapping must be stored in a file. Therefore, if you have made any changes in this information, the following window will appear:
@@ -166,6 +163,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
 
     Equivalent Script Command:
 
+    ```
     % The first step is to create a file named elist_equations.txt with the following contents:
     %   22 "Frequent_Digit"     1     "Frequent Category (Digit)"
     %   12 "Rare_Letter"        2     "Rare Category (Letter)"  
@@ -179,7 +177,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
     EEG = pop_editeventlist(EEG,'elist_equations.txt', 'elist.txt', {'boundary'}, {-99});
     % Copy event labels into the EEG structure
     EEG = pop_overwritevent( EEG, 'codelabel');
-
+    ```
 9. Specify a name and save your new datasetCheck the **Save it as file** box  
     Click the **Browse** button and select a save directory  
     Specify the filename **S1_Chan_elist** and click the **Save** button  
@@ -196,6 +194,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
 
     Equivalent Script Command:
 
+    ```
     % Saving after Eventlist
     % Setname is S1_Chan_elist
     % Filename is S1_Chan_elist.set
@@ -207,7 +206,7 @@ Because we have checked the **Transfer EVENTLIST info to EEG.event** box), the f
     % The following command uses Matlab's Current Folder
     EEG.setname='S1_Chan_elist';
     EEG=pop_saveset(EEG, 'filename', 'S1_Chan_elist.set');  
-
+    ```
 ### Verify your event codes  
 
 1. You will now be able to see that the previous event code numbers have now been replaced by their event labelsIn EEGLAB, select **Plot > Channel data (scroll)** and scroll ahead to the period starting at 10 seconds (hit the >> button twice)  
