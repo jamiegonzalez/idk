@@ -13,7 +13,7 @@ An important element of most scripts—especially ones that take a long time to 
 
 Here's what the script looks like:  
 
- 
+```Matlab
     % Clear memory and the command window
     clear;
     clc;
@@ -184,12 +184,11 @@ Here's what the script looks like:
             % Save the processed EEG to disk because the next step will be averaging
             fprintf('\n\n\n**** %s: Artifact detection (moving window peak-to-peak and step function) ****\n\n\n', subject_list{s});              
 
-            %% Artifact detection
+            % Artifact detection - Rd. 1
             %  Moving window. Test window = [-200
             % 798]; Threshold = 100 uV; Window width = 200 ms;
             % Window step = 50 ms; Channels = 1 to 17; Flags to be activated = 1 & 4
             %
-
             EEG = pop_artmwppth( EEG , ...
                                 'Channel'     ,  1:17      , ...
                                 'Flag'        , [ 1 4]     , ...
@@ -198,12 +197,11 @@ Here's what the script looks like:
                                 'Windowsize'  ,  200       , ...
                                 'Windowstep'  ,  50        );
 
-            %% Artifact detection
+            %% Artifact detection - Rd. 2
             % Step-like artifacts in the bipolar
             % VEOG channel (channel 14, created earlier with Channel Operations)
             % Threshold = 30 uV; Window width = 400 ms;
             % Window step = 10 ms; Flags to be activated = 1 & 3
-
             EEG = pop_artstep( EEG , ...
                                'Channel'   ,  14        , 
                                'Flag'      , [ 1 3]     , ...
@@ -222,11 +220,9 @@ Here's what the script looks like:
             artifact_proportion = getardetection(EEG);
             fprintf('%s: Percentage of rejected trials was %1.2f\n', subject_list{s}, artifact_proportion);
 
- 
-
        
 
-            %% Averaging
+            %% Average
             % Only good trials.  Include standard deviation.  Save to disk.
             %
             fprintf('\n\n\n**** %s: Averaging ****\n\n\n', subject_list{s});              
@@ -241,9 +237,7 @@ Here's what the script looks like:
 
  
 
- 
-
-            %% Filtering ERP
+            %% Filter ERP
             % Channels = 1 to 17; No high-pass;
             % Lowpass cutoff at 30 Hz; Order of the filter = 2.
             % Type of filter = "Butterworth"; Do not remove DC offset
@@ -269,6 +263,8 @@ Here's what the script looks like:
             fname = [subject_list{s} '_ERPs.erp'];  % Re-create filename for unfiltered ERP
             ERP   = pop_loaderp( 'filename', fname, 'filepath', data_path );   % Load the file  
 
+
+            %% Difference Wave
             % Now make the difference wave, directly specifying the
             % equation that modifies the existing ERPset
 
@@ -326,7 +322,11 @@ Here's what the script looks like:
     CURRENTERP         = CURRENTERP + 1;
     ALLERP(CURRENTERP) = ERP;
 
-    ERP                = pop_filterp( ERP,1:17 , 'Cutoff',30, 'Design', 'butter', 'Filter', 'lowpass', 'Order',2 );
+    ERP                = pop_filterp( ERP, 1:17 , ...
+                                     'Cutoff' , 30       , ...
+                                     'Design' , 'butter' , ...
+                                     'Filter' , 'lowpass', ...
+                                     'Order'  , 2        );
     ERP.erpname        = [ERP.erpname '_30Hz'];  % name for erpset menu
     ERP                = pop_savemyerp(ERP, 'filename', [ERP.erpname '.erp'], 'filepath', home_path, 'warning', 'off');
     CURRENTERP         = CURRENTERP + 1;
@@ -346,7 +346,7 @@ Here's what the script looks like:
 
  
     fprintf('\n\n\n**** FINISHED ****\n\n\n');  
-
+```
 
 ----
 <table style="width:100%">
