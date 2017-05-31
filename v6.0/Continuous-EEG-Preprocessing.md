@@ -44,7 +44,7 @@ The `Shift Event Codes` function moves the timing of user-specified event codes 
     ```Matlab
     eventcodes = {'22', '19'};
     timeshift  = 0.015;
-    rounding   = 'floor';
+    rounding   = 'earlier';
     outputEEG  = erplab_shiftEventCodes(inputEEG, eventcodes, timeshift, rounding);
     ```     
 
