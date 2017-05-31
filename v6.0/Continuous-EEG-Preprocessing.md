@@ -35,7 +35,7 @@ The `Shift Event Codes` function moves the timing of user-specified event codes 
   - **Rounding**: Type of rounding to use
     - 'earlier'    (default) Round to the earlier timestamp          
     - 'later'      Round to later timestamp
-    - 'later'      Round to nearest nearest
+    - 'nearest'    Round to nearest nearest
   - **Display EEG**        - true/false  - Display a plot of the EEG when finished
 
 - Related POP-function: `pop_erplabShiftEventCodes`
