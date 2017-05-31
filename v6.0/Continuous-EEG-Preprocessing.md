@@ -33,9 +33,9 @@ The `Shift Event Codes` function moves the timing of user-specified event codes 
     - If timeshift is negative, the event code time-values are shifted to the left (e.g decreasing delay).
     - If timeshift is 0, the EEG's time values are not shifted.
   - **Rounding**: Type of rounding to use
-    - 'nearest'    (default) Round to the nearest integer          
-    - 'floor'      Round to nearest ingtowards positive infinity
-    - 'ceiling'    Round to nearest integer towards negative infinity
+    - 'earlier'    (default) Round to the earlier timestamp          
+    - 'later'      Round to later timestamp
+    - 'later'      Round to nearest nearest
   - **Display EEG**        - true/false  - Display a plot of the EEG when finished
 
 - Related POP-function: `pop_erplabShiftEventCodes`
