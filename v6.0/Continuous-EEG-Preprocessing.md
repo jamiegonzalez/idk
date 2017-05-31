@@ -9,7 +9,7 @@ The function `Delete Time Segments` deletes segments of continuous EEG data betw
 
 - Located in `ERPLAB > Preprocess Continuous EEG Data > Delete Time Segments`
 - Input
-  - **Min Time Threshold**: Minimum length of time between consecutive event codes to delete data
+  - **Time Threshold**: Minimum length of time between consecutive event codes to delete data
   - **Start Event Code Buffer**: Length of time around the first event code to save
   - **End Event Code Buffer**: Length of time around the end event code to save
 - Optional Input
