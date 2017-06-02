@@ -13,7 +13,8 @@ The function `Delete Time Segments` deletes segments of continuous EEG data betw
   - **Start Event Code Buffer**: (msec) Length of time around the first event code to save
   - **End Event Code Buffer**: (msec) Length of time around the end event code to save
 - Optional Input
-  - **Ignore event codes**: Numeric event code numbers to ignore
+  - **Ignore/Use event codes**: Numeric event code numbers to either ignore or use
+  - **Ignore/Use type**: Whether to ignore the event codes or to use the event codes
   - **Display EEG**: Plot the EEG data with the to-be deleted data marked 
 - Related Pop Function: `pop_erplabDeleteTimeSegments`
   - `EEG = erplab_deleteTimeSegments(EEG, inputMaxDistanceMS, inputStartPeriodBufferMS, inputEndPeriodBufferMS, ignoreEventCodes);`
