@@ -4,7 +4,7 @@ Subscribing to the Mailing ListSubscribe to the ERPLab email list by sending an 
 Once you are subscribed, you will receive all emails sent to the list, and you will be able to send emails to the list.  (You cannot send emails to the list unless you are a member.)
 
 # Mailing List Web Archive
-To access ERPLAB mailing list web archive, you must subscribe to the mailing list and then set up a password at lists.ucdavis.edu.
+To access ERPLAB mailing list web archive, you must subscribe to the mailing list and then set up a password at [https://lists.ucdavis.edu/sympa/arc/erplab](https://lists.ucdavis.edu/sympa/arc/erplab).
 1. Click on Other Users Click Here
 1. Click on the link First login?
 1. Submit your email address and click on Request first password
