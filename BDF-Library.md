@@ -19,12 +19,13 @@ Colon operator|	: or -|	.{10:20} or .{10-20}
  Flag operator-Test artifact flag| 	 :fa<_binary #_>|	.{11:fa<00000001>}
  Flag operator-Write user flag|	 :wb<_binary #_>|	 .{11:wb<10000000>}
  Flag operator-Test user flag|	 :fb<_binary #_>|	.{11:wb<10000000>}
+Check for any flag, returning only flag-free| :f<0> | .{11:f<0>}
 
 ----
 See also:
 * [Manual: Binlister](./Assigning-Events-to-Bins-with-BINLISTER)
 * [Tutorial: Binlister](./Assigning-Events-to-Bins-with-BINLISTER:-Tutorial)
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
 ## Tutorial: Binlister Demo 1
@@ -44,7 +45,7 @@ See also:
 - [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
 - [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
 - [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 ## Tutorial: Binlister Demo 2
 ```
@@ -63,7 +64,7 @@ See also:
 - [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
 - [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
 - [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 ## Tutorial: Binlister Demo 3
 ```
@@ -82,7 +83,7 @@ See also:
 - [Tutorial: Binlister Demo 2](#tutorial-binlister-demo-2)
 - [Tutorial: Binlister Demo 3](#tutorial-binlister-demo-3)
 - [Tutorial: Binlister Demo 4](#tutorial-binlister-demo-4)
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 ## Tutorial: Binlister Demo 4
 ```
