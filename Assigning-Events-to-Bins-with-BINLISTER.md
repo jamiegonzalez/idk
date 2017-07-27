@@ -9,7 +9,7 @@ The general approach used by BINLISTER is as follows.  Using the Matlab text edi
 _Note: BINLISTER is reasonably powerful and flexible, but it was designed with certain types of experiments in mind and it may not be very good for other types of experiments.  When this happens, we encourage ERPLAB users to write their own programs for assigning events to bins.  This should be relatively easy, because all of the relevant information is easily available in the **EVENTLIST** structure.  If you write a program of this nature that you think will be useful to others, please send it to us and we will incorporate it into future ERPLAB releases._
 
 ## Bin Descriptor 'Cheat Sheet' and Examples
-http://erpinfo.org/erplab/erplab-documentation/bdf-library/bdf_library
+https://github.com/lucklab/erplab/wiki/BDF-Library
 
 ## Creating a Bin Descriptor File (BDF)
 A bin descriptor file (BDF) can be created in any text editor, but we strongly recommend that you use Matlab's built-in text editor; other text editors may insert hidden characters that will cause problems. We recommend using a **.txt** file extension.
