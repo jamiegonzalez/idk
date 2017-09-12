@@ -6,5 +6,5 @@
 * [**Videos**](./Videos)
 * [**Scripting Guide**](./Scripting-Guide)
 * [**BDF Library**](./BDF-Library)
-* [**Data Files** (click to download)](https://dl.dropboxusercontent.com/u/3711923/Test_Data.zip)
+* [**Data Files** (click to download)](https://ucdavis.box.com/shared/static/v6yxnx9gsv1od9zmz12epndo9nnqx9n8.zip)
 * [**Subscribe to the ERPLAB email list**](https://github.com/lucklab/erplab/wiki/ERPLAB-email-list)
