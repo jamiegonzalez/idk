@@ -18,7 +18,7 @@ With these requirements met, the CSD can be loaded from the ERPLAB menu. If you 
 
 Please inspect the sketch of electrode locations and check that this agrees with the actual electrode positioning. This is a 2D sketch of the head as seen from above, with the nose at the top. For more details about the parameter values, look in the [CSD Toolbox](http://psychophysiology.cpmc.columbia.edu/Software/CSDtoolbox/).
 
-With CSD data generated, data can be examined using most ERPLAB tools as if it were ERP data. For example, the ERPLAB Measurement Tool and ERP Viewer can be used to visualize CSD ERPs across locations and bins. Note that the range of values is quite different to that of EEG/ERP values, and the auto-fit might not work for CSD data. You can still manually adjust the scale to see the CSD data.
+With CSD data generated, data can be examined using most ERPLAB tools as if it were ERP data. For example, the ERPLAB Measurement Tool and ERP Viewer can be used to visualize CSD ERPs across locations and bins. Note that the range of values is quite different to that of EEG/ERP values, and the auto-fit might not work for CSD data. You can still manually adjust the 'Time Range' and 'Y Range' in the upper-right of the window to see the CSD data.
 ![GUI](./images/Manual/Manual_CSD_measure.png)
  
 Also, CSD can be visualized in ERPLAB scalp maps. This can be done in 2D or 3D. For example, with **ERPLAB -> Plot ERP -> Plot scalp maps** set up as this:
