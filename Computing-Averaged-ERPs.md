@@ -9,8 +9,10 @@ To compute averaged ERPs, you must first load one or more epoched datasets in EE
 
 _Important note: Although ERPLAB keeps track of artifacts using the artifact flags in the **EEG.EVENTLIST** structure, EEGLAB instead uses the **EEG.reject** structure.  When ERPLAB detects an artifact, it updates both **EEG.EVENTLIST** and **EEG.reject**.  When EEGLAB's artifact detection routines are used, only **EEG.reject** is updated.  Consequently, ERPLAB checks to make sure that **EEG.EVENTLIST** and **EEG.reject** have the same artifact marks, producing a warning message if they differ.  If they differ, you can synchronize the information in **EEG.EVENTLIST** and **EEG.reject** with the **ERPLAB > Artifact Detection > Synchronize Artifact Info in EEG and EVENTLIST** command._
 
-You can also choose to compute the standard error of the mean (across all epochs, separately for each time point in each bin) along with the average. Note that the standard error is removed by certain other processing steps (e.g., filtering, bin operations, averaging across ERPsets) because these steps render the previous standard error meaningless.
+### Compute standard error of the mean
+You can also choose to compute the standard error of the mean (across all epochs, separately for each time point in each bin) along with the average. This standard error data will be saved in the ERP.binerror matrix, and so be saved with your ERPset. This can later be plotted with your ERP. Note that the standard error is removed by certain other processing steps (e.g., filtering, bin operations, averaging across ERPsets) because these steps render the previous standard error meaningless.
 
+### Saving the new averaged ERP
 When the averaged ERPs have been computed, a window will appear allowing you to name and save the ERPset containing the new **ERP** structure (see screenshot below).  This same window appears whenever you create a new ERPset.  Here's how it works:
 
 - You can choose to either overwrite the current ERPset or create a new ERPset.  ERPsets don't usually take up much RAM, so you will almost always want to create a new ERPset.
