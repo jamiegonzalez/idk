@@ -1,5 +1,5 @@
 
-ERPLAB -> Plot ERP -> Channel location information
+**ERPLAB -> Plot ERP -> Channel location information**
 
 In order to keep track of where each electrode in your dataset is on the head, channel location information is saved in the ERP.chanlocs structure.
 
