@@ -1,3 +1,33 @@
+## Questions
+
+### [Installation Section](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#installation)
+* [I’ve just installed the latest release of ERPLAB, and only some of the functions work. Other functions do not seem to work at all. What is going on?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#ive-just-installed-the-latest-release-of-erplab-and-only-some-of-the-functions-work--other-functions-do-not-seem-to-work-at-all--what-is-going-on)
+* [I have installed EEGLAB successfully, but ERPLAB does not show up in the EEGLAB window. What is going on?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#i-have-installed-eeglab-successfully-but-erplab-does-not-show-up-in-the-eeglab-window--what-is-going-on)
+* [I’ve just installed the latest release of EEGLAB, and I get warning messages anytime I try to do anything in EEGLAB or ERPLAB. What is going on?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#ive-just-installed-the-latest-release-of-eeglab-and-i-get-warning-messages-anytime-i-try-to-do-anything-in-eeglab-or-erplab--what-is-going-on)
+
+
+### [General Problems](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#general-weird-problems)
+
+* [Things that worked before aren't working now. Or most things work, but a few things generate error messages. How can I fix this?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#things-that-worked-before-arent-working-now--or-most-things-work-but-a-few-things-generate-error-messages--how-can-i-fix-this)
+* [How do I replace a bad channel with interpolated data?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#how-do-i-replace-a-bad-channel-with-interpolated-data)
+* [How do I make contra and ipsi waveforms (for N2pc, CDA, LRP, etc.)?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#how-do-i-make-contra-and-ipsi-waveforms-for-n2pc-cda-lrp-etc)
+
+* [Problems with missing events (especially in Brain Products or EGI systems)](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#problems-with-missing-events-especially-in-brain-products-or-egi-systems)
+
+* [ERPLAB does not seem to recognize my event markers. For example, when I run BINLISTER, it can't find any events that match my bin descriptors.](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#erplab-does-not-seem-to-recognize-my-event-markers--for-example-when-i-run-binlister-it-cant-find-any-events-that-match-my-bin-descriptors)
+
+### [Speed](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#speed)
+
+* [Some operations are very slow. How can I make ERPLAB run faster?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#some-operations-are-very-slow--how-can-i-make-erplab-run-faster)
+[I would like to create a single plot that overlays the waveforms from different files (or make a difference wave across ERPsets). How do I do this?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#i-would-like-to-create-a-single-plot-that-overlays-the-waveforms-from-different-files-or-make-a-difference-wave-across-erpsets--how-do-i-do-this)
+
+* [I have just imported my data, and I tried looking at it with EEGLAB's plot scrolling data function, and I cannot see any (or some) of my channels. What is wrong?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#i-have-just-imported-my-data-and-i-tried-looking-at-it-with-eeglabs-plot-scrolling-data-function-and-i-cannot-see-any-or-some-of-my-channels--what-is-wrong)
+
+### [Importing Epochs](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#importing-epoched-data)
+* [I have already epoched my data in EEGLAB. Is it possible to add an EventList to a dataset that was epoched using EEGLAB?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#i-have-already-epoched-my-data-in-eeglab--is-it-possible-to-add-an-eventlist-to-a-dataset-that-was-epoched-using-eeglab)
+* [I want to use BINLISTER on data that have already been epoched (in EEGLAB or ERPLAB). Is there any way to do this?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#i-want-to-use-binlister-on-data-that-have-already-been-epoched-in-eeglab-or-erplab--is-there-any-way-to-do-this)
+
+
 ## Installation
 #### I’ve just installed the latest release of ERPLAB, and only some of the functions work.  Other functions do not seem to work at all.  What is going on?
 
