@@ -51,10 +51,10 @@ Matlab is very fast for some kinds of operations and very slow for others.  BINL
 
 If everything seems slow (especially loading files), you may have insufficient memory.   We recommend at least 8 GB of RAM. Note, however, that your computer will not be able to take advantage of more than 4 GB of RAM unless you have a 64-bit version of Matlab installed (along with a 64-bit operating system).
 
-## Plotting ERPs
-#### I would like to create a single plot that overlays the waveforms from different files.  How do I do this?
+## Plotting or combining ERPs that are in different ERPsets
+#### I would like to create a single plot that overlays the waveforms from different files (or make a difference wave across ERPsets).  How do I do this?
 
-In the current version of ERPLAB, it is not possible to directly plot waveforms from different ERPsets in the same plot. To accomplish this, you can append one ERPset onto the end of another ERPset with `ERPLAB > Append ERPsets`.  This will create a new ERPset that has twice as many bins (all the bins from the first ERPset followed by all the bins from the second ERPset).  You can then overlay the bins corresponding to the original first and second ERPsets.  (We will create an easier method for this in a future version of ERPLAB.)
+In the current version of ERPLAB, it is not possible to directly plot waveforms from different ERPsets in the same plot or combine data across bins that are in different ERPsets. To accomplish this, you can append one ERPset onto the end of another ERPset with `ERPLAB > Append ERPsets`.  This will create a new ERPset that has twice as many bins (all the bins from the first ERPset followed by all the bins from the second ERPset).  You can then overlay the bins corresponding to the original first and second ERPsets or perform ERP Bin Operations.  (We will create an easier method for this in a future version of ERPLAB.)
 
 ## Plotting EEG
 #### I have just imported my data, and I tried looking at it with EEGLAB's plot scrolling data function, and I cannot see any (or some) of my channels.  What is wrong?
