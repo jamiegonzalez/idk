@@ -106,7 +106,7 @@ The equations in the left panel of the window will create a new ERPset, in which
 
 **nb3 = b2 label Rare** — This means that new bin 1 (nb1) in the new ERPset will be equal to the original bin 2 (b2) in the current ERPset)
 
-**nb4 = sqrt((b1*b1) + (b2*b2)) label Vector length** — This means that new bin 4 (nb4) is the Pythagorean distance between the original bins 1 and 2 (rare and frequent)
+**nb4 = sqrt((b1\*b1) + (b2\*b2)) label Vector length** — This means that new bin 4 (nb4) is the Pythagorean distance between the original bins 1 and 2 (rare and frequent)
 
 ![GUI](./images/Tutorial/Tutorial_Combining-ERP-Waveforms-with-Bin-Operations_4.png)
 
