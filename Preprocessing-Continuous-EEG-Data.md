@@ -34,7 +34,7 @@ The `Shift Event Codes` function moves the timing of user-specified event codes 
 - Location: `ERPLAB > Preprocess Continuous EEG Data > Shift Event Codes`
 - Input:
   - **Event codes**: list of event codes to shift
-  - **Timeshift**: Amount of time to move the event code either forwards/backwards in time
+  - **Timeshift**: Amount of time, in milliseconds, to move the event code either forwards/backwards in time
     - If timeshift is positive, the EEG event code time-values are shifted to the right (e.g. increasing delay).   
     - If timeshift is negative, the event code time-values are shifted to the left (e.g decreasing delay).
     - If timeshift is 0, the EEG's time values are not shifted.
@@ -50,7 +50,7 @@ The `Shift Event Codes` function moves the timing of user-specified event codes 
   - Example:
     ```Matlab
     eventcodes = {'22', '19'};
-    timeshift  = 0.015;
+    timeshift  = 15;
     rounding   = 'floor';
     outputEEG  = erplab_shiftEventCodes(inputEEG, eventcodes, timeshift, rounding);
     ```     
