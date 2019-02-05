@@ -31,13 +31,20 @@ This will compute the fourier transform, and write the output to text file calle
 ### Use case 3: Single channel, downsampled FFT
 
 ```
+% chan 3, no smoothing
 chan_here = 3;
+[fft3, freq_labels3, n_freq_bin3, freq_bin_width3] = compute_fourier(EEG,chan_here);
+
+% chan 3, smoothing of 2
 smooth_factor = 2;
-[fft3, freq_labels] = compute_fourier(EEG,chan_here,smooth_factor);
+[fft4, freq_labels4, n_freq_bin4, freq_bin_width4] = compute_fourier(EEG,chan_here, smooth_factor);
+
+before_smooth = [n_freq_bin3, freq_bin_width3]
+after_smooth2 = [n_freq_bin4, freq_bin_width4]
 ```
 
 Result:
-This will run the FFT on only channel 3 of the given EEG dataset. Additionally, the 'smooth_factor' is used to downsample the FFT, so that x/2 points are returned. Thus, the output is half as long. The elements are averaged together, so there are half as many frequency bins, each with twice the width.
+This will run the FFT on only channel 3 of the given EEG dataset. Additionally, the 'smooth_factor' is used to downsample the FFT, so that x/2 points are returned. Thus, the output is half as long. The elements are averaged together, so there are half as many frequency bins, each with twice the width. Here, the additional optional output arguments of 'compute_fourier' are shown. The 3rd output argument, n_freq_bin, will return the number of frequency bins, and the 4th output argument is the width of each of these frequency bins.
 
 ## See also:
 ```
