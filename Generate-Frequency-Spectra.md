@@ -37,7 +37,7 @@ smooth_factor = 2;
 Result:
 This will run the FFT on only channel 3 of the given EEG dataset. Additionally, the 'smooth_factor' is used to downsample the FFT, so that x/2 points are returned. Thus, the output is half as long. The elements are averaged together, so there are half as many frequency bins, each with twice the width.
 
-See also:
+## See also:
 ```
 help compute_fourier
 help plot_fourier
