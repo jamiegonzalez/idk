@@ -14,7 +14,7 @@ Action:
 Result:
 This will compute the Fourier Transform of data in the loaded EEG dataset, and output the frequency amplitudes in 'fft1'. The label vector, 'freq_labels', gives the identity of each element. The function 'plot_fourier' takes in 'fft1' and 'freq_labels'. The plot will be constrained between 3 Hz and 61 Hz.
 
-![FFT](./images/Manual/Manual_CSD_measure.png)
+![FFT](./images/other/simple_fft.png)
 
 
 ### Use case 2: Save FFT to text file
