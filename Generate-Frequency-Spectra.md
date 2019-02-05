@@ -8,11 +8,11 @@ You want to quickly look at frequency spectra to visually inspect that there's n
 Action:
 ```
     [fft1, freq_labels] = compute_fourier(EEG);
-    plot_fourier(fft1, freq_labels, 3, 61)
+    plot_fourier(fft1, freq_labels, 2, 125)
 ```
 
 Result:
-This will compute the Fourier Transform of data in the loaded EEG dataset, and output the frequency amplitudes in 'fft1'. The label vector, 'freq_labels', gives the identity of each element. The function 'plot_fourier' takes in 'fft1' and 'freq_labels'. The plot will be constrained between 3 Hz and 61 Hz.
+This will compute the Fourier Transform of data in the loaded EEG dataset, and output the frequency amplitudes in 'fft1'. The label vector, 'freq_labels', gives the identity of each element. The function 'plot_fourier' takes in 'fft1' and 'freq_labels'. The plot will be constrained between 2 Hz and 125 Hz.
 
 ![FFT](./images/other/simple_fft.png)
 
