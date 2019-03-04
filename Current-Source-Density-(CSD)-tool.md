@@ -7,6 +7,8 @@ EEG or ERP data can be used to compute an estimate of the Current Source Density
 
 These tools can be found in the 'ERPLAB -> Datatype Transformations -> ' menu. A new dataset is generated, with CSD data in the place of EEG/ERP data. This is indicated within the data structure in the field EEG.datatype or ERP.datatype, which will be set to 'CSD'.
 
+This "Datatype Transform -> CSD" is for, for instance, when you wish to examine or do stats on the CSD data, or want to plot the CSD data in an ERP-like plot. Once the CSD transform has been applied to the dataset, that ERPset no longer contains voltage in ERP.data, and, instead, has the CSD data in that place.
+
 #### Requirements
 - ERPLAB v6.0 or higher.
 - A loaded EEGset or ERPset.
