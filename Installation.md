@@ -28,7 +28,7 @@ In the EEGLAB Plugin Manger, select **ERPLAB** and hit **install/update**
 
 
 
-## Install Method 2 - EEGLAB Plugin Manager
+## Install Method 2 - Manually place the ERPLAB folder in EEGLAB/plugins
 
 First, run Matlab, and confirm that EEGLAB is in the Matlab path.
 The command
