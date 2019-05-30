@@ -1,5 +1,6 @@
 ## [ERPLAB Documentation](.)
 * [**Download latest ERPLAB release (v7.0.0)**](https://github.com/lucklab/erplab/releases)
+* [**Installation Instructions**](https://github.com/lucklab/erplab/wiki/Installation)
 * [**Frequently Asked Questions - FAQ**](./Troubleshooting-and-Frequently-Asked-Questions)
 * [**Manual**](./Manual)
 * [**Tutorial**](./Tutorial)
