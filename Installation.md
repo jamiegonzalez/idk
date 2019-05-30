@@ -38,7 +38,7 @@ If this path is empty, run `addpath('C:\your_eeglab_path_here')`
 
 In your file manager, navigate to that EEGLAB path.
 
-Unzip the ERPLAB folder ([download here](https://github.com/lucklab/erplab/releases)) to this location.
+Unzip the ERPLAB folder ([download here](https://github.com/lucklab/erplab/releases)) to the /eeglab/plugins folder.
 
 Ensure that the path is formatted correctly, such that something like C:\your_path_here\EEGLAB\plugins\erplabX.X\eegplugin_erplab.m exists.
 
