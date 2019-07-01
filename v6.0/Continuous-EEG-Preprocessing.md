@@ -7,7 +7,7 @@ Note that the deletion of sections of the EEG also leads to deletion of the even
 
 The function `Delete Time Segments` deletes segments of continuous EEG data between event codes if the length of the segment is greater than a user-specified length of time
 
-- Located in `ERPLAB > Preprocess Continuous EEG Data > Delete Time Segments`
+- Located in `ERPLAB > Preprocess EEG > Delete Time Segments`
 - Input
   - **Time Threshold**: (msec) User specified length of time between consecutive event codes to delete data (while preserving eventcode buffer at start and end)
   - **Start Event Code Buffer**: (msec) Length of time around the first event code to save
@@ -26,7 +26,7 @@ The function `Delete Time Segments` deletes segments of continuous EEG data betw
 
 The `Shift Event Codes` function moves the timing of user-specified event codes either forward or backwards in time. This is mainly used to counter the delay between stimulus presentation on a monitor and the onset of the subsequent stimulus event code. 
  
-- Location: `ERPLAB > Preprocess Continuous EEG Data > Shift Event Codes`
+- Location: `ERPLAB > Preprocess EEG > Shift Event Codes`
 - Input:
   - **Event codes**: list of event codes to shift
   - **Timeshift**: Amount of time to move the event code either forwards/backwards in time
