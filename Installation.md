@@ -10,7 +10,7 @@ There are two ways to install ERPLAB.
 1. Use the EEGLAB Plugin Manager
 2. Manually place the ERPLAB folder in EEGLAB/plugins
 
-## Install Method 1 - EEGLAB Plugin Manager
+## Install Method 1 - EEGLAB Plugin Manager (Matlab R2018a and after)
 
 From EEGLAB v2019.0, the EEGLAB Plugin Manager includes ERPLAB.
 
