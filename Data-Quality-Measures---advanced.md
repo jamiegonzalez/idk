@@ -5,5 +5,10 @@ By default, the ERP Averager produced an ERP dataset with 3 dataquality measures
 
 ![ERPdq_struct](https://user-images.githubusercontent.com/5137405/77694613-8d3b2680-6f67-11ea-97e6-be2128aefa1e.png)
 
-They have the fields of **type**(string), **times** (tw x 2 array, start times, end times, where tw is the number of time windows), **data**(electrodes x tw x bin), time_window_labels (optional cell array of strings, length of tw), and comments (optional string).
+They have the fields of 
+*  **type** (string)
+* **times** (tw x 2 array, start times, end times, where tw is the number of time windows)
+* **data** (electrodes x tw x bin)
+* time_window_labels (optional cell array of strings, length of tw), and 
+* comments (optional string).
 
