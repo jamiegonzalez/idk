@@ -19,7 +19,7 @@ To access the name of the 3rd data quality measure in the current ERP, enter:
 
 `ans = aSME`
 
-To access the aSME data quality at the 1st electrodes, 2nd time-window, and the 3rd bin:
+To access the aSME data quality at the 1st electrode, 2nd time-window, and the 3rd bin:
 
 `ERP.dataquality(3).data(1,2,3)`
 
