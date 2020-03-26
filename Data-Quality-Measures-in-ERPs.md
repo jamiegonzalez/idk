@@ -14,3 +14,4 @@ There are multiple options for seeing this data quality information. This can be
 
 ![DQ_Table_GUI](https://user-images.githubusercontent.com/5137405/77692310-a17d2480-6f63-11ea-9279-60ade4bf42c8.png)
 
+In the active ERP dataset, the data quality information is saved in the ERP.dataquality Matlab structure. For more information, see the [description here.](https://github.com/lucklab/erplab/wiki/Data-Quality-Measures---advanced) 
