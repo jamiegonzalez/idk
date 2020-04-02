@@ -8,7 +8,7 @@ At present, we directly support three classes of metrics of data quality:
 3. **SME** - The standardized measurement error (SME) for one or more amplitude or latency “scores”. A score would be something like “mean amplitude from 300-500 ms,” “peak latency from 200-800 ms,” or even “50% area latency from a difference wave.” The SME quantifies the standard error of measurement for that specific score. A given type of noise will impact some types of scores more than others. For example, high-frequency noise has much more impact on a peak amplitude score than on a mean amplitude score. The SME quantifies the noise that directly impacts whatever score you are actually using as the dependent variable in your final analyses.
 
 ### Standardized Measurement Error - Analytic SME (aSME) and Bootstrapped SME (bSME)
-If you are scoring the amplitude of an ERP component as the mean voltage during some time window (e.g., quantifying P3 amplitude as the mean voltage between 300 and 500 ms), the SME can be automatically calculated using a simple equation during averaging. We call this the analytic SME or aSME. By default, ERPLAB computes aSME at the point of ERP averaging, in. The time windows in which it is computed can be customized, and are 100 ms windows, centered around 0 ms, by default.
+If you are scoring the amplitude of an ERP component as the mean voltage during some time window (e.g., quantifying P3 amplitude as the mean voltage between 300 and 500 ms), the SME can be automatically calculated using [a simple equation during averaging](https://doi.org/10.31234/osf.io/jc3sd). We call this the analytic SME or aSME. By default, ERPLAB computes aSME at the point of ERP averaging, in. The time windows in which it is computed can be customized, and are 100 ms windows, centered around 0 ms, by default.
 
 For types of scores where analytic SME does not easily apply (like peak amplitude scores, or any score using latency measures), the process of bootstrapping can be used to compute the SME. In this case, we specify this as bootstrapped SME (bSME). This is not computed by default, but can be added via simple Matlab scripts.
 
@@ -26,3 +26,25 @@ Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardiz
 
 We encourage you to report the aggregated SME values in your publications (and please cite our paper when you do so!). If SME values become common in publications, this will make it possible for the field to determine what recording and analysis procedures lead to the highest data quality, which will allow everyone to improve the quality and reproducibility of their research.
 
+## Computing the data quality metrics
+### Computing data quality metrics for a single subject
+In many cases, these metrics of data quality will be automatically computed at the time of averaging (as described in the Data Quality section of the manual page for the [Averaging routine](https://github.com/lucklab/erplab/wiki/Computing-Averaged-ERPs). By default, the averaging routine will save the data quality values in the dataquality field of an ERPset (ERP.dataquality). 
+
+In other cases, you may write your own script that computes these metrics (especially for bSME), and then your script will save them to the dataquality field. The structure of this field will be described below. Example scripts and test data are available soon. You can also invent your own metrics of data quality and store them in the dataquality field.
+
+### Computing data quality metrics for a group of subjects in a Grand Average
+The data quality values can be aggregated across the individual participants in a group using the Grand Average tool. The simplest way to do this is just to average a given data quality value across participants. However, it is often better to aggregate the single-participant values using the root mean square (RMS) of the values. When the RMS is used instead of the average, the result is more directly related to the effect of noise on your effect sizes and statistical power. See our paper for details.
+When you use the Grand Average tool to aggregate across participants, the data quality values are simply stored in the ERP.dataquality field of the grand average ERPset. You can view and save them using the same methods used for the ERP.dataquality field of a single-participant ERPset.
+
+
+## Viewing and saving the data quality measures
+We provide several ways of accessing, viewing, and saving the resultant data quality measures.
+1. Summary information is presented in the Matlab Command Window on ERP Averaging. This shows the median, minimum, and maximum aSME values. This can be reproduced by running `dq_summary`, or selecting ERPLAB > Data Quality options > Summarize.
+![DQ_summary](https://user-images.githubusercontent.com/5137405/78289219-ab100a80-74d6-11ea-9cd8-b7549aece81c.png)
+
+2. You can access the Matlab data structure programmatically in ERP.dataquality. See [ERP.dataquality details here](https://github.com/lucklab/erplab/wiki/Data-Quality-Measures---advanced).
+
+3. **Data Quality Table** Using the menu options in ERPLAB > Data Quality options, you can see the values of the data quality measures. The properties of which ERP bin or data quality measure to view can be selected. This can also be accessed through the command DQ_Table_GUI(ERP).
+
+![DQ menu](https://user-images.githubusercontent.com/5137405/77691887-e8b6e580-6f62-11ea-9eb7-1ee73effe764.png)
+![DQ_Table](https://user-images.githubusercontent.com/5137405/78285997-9da65080-74d5-11ea-90d2-acebb02842c1.png)
