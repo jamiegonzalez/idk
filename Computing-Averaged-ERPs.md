@@ -12,19 +12,24 @@ _Important note: Although ERPLAB keeps track of artifacts using the artifact fla
 ## Data Quality measures
 During the averaging process, ERPLAB can compute several measures of data quality. This is done automatically by default (although you can disable it by selecting No Data Quality measures in the Data Quality Quantification section of the averaging window). For a big-picture overview of how ERPLAB computes and stores data quality measures, see the [overview of data quality](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics).
 
-### Compute standard error of the mean
-You can also choose to compute the standard error of the mean (across all epochs, separately for each time point in each bin) along with the average. This standard error data will be saved in the ERP.binerror matrix, and so be saved with your ERPset. This can later be plotted with your ERP. Note that the standard error is removed by certain other processing steps (e.g., filtering, bin operations, averaging across ERPsets) because these steps render the previous standard error meaningless.
 By default, ERPLAB will compute:
     • The standard error of the mean at each time point for each waveform.
+
     • The noise level of the baseline period (the standard error of the voltage during the period prior to time zero) for each waveform.
-    • The analytic standardized measurement error (SME) for each waveform using a set of default time windows. The SME quantifies the standard error of measurement for the mean voltage during a specific time window. 
-You can change the time windows by selecting On- custom parameters and clicking the Set DQ options… button. The most common modification is to select one or more SME time windows that correspond to the time windows that you will use to measure the mean amplitudes of the ERP components. See the next subsection for more information about customizing the data quality measures. For more information about what the SME value means, see this blog post.
+
+    • The analytic standardized measurement error (SME) for each waveform using a set of default time windows.
+
+The SME quantifies the standard error of measurement for the mean voltage during a specific time window. 
+You can change the time windows by selecting On- custom parameters and clicking the Set DQ options… button. The most common modification is to select one or more SME time windows that correspond to the time windows that you will use to measure the mean amplitudes of the ERP components. See the next subsection for more information about customizing the data quality measures. 
+
 We encourage you to report the SME values in publications so that readers can assess the quality of your data. You can aggregate the SME values across participants when you make a grand average. If you report the SME values in your publications, please cite this paper:
 
 Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview_. BioRxiv. [https://doi.org/10.31234/osf.io/jc3sd](https://doi.org/10.31234/osf.io/jc3sd)
 
 When averaging is complete, the lowest, highest, and median SME values (from among every combination of channel, bin, and time window) will be printed to the command window. All the SME values, along with the baseline noise measures, are stored in the Matlab workspace as ERP.dataquality. Options for display the values in the command window or saving them to a file can be found in ERPLAB > Data Quality Options. The standard error of the mean for each time point is stored in ERP.binerror and can be plotted using ERPLAB >  Plot ERP > Plot ERP Waveforms
 
+### Compute standard error of the mean
+You can also choose to compute the standard error of the mean (across all epochs, separately for each time point in each bin) along with the average. This standard error data will be saved in the ERP.binerror matrix, and so be saved with your ERPset. This can later be plotted with your ERP. Note that the standard error is removed by certain other processing steps (e.g., filtering, bin operations, averaging across ERPsets) because these steps render the previous standard error meaningless.
 
 ## Saving the new averaged ERP
 When the averaged ERPs have been computed, a window will appear allowing you to name and save the ERPset containing the new **ERP** structure (see screenshot below).  This same window appears whenever you create a new ERPset.  Here's how it works:
