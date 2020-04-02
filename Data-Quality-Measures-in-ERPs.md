@@ -1,4 +1,4 @@
-As [ERPLAB v8](https://github.com/lucklab/erplab/releases), ERPLAB includes new features to assess data quality.
+As [ERPLAB v8](https://github.com/lucklab/erplab/releases), ERPLAB includes new features to assess data quality. For an [overview of data quality, see here.](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics)
 
 By default, several measures are included -- baseline variability, pointwise SEM, and Analytic Standardized Measurement Error (aSME). These are calculated at the point of running the ERP Averager on a bin-epoched EEG dataset, when an ERP dataset is first created.
 
