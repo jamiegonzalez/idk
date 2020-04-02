@@ -39,12 +39,18 @@ When you use the Grand Average tool to aggregate across participants, the data q
 
 ## Viewing and saving the data quality measures
 We provide several ways of accessing, viewing, and saving the resultant data quality measures.
-1. Summary information is presented in the Matlab Command Window on ERP Averaging. This shows the median, minimum, and maximum aSME values. This can be reproduced by running `dq_summary`, or selecting ERPLAB > Data Quality options > Summarize.
+1. **Summary information** is presented in the Matlab Command Window on ERP Averaging. This shows the median, minimum, and maximum aSME values. This can be reproduced by running `dq_summary`, or selecting ERPLAB > Data Quality options > Summarize.
+
 ![DQ_summary](https://user-images.githubusercontent.com/5137405/78289219-ab100a80-74d6-11ea-9cd8-b7549aece81c.png)
 
-2. You can access the Matlab data structure programmatically in ERP.dataquality. See [ERP.dataquality details here](https://github.com/lucklab/erplab/wiki/Data-Quality-Measures---advanced).
+2. **Scripting** you can access the Matlab data structure programmatically in ERP.dataquality. See [ERP.dataquality details here](https://github.com/lucklab/erplab/wiki/Data-Quality-Measures---advanced).
 
 3. **Data Quality Table** Using the menu options in ERPLAB > Data Quality options, you can see the values of the data quality measures. The properties of which ERP bin or data quality measure to view can be selected. This can also be accessed through the command DQ_Table_GUI(ERP).
 
 ![DQ menu](https://user-images.githubusercontent.com/5137405/77691887-e8b6e580-6f62-11ea-9eb7-1ee73effe764.png)
 ![DQ_Table](https://user-images.githubusercontent.com/5137405/78285997-9da65080-74d5-11ea-90d2-acebb02842c1.png)
+
+### Saving Data Quality measures to file
+The Data Quality measures can also be saved to Matlab binary file, or to an Excel-compatible spreadsheet for viewing or further analysis.
+
+Note that the above **Data Quality Table** interface has options to save data to file. This can also be accessed from the ERPLAB GUI, in ERPLAB > Data Quality options, or through running  `save_data_quality(ERP)`
