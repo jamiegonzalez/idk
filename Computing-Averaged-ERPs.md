@@ -9,16 +9,20 @@ To compute averaged ERPs, you must first load one or more epoched datasets in EE
 
 _Important note: Although ERPLAB keeps track of artifacts using the artifact flags in the **EEG.EVENTLIST** structure, EEGLAB instead uses the **EEG.reject** structure.  When ERPLAB detects an artifact, it updates both **EEG.EVENTLIST** and **EEG.reject**.  When EEGLAB's artifact detection routines are used, only **EEG.reject** is updated.  Consequently, ERPLAB checks to make sure that **EEG.EVENTLIST** and **EEG.reject** have the same artifact marks, producing a warning message if they differ.  If they differ, you can synchronize the information in **EEG.EVENTLIST** and **EEG.reject** with the **ERPLAB > Artifact Detection > Synchronize Artifact Info in EEG and EVENTLIST** command._
 
+
+
+
+
 ## Data Quality measures
 During the averaging process, ERPLAB can compute several measures of data quality. This is done automatically by default (although you can disable it by selecting No Data Quality measures in the Data Quality Quantification section of the averaging window). For a big-picture overview of how ERPLAB computes and stores data quality measures, see the [overview of data quality](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics).
 
 By default, ERPLAB will compute:
 
-1. The noise level of the baseline period (the standard error of the voltage during the period prior to time zero) for each waveform.
+1. **Baseline Noise** - the noise level of the baseline period (the standard error of the voltage during the period prior to time zero) for each waveform.
 
-2. The standard error of the mean at each time point for each waveform.
+2. **Point-wise SEM** - the standard error of the mean at each time point for each waveform.
 
-3. The analytic standardized measurement error (aSME) for each waveform using a set of default time windows.
+3. **aSME** - the analytic standardized measurement error (aSME) for each waveform using a set of default time windows.
 
 The SME quantifies the standard error of measurement for the mean voltage during a specific time window. 
 You can change the time windows by selecting On- custom parameters and clicking the Set DQ options… button. The most common modification is to select one or more SME time windows that correspond to the time windows that you will use to measure the mean amplitudes of the ERP components. See the next subsection for more information about customizing the data quality measures. 
@@ -29,8 +33,17 @@ Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardiz
 
 When averaging is complete, the lowest, highest, and median SME values (from among every combination of channel, bin, and time window) will be printed to the command window. All the SME values, along with the baseline noise measures, are stored in the Matlab workspace as ERP.dataquality. Options for display the values in the command window or saving them to a file can be found in ERPLAB > Data Quality Options. The standard error of the mean for each time point is stored in ERP.binerror and can be plotted using ERPLAB >  Plot ERP > Plot ERP Waveforms
 
+### Default and custom setting of data quality parameters and time windows
+By default, aSME is computed in a number of 100 ms windows, which are centered around 0 ms in the ERP epoch. The number and time range of the aSME windows, along with other data quality parameters, can be customized at the point of the ERP Averager. 
+
 ### Compute standard error of the mean
 You can also choose to compute the standard error of the mean (across all epochs, separately for each time point in each bin) along with the average. This standard error data will be saved in the ERP.binerror matrix, and so be saved with your ERPset. This can later be plotted with your ERP. Note that the standard error is removed by certain other processing steps (e.g., filtering, bin operations, averaging across ERPsets) because these steps render the previous standard error meaningless.
+
+
+
+
+
+
 
 ## Saving the new averaged ERP
 When the averaged ERPs have been computed, a window will appear allowing you to name and save the ERPset containing the new **ERP** structure (see screenshot below).  This same window appears whenever you create a new ERPset.  Here's how it works:
