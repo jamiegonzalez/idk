@@ -13,11 +13,12 @@ _Important note: Although ERPLAB keeps track of artifacts using the artifact fla
 During the averaging process, ERPLAB can compute several measures of data quality. This is done automatically by default (although you can disable it by selecting No Data Quality measures in the Data Quality Quantification section of the averaging window). For a big-picture overview of how ERPLAB computes and stores data quality measures, see the [overview of data quality](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics).
 
 By default, ERPLAB will compute:
-    • The standard error of the mean at each time point for each waveform.
 
-    • The noise level of the baseline period (the standard error of the voltage during the period prior to time zero) for each waveform.
+1. The noise level of the baseline period (the standard error of the voltage during the period prior to time zero) for each waveform.
 
-    • The analytic standardized measurement error (SME) for each waveform using a set of default time windows.
+2. The standard error of the mean at each time point for each waveform.
+
+3. The analytic standardized measurement error (aSME) for each waveform using a set of default time windows.
 
 The SME quantifies the standard error of measurement for the mean voltage during a specific time window. 
 You can change the time windows by selecting On- custom parameters and clicking the Set DQ options… button. The most common modification is to select one or more SME time windows that correspond to the time windows that you will use to measure the mean amplitudes of the ERP components. See the next subsection for more information about customizing the data quality measures. 
