@@ -1,5 +1,5 @@
 ## Overview
-As of ERPLAB v8.0, ERPLAB contains multiple routines designed to allow users to quantify the quality of their data. This page provides a general overview of how these routines work together. Details of implementation are provided in the manual pages for the [Averaging routine](https://github.com/lucklab/erplab/wiki/Computing-Averaged-ERPs) and the [Grand Averaging routine](https://github.com/lucklab/erplab/wiki/Averaging-Across-ERPSETS-(Creating-Grand-Averages)). Here, we provide the big picture.
+As of ERPLAB v8.0, ERPLAB contains multiple routines designed to allow users to quantify the quality of their data. This page provides a general overview of how these routines work together. Details of implementation are provided in the manual pages for the [Averaging routine](https://github.com/lucklab/erplab/wiki/Computing-Averaged-ERPs#data-quality-measures) and the [Grand Averaging routine](https://github.com/lucklab/erplab/wiki/Averaging-Across-ERPSETS-(Creating-Grand-Averages)#grand-average-data-quality). Here, we provide the big picture.
 
 ### Data Quality Metrics
 At present, we directly support three classes of metrics of data quality:
