@@ -5,10 +5,28 @@ The GUI is shown in the screen shot below.  You can either specify a set of ERPs
 
 Ordinarily, each ERPset being averaged together receives equally weighting in the average that is created by this routine.  That is, the ERP waveforms in the separate ERPsets are simply summed together and then divided by the number of ERPsets.  However, there is an option for averaging in a manner that is weighted by the number of trials that contributed to each average (a "weighted average").  Imagine, for example, that you were averaging together two sessions from a given subject, with each session stored in a separate ERPset, and bin 1 contained 10 trials in the first session and 90 trials in the second session.  If you enable weighted averaging, the average of bin 1 would be calculated as 10 times the waveform from session one plus 90 times the waveform from session two, and then divided by the total number of trials (10+90).  This gives each trial equal weight in the final average.
 
-![GUI](./images/Manual/Manual_Averaging-Across-ERPsets_1.png)
+![E8_GAv](https://user-images.githubusercontent.com/5137405/78932724-e3769200-7a5c-11ea-8fc8-3755754cac48.png)
+
+
 
 If one of the bins in one of the ERPsets did not actually have any trials (e.g., due to artifacts), this bin will have no weight and will not impact the grand average if you are computing weighted averages.  However, this can really mess up the default unweighted averaging procedure, because that bin will be flatlined for that ERPset.  These "null bins" can be automatically excluded if you select the option labeled **Excludes any null bin from non-weighted averaging**.  Keep in mind, however, that the presence of a null bin often means that there is a problem somewhere in your data analysis pipeline that needs to be fixed.  For example, conventional statistics cannot be used if you have no data in one condition in one of your subjects.  Also, using this option will mean that different subjects contribute to the different bins in the grand average.  Thus, you should use this option carefully.
 
-There is also an option for calculating the standard error of the mean across the ERPsets.  This is simply the standard error across the different ERPsets, calculated separately for each time point in each bin. This completely ignores the standard error information that was created at the time of averaging.
 
-Finally, there is an option for having the routine warn you about subjects who have an excessive number of rejected trials.  For example, you might want to exclude any subjects for whom over 25% of trials were rejected (see the chapter on artifact rejection in Luck, S.J., An Introduction to the Event-Related Potential Technique).  This option provides a convenient way of checking this (but it does not automatically exclude the subjects).
+There is also an option for having the routine warn you about subjects who have an excessive number of rejected trials.  For example, you might want to exclude any subjects for whom over 25% of trials were rejected (see the chapter on artifact rejection in Luck, S.J., An Introduction to the Event-Related Potential Technique).  This option provides a convenient way of checking this (but it does not automatically exclude the subjects).
+
+## Grand Average Data Quality
+
+### Pointwise SEM
+
+There is an option for calculating the point-by-point standard error (SEM) of the mean across the ERPsets. This provides the SEM across ERPsets at each time point. In other words, for each ERPset, we find the voltage at a given time point for a given bin and channel, and we compute the SEM [SD ÷ sqrt(number of ERPsets)]. If the point-by-point SEM across trials was computed at the time of averaging, that information is discarded and replaced with this new SEM information. Whereas the point-by-point SEM across trials that can be calculated at the time of averaging reflects the data quality at that time point, the point-by-point SEM across ERPsets calculated here reflects both the data quality and true differences among ERPsets (e.g., true differences in amplitude across participants that would be present even with an infinite number of trials).
+We also provide an option for computing the baseline noise from the grand average waveforms. Note that this is not the same as (and will typically be much smaller) than the average of the baseline noise values from the single-participant ERPsets.
+
+
+### Combining Data Quality Measures
+
+If data quality measures were computed when the ERPsets were created (e.g., at the time of averaging), it is possible to compute aggregate measures of data quality across the ERPsets when the grand average of the waveforms is computed by checking the Compute Data Quality Measures box. By default, these measures will be computed as the root mean square (RMS) across whatever data quality measures exist in the ERPsets. Note that the data quality measures can be combined only if the same measures exist in all ERPsets being combined. The aggregated values will be stored in the ERPset created by the Average Across ERPsets routine, overwriting the values from the input files.
+
+![E8_GAv_custom](https://user-images.githubusercontent.com/5137405/78932751-effaea80-7a5c-11ea-9271-6ca56bcda1ea.png)
+
+
+The process of aggregating values across ERPsets can be customized by selecting custom combo and clicking the Set custom DQ combo button, which brings up the window shown in the screen shot. This window shows the existing data quality measures in the input ERPsets (upper left) and lists the methods than can be used to combine them for the output ERPset (upper right). The simplest way to combine them is to simply take the mean of the values from the input ERPsets (Pool ERPsets: mean combine). In many cases, however, it is better to combine them by taking the Root Mean Square (RMS) of the values (Pool ERPsets: mean combine). Using RMS rather than the mean gives you a better idea of how the single-participant data quality will impact the variability in your amplitude or latency measurements across participants, your effect sizes, and your statistical power (see [https://doi.org/10.31234/osf.io/jc3sd](https://doi.org/10.31234/osf.io/jc3sd)).
