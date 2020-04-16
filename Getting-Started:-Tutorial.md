@@ -21,7 +21,7 @@ In the Matlab command window, type the following (each line followed by the **re
 3. Download the tutorial files to your hard drive from the [ERPLAB documentation area](.).  The data and related files are in a folder named **Test_Data**, which you can put anywhere on your computer's file system.
 
 4. In Matlab, navigate the current directory to the **Test_Data/S1** folder.   
-This is where the data from the first subject we will be processing is located. Above the Matlab command window, there is a drop-down folder path displaying the current directory (see screenshot below).  Click on the **browse** button to the right of the current directly and choose the **S1** folder.  The top of the window will then look something like this (although the details depend on what operating system you are using):
+This is where the data from the first subject we will be processing is located. Above the Matlab command window, there is a drop-down folder path displaying the current directory, (see screenshot below).  Click on the **browse** button to the right of the current directory and choose the **S1** folder.  The top of the window will then look something like this (although the details depend on what operating system you are using):
 ![GUI](./images/Tutorial/Tutorial_Getting-Started_1.png)
 
 5. In the EEGLAB menu bar, select **File > Load existing dataset**   
