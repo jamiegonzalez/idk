@@ -19,7 +19,7 @@ With ERPLAB v8.0, we include new tools for [assessing measures of Data Quality M
 
 - Various [bugfixes](https://github.com/lucklab/erplab/commits/master)
 
-- Older [release Notes can be found here]()
+- Older [release Notes can be found here](https://github.com/lucklab/erplab/wiki/Release-Notes)
 
 
 
