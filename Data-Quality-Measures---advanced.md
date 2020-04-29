@@ -23,3 +23,4 @@ To access the aSME data quality at the 1st electrode, 2nd time-window, and the 3
 
 `ERP.dataquality(3).data(1,2,3)`
 
+For more dataquality scripting examples, see [the SME Matlab demos on the Open Science Foundation](https://osf.io/a4huc/).
