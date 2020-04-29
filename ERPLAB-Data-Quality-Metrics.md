@@ -54,3 +54,5 @@ We provide several ways of accessing, viewing, and saving the resultant data qua
 The Data Quality measures can also be saved to Matlab binary file, or to an Excel-compatible spreadsheet for viewing or further analysis.
 
 Note that the above **Data Quality Table** interface has options to save data to file. This can also be accessed from the ERPLAB GUI, in ERPLAB > Data Quality options, or through running  `save_data_quality(ERP)`
+
+For more dataquality scripting examples, see [the SME Matlab demos on the Open Science Foundation](https://osf.io/a4huc/).
