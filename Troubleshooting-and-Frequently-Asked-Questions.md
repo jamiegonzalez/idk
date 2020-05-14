@@ -6,7 +6,10 @@
 * [I’ve just installed the latest release of EEGLAB, and I get warning messages anytime I try to do anything in EEGLAB or ERPLAB. What is going on?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#ive-just-installed-the-latest-release-of-eeglab-and-i-get-warning-messages-anytime-i-try-to-do-anything-in-eeglab-or-erplab--what-is-going-on)
 
 
+
 ### [General Problems](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#general-weird-problems)
+
+* [The example dataset doesn't successfully download](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions/_edit#the-example-datasets-dont-download-successfully)
 
 * [Things that worked before aren't working now. Or most things work, but a few things generate error messages. How can I fix this?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#things-that-worked-before-arent-working-now--or-most-things-work-but-a-few-things-generate-error-messages--how-can-i-fix-this)
 * [How do I replace a bad channel with interpolated data?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#how-do-i-replace-a-bad-channel-with-interpolated-data)
@@ -53,6 +56,9 @@ Also, we recommend that you do not install EEGLAB inside the Toolbox folder of t
 The Matlab path may include a set of routines that are used to take the place of the Matlab Signal Processing Toolbox. To avoid this problem, update the Matlab path by selecting `File > Set Path` from the Matlab command window.  Delete any paths with external/fieldtrip in them and save.
 
 ## General Weird Problems
+#### The example datasets don't download successfully.
+It may be that Box.com is blocked from some countries. Try alternative example datasets, like https://osf.io/574vp/download
+
 #### Things that worked before aren't working now.  Or most things work, but a few things generate error messages.  How can I fix this?
 
 One likely explanation is that you haven't installed things properly or do not have the path set correctly.  You may want to reinstall EEGLAB and ERPLAB.
