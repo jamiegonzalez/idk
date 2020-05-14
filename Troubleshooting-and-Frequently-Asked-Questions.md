@@ -9,7 +9,7 @@
 
 ### [General Problems](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#general-weird-problems)
 
-* [The example dataset doesn't successfully download](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions/_edit#the-example-datasets-dont-download-successfully)
+* [The example dataset doesn't successfully download](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#the-example-datasets-dont-download-successfully)
 
 * [Things that worked before aren't working now. Or most things work, but a few things generate error messages. How can I fix this?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#things-that-worked-before-arent-working-now--or-most-things-work-but-a-few-things-generate-error-messages--how-can-i-fix-this)
 * [How do I replace a bad channel with interpolated data?](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions#how-do-i-replace-a-bad-channel-with-interpolated-data)
