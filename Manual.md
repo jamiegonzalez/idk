@@ -18,7 +18,7 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 - [Installation Information](./Installation)
 - [Release Notes For This Version](https://github.com/lucklab/erplab/releases/)
 - [Learning To Use ERPLAB Toolbox](./Learning-to-Use-ERPLAB-Toolbox)
-- [Basic ERPLAb Processing Steps](./Basic-ERPLAB-Processing-Steps)
+- [Basic ERPLAB Processing Steps](./Basic-ERPLAB-Processing-Steps)
 - [Important Background Concepts and Data Structures](./Important-Background-Concepts-and-Data-Structures)
 - [Using EEGLAB](./Using-EEGLAB)
 - [Preprocessing Continuous EEG](./Preprocessing-Continuous-EEG-Data)
