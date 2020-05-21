@@ -81,17 +81,17 @@ With the data prepared in this ERP set, we can access and plot the data from eac
     <td  align="right" width="40%">
     </td>
     <td  align="center" width="20%">
-      <a href="./Tutorial">
+      <a href="https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents">
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75">
         <br>
-        Tutorial
+        Tutorial list
        </a>
     </td>
     <td  align="left" width="40%">
-      <a href=https://github.com/lucklab/erplab/wiki/Creating-an-EventList:-ERPLAB-Functions:-Tutorial>
+      <a href=>
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
         <br>
-        Eventlist
+        Getting Started, loading EEG data
       </a>
     </td>
   </tr>
