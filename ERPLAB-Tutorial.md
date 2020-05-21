@@ -69,8 +69,6 @@ With the data prepared in this ERP set, we can access and plot the data from eac
 
 ![ERP_Viewer2](https://user-images.githubusercontent.com/5137405/82585605-1b3c2380-9b4b-11ea-938a-91def4b6684d.png)
 
-<br><br>
-
 
 
 <!--Bottom Navigation HTML-->
