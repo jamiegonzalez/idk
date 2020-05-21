@@ -74,7 +74,7 @@ With the data prepared in this ERP set, we can access and plot the data from eac
 
 
 <!--Bottom Navigation HTML-->
-<br><br><br><br><br><br><br>
+<br><br><br><br>
 ----
 <table >
   <tr>
