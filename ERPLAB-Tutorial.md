@@ -33,7 +33,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 *  Combining channels with Chan Ops, channel labels <br>
 *  Filtering, on EEG sets and ERP sets <br>
 *  Typical pipelines, order-of-processing, and scripting <br>
-
+<br> <br>
 
 ## Using ERPLAB - Overview
 
