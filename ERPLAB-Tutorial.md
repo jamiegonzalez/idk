@@ -11,6 +11,28 @@ In this tutorial, we provide step-by-step instructions for processing a simple d
 
 More documentation is provided for specific functions in the [ERPLAB User Manual](https://github.com/lucklab/erplab/wiki/Manual), which can also be accessed from the '?' links within the ERPLAB GUI.
 
+# Tutorial Table of Contents
+
+#### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial/_edit#using-erplab---overview) <br><br>
+
+#### **Part 1 - EEG to ERPset** <br>
+  * Load EEG dataset <br>
+  * Attaching an EventList <br>
+  * Assigning trials to bins <br>
+  * Extract bin-based EEG Epochs <br>
+  * Artifact detection <br>
+  * Creating Averaged ERPs <br> <br>
+
+#### **Part 2 - ERP Plotting and Measuring** <br>
+* Plotting ERPs
+* Measuring ERPs <br> <br>
+
+#### **Part 3 - Combining and modifying ERPsets** <br>
+*  Combining subjects in to Grand Averages <br>
+*  Combining bins for diff waves with Bin Ops <br>
+*  Combining channels with Chan Ops, channel labels <br>
+*  Filtering, on EEG sets and ERP sets <br>
+*  Typical pipelines, order-of-processing, and scripting <br>
 
 
 ## Using ERPLAB - Overview
@@ -49,28 +71,6 @@ With the data prepared in this ERP set, we can access and plot the data from eac
 
 <br><br>
 
-## Tutorial Table of Contents
-
-Overview and ERPsets <br><br>
-
-*Part 1 - EEG to ERPset* <br>
-  Load EEG dataset <br>
-  Attaching an EventList <br>
-  Assigning trials to bins <br>
-  Extract bin-based EEG Epochs <br>
-  Artifact detection <br>
-  Creating Averaged ERPs <br> <br>
-
-*Part 2 - ERP Plotting and Measuring* <br>
-  Plotting ERPs <br>
-  Measuring ERPs <br> <br>
-
-*Part 3 - Combining and modifying ERPsets* <br>
-  Combining subjects in to Grand Averages <br>
-  Combining bins for diff waves with Bin Ops <br>
-  Combining channels with Chan Ops, channel labels <br>
-  Filtering, on EEG sets and ERP sets <br>
-  Typical pipelines, order-of-processing, and scripting <br>
 
 
 <!--Bottom Navigation HTML-->
