@@ -13,7 +13,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 
 # Tutorial Table of Contents
 
-#### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial/_edit#using-erplab---overview) <br><br>
+#### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents) <br><br>
 
 #### **Part 1 - EEG to ERPset** <br>
   * Load EEG dataset <br>
@@ -25,7 +25,8 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 
 #### **Part 2 - ERP Plotting and Measuring** <br>
 * Plotting ERPs
-* Measuring ERPs <br> <br>
+* Measuring ERPs
+* Viewing data quality measures <br> <br>
 
 #### **Part 3 - Combining and modifying ERPsets** <br>
 *  Combining subjects in to Grand Averages <br>
