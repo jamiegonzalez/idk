@@ -10,7 +10,7 @@ Matlab environment, entering `eeglab` in the Command Window
 <a href="https://user-images.githubusercontent.com/5137405/82972479-ffd97a00-9f89-11ea-9464-93a29d0bafa1.png">
  <img src="https://user-images.githubusercontent.com/5137405/82972479-ffd97a00-9f89-11ea-9464-93a29d0bafa1.png" alt="Matlab_env - click for bigger image";
 style="cursor:pointer;"
-     title="Matlab_env_with_ERPLAB - click for bigger image">
+     title="Matlab_env - click for bigger image">
 </a>
 
 
