@@ -24,7 +24,7 @@ style="cursor:pointer;"
 
 If you encounter an error here, check that ERPLAB is installed correctly, and the troubleshooting hints.
 
-## Loading EEG data
+## Download example EEG data set
 
 Download the [example EEG data files here](https://ucdavis.box.com/shared/static/f1go6b880w82cle1l53pucvsymcbp4st.zip). Unzip to a known folder, here we show `C:\m\eegdata\erplab_tut`. Note that there is a subfolder for each experiment subject, S1 to S6.
 
@@ -32,4 +32,14 @@ Download the [example EEG data files here](https://ucdavis.box.com/shared/static
 
 Within the `S1` subfolder, you the `S1_EEG.set` file. This file contains the continuous EEG data for subject 1 in EEGLAB format, and also includes some meta data, like the event code timing information.
 
+## Load EEG data in to EEGLAB
 
+With EEGLAB started within Matlab, hit `File > Load existing dataset`.
+
+![Load_EEGset](https://user-images.githubusercontent.com/5137405/83186512-7a68dd80-a0e1-11ea-95f3-5de5f7a20377.png)
+
+## Get to know your EEG data
+There are several aspects to the EEG datasets that are good to keep in mind:
+* What data do I have? How many EEG channels? What is the duration of the recording?
+* What events occur within this recording? Are there event codes (aka event markers, triggers) indicating the relevant times of stimuli presentation and response?
+* What ERPs are desired? What timeframe is desired to show these ERPs?
