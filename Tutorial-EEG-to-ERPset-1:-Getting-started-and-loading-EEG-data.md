@@ -84,3 +84,34 @@ This information can also be accessed programatically within Matlab, with comman
 * What ERPs are desired? What timeframe is desired to show these ERPs?
 
 What ERP and timeframes are desired will depend on your research question and so experimental design. 
+
+
+
+<!--Bottom Navigation HTML-->
+<br><br><br><br>
+----
+<table >
+  <tr>
+    <td  align="right" width="40%">
+<a href=https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents>
+        <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-back.png" alt="back arrow" height="75">
+        <br>
+        Tutorial Overview
+      </a>
+    </td>
+    <td  align="center" width="20%">
+      <a href="https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents">
+        <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-copy.png" alt="tutorial icon" height="75">
+        <br>
+        Tutorial list
+       </a>
+    </td>
+    <td  align="left" width="40%">
+      <a href=https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data>
+        <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
+        <br>
+        EventLists
+      </a>
+    </td>
+  </tr>
+</table>
