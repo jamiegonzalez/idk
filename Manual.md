@@ -44,6 +44,7 @@ Please keep in mind that this is **FREE** software, and we do not have the resou
 - [ERP Measurement Tool](./ERP-Measurement-Tool)
 - [Timing Details](./Timing-Details)
 - [Current Source Density (CSD) Tool](./Current-Source-Density-(CSD)-tool)
+- [Data Quality Metrics](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics)
 
 Important note: The ERPLAB Discussion Forums have been retired. All comments and questions should be posted to the ERPLAB Email List.
 
