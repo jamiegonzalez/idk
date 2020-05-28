@@ -61,5 +61,18 @@ This information can also be accessed programatically within Matlab, with comman
 
 
 * What events occur within this recording? Are there event codes (aka event markers, triggers) indicating the relevant times of stimuli presentation and response?
+
+From the EEGLAB window, we can plot the EEG recording data, through `Plot menu -> Channel data (scroll)`.
+
+![Plot_EEG](https://user-images.githubusercontent.com/5137405/83189862-68d60480-a0e6-11ea-8c72-a2bf996ea5e2.png)
+
+Channel data is presented with one channel atop another, with channel F3 on top here. If you advance the time from 0 s to 10 s, you can observe two large deflections of more that 50 µV that occur at around 10.5 s and 12 s. These are likely blinks.
+
+![Plot_EEG_scroll](https://user-images.githubusercontent.com/5137405/83190634-953e5080-a0e7-11ea-86c5-541fdd16bd59.png)
+
+
+
+
+
 * What ERPs are desired? What timeframe is desired to show these ERPs?
 
