@@ -13,9 +13,9 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 
 # Tutorial Table of Contents
 
-#### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents) <br><br>
+### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents) <br><br>
 
-#### **Part 1 - EEG to ERPset** <br>
+### **Part 1 - EEG to ERPset** <br>
   * [Getting Started, Loading an EEG dataset](https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data) <br>
   * Attaching an EventList <br>
   * Assigning trials to bins <br>
@@ -23,12 +23,12 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
   * Artifact detection <br>
   * Creating Averaged ERPs <br> <br>
 
-#### **Part 2 - ERP Plotting and Measuring** <br>
+### **Part 2 - ERP Plotting and Measuring** <br>
 * Plotting ERPs
 * Measuring ERPs
 * Viewing data quality measures <br> <br>
 
-#### **Part 3 - Combining and modifying ERPsets** <br>
+### **Part 3 - Combining and modifying ERPsets** <br>
 *  Combining subjects in to Grand Averages <br>
 *  Combining bins for diff waves with Bin Ops <br>
 *  Combining channels with Chan Ops, channel labels <br>
