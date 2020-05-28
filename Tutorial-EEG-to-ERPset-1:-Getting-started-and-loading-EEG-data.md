@@ -26,3 +26,10 @@ If you encounter an error here, check that ERPLAB is installed correctly, and th
 
 ## Loading EEG data
 
+Download the [example EEG data files here](https://ucdavis.box.com/shared/static/f1go6b880w82cle1l53pucvsymcbp4st.zip). Unzip to a known folder, here we show `C:\m\eegdata\erplab_tut`. Note that there is a subfolder for each experiment subject, S1 to S6.
+
+![Tut_data_folder2](https://user-images.githubusercontent.com/5137405/83183516-c49b9000-a0dc-11ea-89d0-64834b883ade.png)
+
+Within the `S1` subfolder, you the `S1_EEG.set` file. This file contains the continuous EEG data for subject 1 in EEGLAB format, and also includes some meta data, like the event code timing information.
+
+
