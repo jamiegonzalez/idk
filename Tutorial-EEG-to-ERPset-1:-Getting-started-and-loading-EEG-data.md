@@ -83,7 +83,7 @@ This information can also be accessed programatically within Matlab, with comman
 
 * What ERPs are desired? What timeframe is desired to show these ERPs?
 
-What ERP and timeframes are desired will depend on your research question and so experimental design. 
+Your research question will determine what the ERP and timeframes that are central for your experiment. Hopefully, your experimental design captures this ERP component well. There exists guides to help, like the [Oxford Handbook of ERPs](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780195374148.001.0001/oxfordhb-9780195374148) for example.
 
 
 
