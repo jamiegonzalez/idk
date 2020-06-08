@@ -86,6 +86,35 @@ This information can also be accessed programatically within Matlab, with comman
 Your research question will determine what the ERP and timeframes that are central for your experiment. Hopefully, your experimental design captures this ERP component well. There exists guides to help, like the [Oxford Handbook of ERPs](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780195374148.001.0001/oxfordhb-9780195374148) for example.
 
 
+Now that we have loaded and examined some data, the next step is to attach an EventList:
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data"> Load EEG Data </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
+      <TD align="center">  </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+</TABLE>
+
 
 <!--Bottom Navigation HTML-->
 <br><br><br><br>
