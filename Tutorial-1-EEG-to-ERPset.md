@@ -94,7 +94,7 @@ Now that we have loaded and examined some data, the next step is to attach an Ev
      <TH>Completed?</TH>
    </TR>
    <TR>
-      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data"> Load EEG Data </a> </TD>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#load-eeg-data-in-to-eeglab"> Load EEG Data </a> </TD>
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
