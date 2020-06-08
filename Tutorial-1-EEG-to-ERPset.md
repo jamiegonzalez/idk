@@ -136,10 +136,10 @@ Now that we have loaded and examined some data, the next step is to attach an Ev
        </a>
     </td>
     <td  align="left" width="40%">
-      <a href=https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data>
+      <a href=https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents>
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
         <br>
-        EventLists
+        Tutorial 2: ERP Plotting and Measuring
       </a>
     </td>
   </tr>
