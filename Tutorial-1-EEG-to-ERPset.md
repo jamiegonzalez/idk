@@ -1,4 +1,4 @@
-## Getting started
+# Getting started
 We assume that Matlab is installed, that EEGLAB is installed and in the Matlab path, and that ERPLAB is correctly installed in the EEGLAB plugin subfolder. If not, see the [installation instructions here](https://github.com/lucklab/erplab/wiki/Installation).
 
 ## Download example EEG data set
@@ -114,6 +114,21 @@ Now that we have loaded and examined some data, the next step is to attach an Ev
       <TD align="center"> </TD>
    </TR>
 </TABLE>
+
+<br><br>
+
+# Events and the Eventlist
+
+At the moment, this dataset is continuous EEG data, with event markers indicating the times of trial-relevant stimulus presentation.
+
+In order to turn this data into an Averaged ERP dataset, we need to keep track of these events in an ERPLAB format EventList, and then determine what events should go in what bin of the ERP.
+
+Here, we wish to group the Frequent stimuli type together in one bin, and the Rare stimuli type in another, to show the difference in their averages in a P300 ERP.
+
+The EventList is a refactoring of the trial information in a more ERPLAB-interpretable way, so we can address these events later on.
+
+To create an EventList for the EEG data we loaded above, let's hit
+`ERPLAB menu > EventList > Create EEG EVENTLIST`
 
 
 <!--Bottom Navigation HTML-->
