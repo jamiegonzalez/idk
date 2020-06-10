@@ -123,9 +123,23 @@ At the moment, this dataset is continuous EEG data, with event markers indicatin
 
 In order to turn this data into an Averaged ERP dataset, we need to keep track of these events in an ERPLAB format EventList, and then determine what events should go in what bin of the ERP.
 
-Here, we wish to group the Frequent stimuli type together in one bin, and the Rare stimuli type in another, to show the difference in their averages in a P300 ERP.
+Here, we wish to group the Frequent stimuli type together in one bin, and the Rare stimuli type in another, to show the difference in their averages in a P300 ERP. For more information about the experiment, [see here](https://github.com/lucklab/erplab/wiki/Brief-Description-of-the-Example-Experiment:-Tutorial).
 
 The EventList is a refactoring of the trial information in a more ERPLAB-interpretable way, so we can address these events later on.
+
+The current stimulus event codes (as seen with `pop_squeezevents(EEG)`) is:
+
+
+    Event Code	  Category      Probability     Correct Response
+    11	          Letter        Frequent        Left Hand
+    21	          Digit         Rare            Right Hand
+    112	          Letter        Rare            Left Hand
+    122	          Digit         Frequent        Right Hand
+    12	          Letter        Rare            Right Hand
+    22	          Digit         Frequent        Left Hand
+    111	          Letter        Frequent        Right Hand
+    121	          Digit         Rare            Left Hand
+ 
 
 ### Creating an Eventlist
 To create an EventList for the EEG data we loaded above, let's hit <br>
@@ -134,6 +148,31 @@ To create an EventList for the EEG data we loaded above, let's hit <br>
 
 ![Create_EL](https://user-images.githubusercontent.com/5137405/84070306-c6890d00-a980-11ea-93c5-85a6090aa7de.png)
 
+That will pop up this new window. Optionally, we can write the EL to a text file. The information will still be 'attached' to this EEGset, but that text file can be useful for examining outside Matlab.
+
+### Stick to numeric events - not strings
+Note that the EventList does not like strings. Event names are best to be numbers and not text. If your event names are text, we suggest converting them to a numeric code here. The events here are all numbers, but stored as stings for now. Using the 'Create numeric equivilent' option in the 'Create EventList' GUI, the text is dropped from a string event code, leaving the number. This option will trim any text, and convert to numeric type, and so will work for these event codes. If you need to convert different types of string events to numeric, you can use the 'Convert string code' editable option in the middle of this window, but this is not needed for this example dataset.
+
+The boundary code is an important event code, indicating the presence of a discontinuity, like a removed section of data, or a break in the recording. We recommend keeping that in the data with the numeric indicator of event `-99`.
+
+![create_eventlist_window](https://user-images.githubusercontent.com/5137405/84316905-cc1d5900-ab20-11ea-87af-03b534022098.png)
+ 
+After hitting 'CREATE', a new EEG set is created -- same as the previous one, but now with a EventList attached.
+
+Let's save this new EEG set in the S1 folder.
+
+Optionally, to inspect this new EL, we can enter
+
+`EEG.EVENTLIST.eventinfo`
+
+or explore there in the Matlab Workspace.
+
+![EEG_EL_struct](https://user-images.githubusercontent.com/5137405/84317286-64b3d900-ab21-11ea-9737-1a0d0ec08fd8.png)
+
+
+This shows our events (all 2557 of them), and the time that they occurred.
+
+Note that at the moment, the code field is filled, and that the binlabel field is empty.
 
 
 
