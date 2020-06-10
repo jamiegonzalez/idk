@@ -98,12 +98,12 @@ Now that we have loaded and examined some data, the next step is to attach an Ev
       <TD align="center"> &#10003 </TD>
    </TR>
    <TR>
-      <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#events-and-the-eventlist"> Creating an EventList </a> </TD>
       <TD align="center">  </TD>
    </TR>
  <TR>
-      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#load-eeg-data-in-to-eeglab"> Assigning Trials to Bins </a> </TD>
-      <TD align="center"> &#10003 </TD>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trial-to-bins"> Assigning Trials to Bins </a> </TD>
+      <TD align="center">  </TD>
    </TR>
    <TR>
       <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
@@ -182,7 +182,41 @@ This shows our events (all 2557 of them), and the time that they occurred.
 
 Note that at the moment, the code field is filled, and that the binlabel field is empty.
 
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#load-eeg-data-in-to-eeglab"> Load EEG Data </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#events-and-the-eventlist"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+ <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trial-to-bins"> Assigning Trials to Bins </a> </TD>
+      <TD align="center">  </TD>
+   </TR>
+   <TR>
+      <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+</TABLE>
 
+
+# Assigning Trials to Bins
+
+With the events coded in the EventList, we can now specify what we want in ERP bins.
 
 <!--Bottom Navigation HTML-->
 <br><br><br><br>
