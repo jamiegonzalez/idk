@@ -102,7 +102,7 @@ Now that we have loaded and examined some data, the next step is to attach an Ev
       <TD align="center">  </TD>
    </TR>
  <TR>
-      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trial-to-bins"> Assigning Trials to Bins </a> </TD>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trials-to-bins"> Assigning Trials to Bins </a> </TD>
       <TD align="center">  </TD>
    </TR>
    <TR>
@@ -196,7 +196,7 @@ Note that at the moment, the code field is filled, and that the binlabel field i
       <TD align="center"> &#10003 </TD>
    </TR>
  <TR>
-      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trial-to-bins"> Assigning Trials to Bins </a> </TD>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trials-to-bins"> Assigning Trials to Bins </a> </TD>
       <TD align="center">  </TD>
    </TR>
    <TR>
