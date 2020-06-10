@@ -101,6 +101,10 @@ Now that we have loaded and examined some data, the next step is to attach an Ev
       <TD> <a href="./Creating-an-EventList:-ERPLAB-Functions:-Tutorial"> Creating an EventList </a> </TD>
       <TD align="center">  </TD>
    </TR>
+ <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#load-eeg-data-in-to-eeglab"> Assigning Trials to Bins </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
    <TR>
       <TD><a href="./Creating-Bin--Based-EEG-Epochs:-Tutorial">  Creating Bin-Based EEG Epochs </a></TD>
       <TD align="center"> </TD>
