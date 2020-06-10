@@ -213,10 +213,68 @@ Note that at the moment, the code field is filled, and that the binlabel field i
    </TR>
 </TABLE>
 
-
+<br><br>
 # Assigning Trials to Bins
 
 With the events coded in the EventList, we can now specify what we want in ERP bins.
+
+We have event codes for different 'frequent' or 'rare' stimuli presentation times. For this P300 experiment, we wish to group all the 'frequent' stimuli in to one bin, and the rare in to another, so they can then be averaged together and compared in in ERP set.
+
+From the design of this experiment, we know that all of {11,122,22,111} event codes indicate Frequent stimuli, and that all of {21,112,12,121} are Rare stimuli. Additionally, an event code of {9} indicates a correct response.
+
+The syntax of BINLISTER allows specification of bins for complex experiments. Here, we will go for a simple example, but I hope I can show you how it might be powerful.
+
+The idea is to set instruction for each bin in a specific format, called the Bin-Descriptor Files:
+
+````
+bin 1
+Frequent followed by correct response
+.{11;122;22;111}{9}
+
+bin 2
+Rare followed by correct response
+.{21;112;12;121}{9}  
+
+````
+
+These Bin-Descriptor Files are saved as raw text files, and used by ERPLAB's BinLister function to specify ERP bins. You can see an example of these files in the `Test_Data/binlister_demo_1.txt` file. Open this file with the Matlab text editor by right-clicking it in the Matlab 'Current Folder' section, or through `edit binlister_demo_1.txt` if you are in the Test_Data directory. Using MS Word to edit these files can add incorrect formatting, so we recommend using the Matlab editor (or, perhaps, another raw text editor like [Sublime Text](https://www.sublimetext.com/).
+
+#### Unpacking BDF syntax
+Note that there are exactly 3 lines for each bin, followed by an empty line, like:
+
+bin <number_n> <br>
+Text name of bin <br>
+.{1;2}{3} <br>
+<empty line> <br>
+<br>
+Let's unpack that.
+The bin numbers start at 1, and go up by 1.
+The text name of the bin is specified by you. Make it unique and descriptive.
+
+The event specification is in the 3rd line. Each curly brackets {} give an event set, that contains at least 1 event. The period immediately precedes the event set that will become the 'anchor' event, being time zero (=== 0 ms) for the resulting bin.
+
+If event codes are seperated by semi-colons an event set, like .{1;2} that means that any one of the those event codes are valid for a match in that position. When one set of events in curly brackets follows another, there must be a match for the first set IMMEDIATELY followed by a match for the next. Any time in the continuous EEG trace time that there is an:
+ event code 1 followed by event code 3 
+ OR
+ event code 2 followed by event code 3
+
+there is then a match for this bin specification, and so this could go in to bin n.
+
+So if there were a train of 3 events in the continuous EEG trace of:
+1---3
+..that would be captured by the above bin specification.
+
+And
+1--5--3
+would not be captured by this bin specification, as there is an intervening event code of 5 in between the 1 and the 3.
+
+
+#### Applying Bin-Descriptors to EEG dataset
+With both an EventList and Bin-Descriptor file, we can run BINLISTER to apply that Bin-Descriptor to the loaded EEG dataset. 
+
+`ERPLAB menu -> Assign bins (BINLISTER)`
+
+
 
 <!--Bottom Navigation HTML-->
 <br><br><br><br>
