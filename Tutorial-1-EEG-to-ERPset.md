@@ -127,8 +127,14 @@ Here, we wish to group the Frequent stimuli type together in one bin, and the Ra
 
 The EventList is a refactoring of the trial information in a more ERPLAB-interpretable way, so we can address these events later on.
 
-To create an EventList for the EEG data we loaded above, let's hit
+### Creating an Eventlist
+To create an EventList for the EEG data we loaded above, let's hit <br>
 `ERPLAB menu > EventList > Create EEG EVENTLIST`
+
+
+![Create_EL](https://user-images.githubusercontent.com/5137405/84070306-c6890d00-a980-11ea-93c5-85a6090aa7de.png)
+
+
 
 
 <!--Bottom Navigation HTML-->
