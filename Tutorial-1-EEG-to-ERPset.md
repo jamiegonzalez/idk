@@ -303,10 +303,34 @@ We specify the time range in the top section -- here, -200 up to 800 ms. This me
 
 Hitting 'Run' here will create a new EEG dataset, with the now-epoched data. To indicate that this is bin-epoched data, the suggested name of the EEG set will be appended with '_be', giving `S1_EEG_elist_bins_be` if you have followed all steps so far.
 
-You can confirm that this data is now epoched by seeing that the blue EEGLAB window now lists 'Epochs:   1251'.
+You can confirm that this data is now epoched by seeing that the blue EEGLAB window now lists 'Epochs:   1251'. This tells us that from the around 2500 events present in this EEG dataset, there are 1251 matches for the bins that we specified with the BDF above.
+
+
 ![EEGLAB_post_binepoch](https://user-images.githubusercontent.com/5137405/84332074-cafc2400-ab40-11ea-94de-442579e46cb6.png)
 
 Additional confirmation can be seen by entering the command of `size(EEG.data)` again, reveals a 16 electrode by 500 datapoints by 1251 epoch 3D data array. Note that 1 second of data at 500 Hz gives 500 datapoints per epoch.
+
+
+
+# Artifact Detection
+At this point, it would be possible to average these epochs into their respective bins, forming an ERP set. Before doing so, we can improve the data quality of our ERPs by marking epochs that have obvious artifacts.
+
+For example, if we look at the first 5 epochs of the now-epoched EEG trace (through `Plot menu -> Channel Data scroll`), we can see that a large deflection exists at around 550 ms in to epoch 5. This is probably due to the subject blinking. We can see that there are also such artifacts in epoch 8 and 11, and in more epochs too. If we were to average this data without marking and excluding these epochs, these large non-neural deflections would add to the noise of our ERP results.
+
+![EEG_trace_bin_epochs](https://user-images.githubusercontent.com/5137405/84417790-ffb4bd80-abca-11ea-8c93-fe358aa63331.png)
+
+
+#### Artifact detection, not artifact obliteration
+ERPLAB has several tools for detecting and marking different types of artifacts. Note that these tools will *mark* epochs as identified as being an artifact. This does not remove data from the EEG set, but instead allows these to then easily be excluded from the epochs that go into an ERP bin. This is contrasted with some EEGLAB *artifact rejection* functions, which will delete and remove sections from the EEG set.
+
+If you do perform EEGLAB *artifact rejection*, be sure to regenerate a ERPLAB EventList afterwards.
+
+
+### AR1 Moving Window Peak-to-Peak Detection
+Many types of artifacts can be detected with ERPLAB's moving window peak-to-peak tool.
+
+Hit `ERPLAB menu -> Artifact detection in epoched data -> Moving window peak-to-peak threshold `
+
 
 <TABLE>
    <TR>
