@@ -326,10 +326,18 @@ ERPLAB has several tools for detecting and marking different types of artifacts.
 If you do perform EEGLAB *artifact rejection*, be sure to regenerate a ERPLAB EventList afterwards.
 
 
-### AR1 Moving Window Peak-to-Peak Detection
+### Moving Window Peak-to-Peak Detection
 Many types of artifacts can be detected with ERPLAB's moving window peak-to-peak tool.
 
 Hit `ERPLAB menu -> Artifact detection in epoched data -> Moving window peak-to-peak threshold `
+
+This will open a new window, where we can specify parameters for this artifact detection method. This function will has a small window of analysis that steps through the time if the epochs, and records the difference between the point of lowest and highest amplitude. If this is ever above a stated threshold, the whole epoch is marked as an artifact. For more details, hit `?` in the window, or see the [ERPLAB manual page here](https://github.com/lucklab/erplab/wiki/Artifact-Detection-in-Epoched-Data).
+
+![AR_mov_windows_p2p](https://user-images.githubusercontent.com/5137405/84423597-8bcae300-abd3-11ea-9528-cd390f1de89e.png)
+
+By default, the 'test period' will be the whole epoch, stated in milliseconds. We go with the default moving window size of 200 ms, with 100 ms step size. The 'Voltage Threshold [µV]' is a key parameter, that may change across your subjects. For more sensitivity, lower this threshold, and more epochs will be found to be above this. For capturing the large blinks in S1 here, a value of 100 µV might be sensible.
+
+
 
 
 <TABLE>
@@ -354,8 +362,8 @@ Hit `ERPLAB menu -> Artifact detection in epoched data -> Moving window peak-to-
       <TD align="center">  &#10003 </TD>
    </TR>
 <TR>
-      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
-      <TD align="center"> </TD>
+      <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#artifact-detection"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
    </TR>
 <TR>
       <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
