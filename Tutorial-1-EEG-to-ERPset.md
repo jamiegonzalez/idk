@@ -364,7 +364,7 @@ To extract bin-based epochs, hit:
 
 ![extract_bin_epochs](https://user-images.githubusercontent.com/5137405/84331649-a2275f00-ab3f-11ea-9e17-7415ad2b5aad.png)
 
-We specify the time range in the top section -- here, -200 up to 800 ms. This means each epoch will be 1000 ms long. Note that this is in milliseconds, relative the the event specified with a leading period in the bin-descriptor file, like `.{11}`. 
+We specify the time range in the top section -- here, -200 up to 800 ms. This means each epoch will be 1000 ms long. Note that this is in milliseconds, relative to the event specified with a leading period in the bin-descriptor file, like `.{11}`. 
 
 Hitting 'Run' here will create a new EEG dataset, with the now-epoched data. To indicate that this is bin-epoched data, the suggested name of the EEG set will be appended with '_be', giving `S1_EEG_elist_bins_be` if you have followed all steps so far.
 
@@ -490,7 +490,7 @@ Hit: <br>
 
 ![ERPLAB_ERP_Averager_GUI](https://user-images.githubusercontent.com/5137405/84427853-6c838400-abda-11ea-811e-7412d3c92f59.png)
 
-At the top, we the EEG dataset selected is number 5, which corresponds to the active EEG dataset here - S1_EEG_elist_bins_ar.
+At the top, we see the selected EEG dataset is number 5, which corresponds to the active EEG dataset here - S1_EEG_elist_bins_ar.
 
 In the central section here, we specify that we wish to exclude epochs marked as artifacts. There are also options for selecting different sets of epochs, but we want all non-artifact epochs here. There is also an option for excluding any epoch that has boundaries or invalid events. We recommend having this tickbox enabled, so as to ignore epochs with boundary edge effects.
 
