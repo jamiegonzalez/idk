@@ -378,7 +378,7 @@ Additional artifact detection routines can be run to find more artifacts, and ha
    </TR>
 <TR>
       <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#create-averaged-ERPs"> Creating Averaged ERPs </a></TD>
-      <TD align="center"> &#10003 </TD>
+      <TD align="center"> </TD>
    </TR>
 </TABLE>
 
@@ -400,9 +400,64 @@ By default, we also have automatic data quality assessment enabled, with default
 
 Hitting 'Run' here will create a ERP dataset.
 
+This will pop up the 'Save ERPset GUI' for the first time. Let's save this as 'S1_ERP', and also save this new ERPset to a file, within the S1 subject folder:
+
+![save_erpset](https://user-images.githubusercontent.com/5137405/84432433-a73cea80-abe1-11ea-9ee7-c73f297b2be5.png)
+
+
+#### Reminder on EEG sets and ERP sets
+With this new ERPset created, we now have an active ERPset that is selected. Alongside the EEGLAB 'Datasets' menu, which shows the 5 EEGsets from S1, we also have an 'ERPsets' menu, which shows the loaded ERPsets: <br>
+`ERPset 1: S1_ERP` <br>
+
+![ERPset_menu](https://user-images.githubusercontent.com/5137405/84432994-76a98080-abe2-11ea-9133-9546d38b4409.png)
+
+Averaging each bin in the above bin-epoched EEG data give us ERP data in the format:
+
+` (number of electrodes) * (number of time-points in epoch) * (number of bins) `
+
+With the data prepared in this ERP set, we can access and plot the data from each condition:
+
+![ERP_Viewer2](https://user-images.githubusercontent.com/5137405/82585605-1b3c2380-9b4b-11ea-938a-91def4b6684d.png)
+
+
+We have a loaded ERPset! We can now run the many ERPLAB functions that act on this ERPset, including plotting and measuring tools.
+
+We demonstrate use of some of these tools in the next tutorial.
 
 
 
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#load-eeg-data-in-to-eeglab"> Load EEG Data </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#events-and-the-eventlist"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+ <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trials-to-bins"> Assigning Trials to Bins </a> </TD>
+      <TD align="center">  &#10003  </TD>
+   </TR>
+   <TR>
+      <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#extract-bin-based-epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center">  &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#artifact-detection"> Artifact Detection </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#create-averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+</TABLE>
+
+<br>
 
 
 
