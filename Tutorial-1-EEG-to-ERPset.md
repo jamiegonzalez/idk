@@ -445,6 +445,8 @@ Note that 288 epochs are now tagged as artifacts from Bin 1, and 72 from Bin 2. 
 
 Examining the EEG trace after this artifact detection process (through `EEGLAB Plot menu -> Channel data (scroll)`) reveals that many epochs with large artifacts are now highlighted in yellow. That includes the epoch 5, 8, and 11, which we previously noted as having likely blink artifacts.
 
+![EEG_trace_bin_epoch_ar](https://user-images.githubusercontent.com/5137405/84425465-7a370a80-abd6-11ea-95c6-c78ebe801478.png)
+
 Additional artifact detection routines can be run to find more artifacts, and have more accurate detection. See the [ERPLAB manual page here](https://github.com/lucklab/erplab/wiki/Artifact-Detection-in-Epoched-Data).
 
 <TABLE>
