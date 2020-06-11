@@ -299,14 +299,14 @@ To extract bin-based epochs, hit:
 
 ![extract_bin_epochs](https://user-images.githubusercontent.com/5137405/84331649-a2275f00-ab3f-11ea-9e17-7415ad2b5aad.png)
 
-We specify the time range in the top section -- here, -200 up to 800 ms. This mean each epoch will be 1000 ms long. Note that this is in milliseconds, relative the the event specified with a leading period in the bin-descriptor file, like `.{11}`. 
+We specify the time range in the top section -- here, -200 up to 800 ms. This means each epoch will be 1000 ms long. Note that this is in milliseconds, relative the the event specified with a leading period in the bin-descriptor file, like `.{11}`. 
 
 Hitting 'Run' here will create a new EEG dataset, with the now-epoched data. To indicate that this is bin-epoched data, the suggested name of the EEG set will be appended with '_be', giving `S1_EEG_elist_bins_be` if you have followed all steps so far.
 
 You can confirm that this data is now epoched by seeing that the blue EEGLAB window now lists 'Epochs:   1251'.
 ![EEGLAB_post_binepoch](https://user-images.githubusercontent.com/5137405/84332074-cafc2400-ab40-11ea-94de-442579e46cb6.png)
 
-Additional confirmation can be seen by entering the command of `size(EEG.data)` again, reveals a 16 electrode by 1 million datapoint by 1251 epoch 3D data array.
+Additional confirmation can be seen by entering the command of `size(EEG.data)` again, reveals a 16 electrode by 500 datapoints by 1251 epoch 3D data array. Note that 1 second of data at 500 Hz gives 500 datapoints per epoch.
 
 <TABLE>
    <TR>
