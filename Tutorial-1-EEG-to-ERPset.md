@@ -274,6 +274,71 @@ With both an EventList and Bin-Descriptor file, we can run BINLISTER to apply th
 
 `ERPLAB menu -> Assign bins (BINLISTER)`
 
+![Binlister_GUI](https://user-images.githubusercontent.com/5137405/84330206-a5205080-ab3b-11ea-9473-f52d17e12294.png)
+
+In the top section, hit 'Browse' and select the `binlister_demo_1.txt` file. Optionally, you can hit 'Take a look' to verify that this is the bin-descriptor you want.
+
+On hitting 'RUN' on this window, BinLister will examine all the events, and, when there is a match to the any of the requested bins, add this information to the EventList. This will create a new EEG dataset, now with the suggested name appended with '_bins', so 'S1_EEG_elist_bins' by default for our first subject here.
+
+If we examine the EEG.EVENTLIST.eventinfo structure in this new EEG data in the Matlab Workspace variable explorer, we can see the updated EventList, now with bin info. For instance, the binlabel field for the first item now shows that it will be grouped to Bin 1, as it has a 22 event code that is immediately followed by a 9. The binlabel for the third item shows it has been has a Bin 2 label, as it was a 12 event code followed by a 9.
+
+
+# Extract bin-based epochs
+Now that the bin information is present, we can convert this continuous EEG dataset into a series of short stretches of data oriented around key events, making an epoched EEG set. For all periods of the EEG data that match one of the above-defined bins, we will take a period of time around the defined event (typically around 200 ms before and 800 ms after), and that will be an epoch. Epochs will be anchored around specific event markers, with some time before and after. Rather than the previous continuous EEG data stored in the format of
+
+` (number of electrodes) * (number of time-points) `
+
+epoched EEG data will now be stored in the format of 
+
+`(number of electrodes) * (number of time-points in epoch) * (number of epochs/trials) `
+
+Running the command of `size(EEG.data)` on our existing EEG set reveals a 16 electrode by 1 million datapoint 2D data array.
+
+To extract bin-based epochs, hit:
+`ERPLAB menu -> Extract bin-based epochs`
+
+![extract_bin_epochs](https://user-images.githubusercontent.com/5137405/84331649-a2275f00-ab3f-11ea-9e17-7415ad2b5aad.png)
+
+We specify the time range in the top section -- here, -200 up to 800 ms. This mean each epoch will be 1000 ms long. Note that this is in milliseconds, relative the the event specified with a leading period in the bin-descriptor file, like `.{11}`. 
+
+Hitting 'Run' here will create a new EEG dataset, with the now-epoched data. To indicate that this is bin-epoched data, the suggested name of the EEG set will be appended with '_be', giving `S1_EEG_elist_bins_be` if you have followed all steps so far.
+
+You can confirm that this data is now epoched by seeing that the blue EEGLAB window now lists 'Epochs:   1251'.
+![EEGLAB_post_binepoch](https://user-images.githubusercontent.com/5137405/84332074-cafc2400-ab40-11ea-94de-442579e46cb6.png)
+
+Additional confirmation can be seen by entering the command of `size(EEG.data)` again, reveals a 16 electrode by 1 million datapoint by 1251 epoch 3D data array.
+
+<TABLE>
+   <TR>
+     <TH>Requirements</TH>
+     <TH>Completed?</TH>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#load-eeg-data-in-to-eeglab"> Load EEG Data </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+   <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#events-and-the-eventlist"> Creating an EventList </a> </TD>
+      <TD align="center"> &#10003 </TD>
+   </TR>
+ <TR>
+      <TD> <a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trials-to-bins"> Assigning Trials to Bins </a> </TD>
+      <TD align="center">  &#10003  </TD>
+   </TR>
+   <TR>
+      <TD><ahref="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#extracting-bin-based-epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD align="center">  &#10003 </TD>
+   </TR>
+<TR>
+      <TD><a href="./Artifact-Detection:-Tutorial"> Artifact Detection </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+<TR>
+      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> </TD>
+   </TR>
+</TABLE>
+
 
 
 <!--Bottom Navigation HTML-->
