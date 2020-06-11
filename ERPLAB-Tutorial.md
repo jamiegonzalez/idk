@@ -16,12 +16,12 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 ### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents) <br><br>
 
 ### **Part 1 - EEG to ERPset** <br>
-  * [Getting Started, Loading an EEG dataset](https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data) <br>
-  * Attaching an EventList <br>
-  * Assigning trials to bins <br>
-  * Extract bin-based EEG Epochs <br>
-  * Artifact detection <br>
-  * Creating Averaged ERPs <br> <br>
+  * [Getting Started, Loading an EEG dataset](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset) <br>
+  * [Attaching an EventList](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#events-and-the-eventlist) <br>
+  * [Assigning trials to bins](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trials-to-bins) <br>
+  * [Extract bin-based EEG Epochs](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#extract-bin-based-epochs) <br>
+  * [Artifact detection](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#artifact-detection) <br>
+  * [Creating Averaged ERPs](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#create-averaged-ERPs) <br> <br>
 
 ### **Part 2 - ERP Plotting and Measuring** <br>
 * Plotting ERPs
