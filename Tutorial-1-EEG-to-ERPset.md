@@ -326,7 +326,7 @@ Additional confirmation can be seen by entering the command of `size(EEG.data)` 
       <TD align="center">  &#10003  </TD>
    </TR>
    <TR>
-      <TD><ahref="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#extracting-bin-based-epochs">  Creating Bin-Based EEG Epochs </a></TD>
+      <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#extract-bin-based-epochs">  Creating Bin-Based EEG Epochs </a></TD>
       <TD align="center">  &#10003 </TD>
    </TR>
 <TR>
