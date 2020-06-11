@@ -310,7 +310,7 @@ With both an EventList and Bin-Descriptor file, we can run BINLISTER to apply th
 
 In the top section, hit 'Browse' and select the `binlister_demo_1.txt` file. Optionally, you can hit 'Take a look' to verify that this is the bin-descriptor you want.
 
-On hitting 'RUN' on this window, BinLister will examine all the events, and, when there is a match to the any of the requested bins, add this information to the EventList. This will create a new EEG dataset, now with the suggested name appended with '_bins', so 'S1_EEG_elist_bins' by default for our first subject here.
+On hitting 'RUN' on this window, BinLister will examine all the events, and, when there is a match to any of the requested bins, add this information to the EventList. This will create a new EEG dataset, now with the suggested name appended with '_bins', so 'S1_EEG_elist_bins' by default for our first subject here.
 
 If we examine the EEG.EVENTLIST.eventinfo structure in this new EEG data in the Matlab Workspace variable explorer, we can see the updated EventList, now with bin info. For instance, the binlabel field for the first item now shows that it will be grouped to Bin 1, as it has a 22 event code that is immediately followed by a 9. The binlabel for the third item shows it has been has a Bin 2 label, as it was a 12 event code followed by a 9.
 
