@@ -337,8 +337,19 @@ This will open a new window, where we can specify parameters for this artifact d
 
 By default, the 'test period' will be the whole epoch, stated in milliseconds. We go with the default moving window size of 200 ms, with 100 ms step size. The 'Voltage Threshold [µV]' is a key parameter, that may change across your subjects. For more sensitivity, lower this threshold, and more epochs will be found to be above this. For capturing the large blinks in S1 here, a value of 100 µV might be sensible.
 
+Note that there are also 'flags' which can be used to disambiguate what artifact detection tools marked which epochs. The F1 flag is active for all artifacts, and, optionally, you can select others too. Here, Let's press the flag 2 button, so that both F1 and F2 are marked. 
 
+Hitting 'Accept' here will run this artifact detection tool with these parameters, and create a new epoched EEG set with those matching epochs marked as artifacts. By default, '_ar'will be appended to the EEG set name, giving 'S1_EEG_elist_bins_be_ar' for our new EEG set.
 
+ERPLAB will also output a summary of the artifact detection operation:
+
+![AR_report](https://user-images.githubusercontent.com/5137405/84424694-51fadc00-abd5-11ea-9ada-f0bfa3e915a9.png)
+
+Note that 288 epochs are now tagged as artifacts from Bin 1, and 72 from Bin 2. This is around 29% of trials from each bin now tagged as artifacts (which is a large but not crazy fraction), leaving 721 trials with now artifact tag in Bin 1, and 170 in Bin 2. You can examine this artifact summary again through `pop_summary_AR_eeg_detection(EEG);` or `ERPLAB menu -> Summarize artifact detection `.
+
+Examining the EEG trace after this artifact detection process (through `EEGLAB Plot menu -> Channel data (scroll)`) reveals that many epochs with large artifacts are now highlighted in yellow. That includes the epoch 5, 8, and 11, which we previously noted as having likely blink artifacts.
+
+Additional artifact detection routines can be run to find more artifacts, and have more accurate detection. See the [ERPLAB manual page here](https://github.com/lucklab/erplab/wiki/Artifact-Detection-in-Epoched-Data).
 
 <TABLE>
    <TR>
@@ -366,10 +377,33 @@ By default, the 'test period' will be the whole epoch, stated in milliseconds. W
       <TD align="center"> &#10003 </TD>
    </TR>
 <TR>
-      <TD><a href="./Creating-Averaged-ERPs:-Tutorial"> Creating Averaged ERPs </a></TD>
-      <TD align="center"> </TD>
+      <TD><a href="https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#create-averaged-ERPs"> Creating Averaged ERPs </a></TD>
+      <TD align="center"> &#10003 </TD>
    </TR>
 </TABLE>
+
+<br>
+
+# Create Averaged ERPs
+The final step here is to actually run the Averager, taking this processed epoched EEG set, and outputting and Averaged ERP dataset.
+
+Hit: <br>
+`ERPLAB menu -> Compute averaged ERPs`
+
+![ERPLAB_ERP_Averager_GUI](https://user-images.githubusercontent.com/5137405/84427853-6c838400-abda-11ea-811e-7412d3c92f59.png)
+
+At the top, we the EEG dataset selected is number 5, which corresponds to the active EEG dataset here - S1_EEG_elist_bins_ar.
+
+In the central section here, we specify that we wish to exclude epochs marked as artifacts. There are also options for selecting different sets of epochs, but we want all non-artifact epochs here. There is also an option for excluding any epoch that has boundaries or invalid events. We recommend having this tickbox enabled, so as to ignore epochs with boundary edge effects.
+
+By default, we also have automatic data quality assessment enabled, with default options. This will include information about baseline noise, SEM, and Standardized Measurement Error (aSME) in the ERPset (see [more details for these options here](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics)).
+
+Hitting 'Run' here will create a ERP dataset.
+
+
+
+
+
 
 
 
