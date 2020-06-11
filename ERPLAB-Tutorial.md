@@ -15,7 +15,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 
 ### [Overview and ERPsets](https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents) <br><br>
 
-### **Part 1 - EEG to ERPset** <br>
+### [**Part 1 - EEG to ERPset**](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset) <br>
   * [Getting Started, Loading an EEG dataset](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset) <br>
   * [Attaching an EventList](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#events-and-the-eventlist) <br>
   * [Assigning trials to bins](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#assigning-trials-to-bins) <br>
@@ -87,7 +87,7 @@ With the data prepared in this ERP set, we can access and plot the data from eac
        </a>
     </td>
     <td  align="left" width="40%">
-      <a href=https://github.com/lucklab/erplab/wiki/Tutorial-EEG-to-ERPset-1:-Getting-started-and-loading-EEG-data>
+      <a href=https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset>
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
         <br>
         Getting Started, loading EEG data
