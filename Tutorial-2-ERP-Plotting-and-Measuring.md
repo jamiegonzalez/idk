@@ -72,7 +72,7 @@ style="cursor:pointer;"
 _ERP Plot P4 only - click for bigger image_
 
 ### Export to graphics program
-While there are many options for showing your ERP data and customizing plots, we recommend exporting these figures as PDFs (or .eps files) and tailoring the presentation of your plots before including them in a publication. For that purpose, note the PDF icon in the top right (or the Matlab file menu, and Save Fig As..). With the PDF or .eps file written, you can edit this in the graphics program of your choice (like Photoshop, Inkscape, [Affinity Designer](https://affinity.serif.com/en-us/designer/), or LibreOffice Draw).
+While there are many options for showing your ERP data and customizing plots, we recommend exporting these figures as PDFs and tailoring the presentation of your plots before including them in a publication. For that purpose, note the PDF icon in the top right . With the PDF or .eps file written, you can edit this in the graphics program of your choice (like Photoshop, Inkscape, [Affinity Designer](https://affinity.serif.com/en-us/designer/), or LibreOffice Draw). Text style and figure structure can then be tweaked in the graphics program to create publication-ready figures (as [detailed in the Intro to ERP book](https://mitpress.mit.edu/books/introduction-event-related-potential-technique-second-edition)).
 
 ![Affinity_gfx](https://user-images.githubusercontent.com/5137405/86491343-6dae5980-bd1f-11ea-945c-449f2669d3ff.png)
 
