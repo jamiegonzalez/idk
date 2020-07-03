@@ -43,6 +43,8 @@ Here, a new Matlab figure will be produced, plotting your ERP data, with options
 
 By default, all Bins will be plotted, as shown in the top left. You can change this, entering the index number of desired bins or bin ranges (as `1:4` for all bins 1 thru 4) in the text entry field on the top left.
 
+The channels to plot can be customized on the panel on the top right. Here, we have all channels, 1:16 for S1_ERP.
+
 The time range, amplitude Y range, and plot ticks for each can be tailored on the panel on the left. We also see an option for plotting `show standard error` on the lower left. For standard error, we suggest plotting at size x1 and transparency of 0.6.
 
 Plotting S1_ERP with these parameters gives:
@@ -56,5 +58,24 @@ style="cursor:pointer;"
 </a>
 
 _ERP Plots - click for bigger image_
+
+Note that all 16 channels are shown in different subplot, labelled with channel name. Below, there is a legend showing the color of each ERP bin, with it's name, and label.
+
+Clicking (or double-clicking, depending on OS/Matlab) on a subplot of a single channel in the above plot will show the ERP for that channel in more detail:
+
+<a href="https://user-images.githubusercontent.com/5137405/86490548-984ae300-bd1c-11ea-862d-722342b0589e.png">
+ <img src="https://user-images.githubusercontent.com/5137405/86490548-984ae300-bd1c-11ea-862d-722342b0589e.png" alt="ERP plot P4 - click for bigger image";
+style="cursor:pointer;"
+     title="ERP plot P4 - click for bigger image">
+</a>
+
+_ERP Plot P4 only - click for bigger image_
+
+### Export to graphics program
+While there are many options for showing your ERP data and customizing plots, we recommend exporting these figures as PDFs (or .eps files) and tailoring the presentation of your plots before including them in a publication. For that purpose, note the PDF icon in the top right (or the Matlab file menu, and Save Fig As..). With the PDF or .eps file written, you can edit this in the graphics program of your choice (like Photoshop, Inkscape, [Affinity Designer](https://affinity.serif.com/en-us/designer/), or LibreOffice Draw).
+
+![Affinity_gfx](https://user-images.githubusercontent.com/5137405/86491343-6dae5980-bd1f-11ea-945c-449f2669d3ff.png)
+
+
 
 
