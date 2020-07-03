@@ -33,19 +33,28 @@ Here, we select all Bins, Channel 6 (P4), and click on 442 ms:
 For more involved plots, we have the Plot ERP Waveforms tool.
 
 Hit `ERPLAB menu > Plot ERP > Plot ERP Waveforms`.
+
 ![ERP_plot](https://user-images.githubusercontent.com/5137405/86488424-c7118b00-bd15-11ea-8b7e-67e1053654b0.png)
 
 Here, a new Matlab figure will be produced, plotting your ERP data, with options set as needed.
+
+![ERP_plot_se](https://user-images.githubusercontent.com/5137405/86490236-8b79bf80-bd1b-11ea-855d-7089efe4c931.png)
+
 
 By default, all Bins will be plotted, as shown in the top left. You can change this, entering the index number of desired bins or bin ranges (as `1:4` for all bins 1 thru 4) in the text entry field on the top left.
 
 The time range, amplitude Y range, and plot ticks for each can be tailored on the panel on the left. We also see an option for plotting `show standard error` on the lower left. For standard error, we suggest plotting at size x1 and transparency of 0.6.
 
-Plotting S1_ERP with these paramenters gives:
-![ERP_plots_example_sem](https://user-images.githubusercontent.com/5137405/86490039-ed85f500-bd1a-11ea-9542-f46b4daf521c.png)
+Plotting S1_ERP with these parameters gives:
 
+<br>
 
+<a href="https://user-images.githubusercontent.com/5137405/86490039-ed85f500-bd1a-11ea-9542-f46b4daf521c.png">
+ <img src="https://user-images.githubusercontent.com/5137405/86490039-ed85f500-bd1a-11ea-9542-f46b4daf521c.png" alt="ERP plots - click for bigger image";
+style="cursor:pointer;"
+     title="ERP plots - click for bigger image">
+</a>
 
-
+_ERP Plots - click for bigger image_
 
 
