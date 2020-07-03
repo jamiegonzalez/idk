@@ -78,4 +78,31 @@ While there are many options for showing your ERP data and customizing plots, we
 
 
 
+<br><br>
+
+
+# ERP Measurement Tool
+
+Another important aspect of ERPLAB is to obtain specific measurements from ERP datasets. 
+
+Hit `ERPLAB menu > ERP Measurement Tool`.
+
+![Measurement_tool_GUI](https://user-images.githubusercontent.com/5137405/86493440-722a4080-bd26-11ea-81bc-8f9b733db22d.png)
+
+On the panel on the left, we see options for which ERPset it is that will be measured. While this could be a list of several ERPsets, let's examine the single ERPset of S1_ERP now, through selecting `Current ERPset` or `From ERPset menu: 1`.
+
+On the right, we first select the type of measurement desired. Let's select `Mean amplitude between two fixed latencies`. For this measure, we will provide two times (in ms), and the mean value (amplitude, in µV) will be recorded for all selected Bins and Channels. These Bins and Channels of interest are specified in the mid-right.
+
+It is essential to enter two times for this measure - the start and the end time of the measurement window in milliseconds. For other types of measure (like from a single time), then only one number is need for the measurement window.
+
+On hitting `RUN`, measurements will be taken from the selected ERPsets. Those values can be written to a text file (provide a file name, like `measurements_written.txt`, or a full path, in the output file box), or alternatively, written to a ERP_Measures variable in the Matlab workspace.
+
+## ERP Viewer for Measurements
+
+Additionally, the ERP Viewer tool can also be used with the Measurement Tool.
+
+If the values above are entered, and the `Viewer` is selected in the ERP Measurement Tool, then those values can be previewed and instantantly viewed in ERP Viewer. Notice that the info panel in the lower left now shows the corresponding window of interest, and the value of the measurement.
+
+![Measurement_Viewer](https://user-images.githubusercontent.com/5137405/86493884-13fe5d00-bd28-11ea-858d-3b1fb479258b.png)
+
 
