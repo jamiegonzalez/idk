@@ -23,7 +23,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
   * [Artifact detection](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#artifact-detection) <br>
   * [Creating Averaged ERPs](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#create-averaged-ERPs) <br> <br>
 
-### **Part 2 - ERP Plotting and Measuring** <br>
+### [**Part 2 - ERP Plotting and Measuring**](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring) <br>
 * Plotting ERPs
 * Measuring ERPs
 * Viewing data quality measures <br> <br>
