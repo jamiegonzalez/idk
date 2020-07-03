@@ -24,6 +24,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
   * [Creating Averaged ERPs](https://github.com/lucklab/erplab/wiki/Tutorial-1-EEG-to-ERPset#create-averaged-ERPs) <br> <br>
 
 ### [**Part 2 - ERP Plotting and Measuring**](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring) <br>
+* [ERP Viewer tool](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring#erp-viewer)
 * Plotting ERPs
 * Measuring ERPs
 * Viewing data quality measures <br> <br>
