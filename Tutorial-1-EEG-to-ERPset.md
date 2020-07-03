@@ -578,7 +578,7 @@ We demonstrate use of some of these tools in the next tutorial.
        </a>
     </td>
     <td  align="left" width="40%">
-      <a href=https://github.com/lucklab/erplab/wiki/ERPLAB-Tutorial#tutorial-table-of-contents>
+      <a href=https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring>
         <img src="https://github.com/lucklab/erplab/wiki/images/ionicicons/ios7-arrow-forward.png" alt="forward arrow" height="75">
         <br>
         Tutorial 2: ERP Plotting and Measuring
