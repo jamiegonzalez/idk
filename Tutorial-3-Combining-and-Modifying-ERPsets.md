@@ -40,3 +40,6 @@ The ERPLAB plotting tools, like the ERP Viewer, can then be run as normal on thi
 ![GAv_viewer](https://user-images.githubusercontent.com/5137405/87080543-aeedb000-c1dc-11ea-9959-e398f218e1b1.png)
 
 
+More information can be seen in the [Grand Averager manual page](https://github.com/lucklab/erplab/wiki/Averaging-Across-ERPSETS-(Creating-Grand-Averages)), which can also be found by hitting the `?` button in each GUI.
+
+ 
