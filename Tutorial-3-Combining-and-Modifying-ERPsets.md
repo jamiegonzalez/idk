@@ -42,4 +42,25 @@ The ERPLAB plotting tools, like the ERP Viewer, can then be run as normal on thi
 
 More information can be seen in the [Grand Averager manual page](https://github.com/lucklab/erplab/wiki/Averaging-Across-ERPSETS-(Creating-Grand-Averages)), which can also be found by hitting the `?` button in each GUI.
 
+<br>
  
+## Combining bins for diff waves with Bin Ops
+
+ERPLAB can also create new ERP Bins using the information in existing ERPsets. Most commonly, this is used to create **Difference Waves**, the waveform of the difference of two waveforms. For example, with the P300 example experiment, we have a bin for the frequent condition and a bin for the rare condition. We can create a new bin, bin 3, that is the bin 1 minus bin 2, showing the difference between these two conditions averages.
+
+We do this in a flexible way using bin operations syntax. This format allow specification of advanced custom bins.
+
+To specify a new bin 3 in this format:
+
+**b3 = b2 - b1 label Difference Wave rare-minus-frequent**
+
+Note that the name of this bin is written in text, after the keyword `label`. This equation specifies that a new bin 3 should be created, and it should be the value of bin 2, minus the respective values of bin 1.
+
+This equation is entered in the Bin-Ops GUI.
+
+To begin, make a copy of an ERPset. This can be done by selecting `S1_ERP` in ERPsets menu, then hitting `ERPLAB -> Duplicate or rename ERPset`. Let's call this copy ERPsets `S1_ERP_Difference_Wave_test`. With that `S1_ERP_Difference_Wave_test` as the active ERPset, hit `ERPLAB -> ERP Operations -> ERP Bin Operations'.
+
+
+![Bin_Ops](https://user-images.githubusercontent.com/5137405/87086240-283dd080-c1e6-11ea-9d71-3fc2d264189c.png)
+
+
