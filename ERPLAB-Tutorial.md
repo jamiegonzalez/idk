@@ -29,8 +29,8 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 * [Measuring ERPs](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring#erp-measurement-tool)
 * Viewing data quality measures <br> <br>
 
-### **Part 3 - Combining and modifying ERPsets** <br>
-*  Combining subjects in to Grand Averages <br>
+### [**Part 3 - Combining and modifying ERPsets**](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets) <br>
+*  [Combining subjects in to Grand Averages](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets#combining-multiple-subjects-erpsets-into-grand-averages) <br>
 *  Combining bins for diff waves with Bin Ops <br>
 *  Combining channels with Chan Ops, channel labels <br>
 *  Filtering, on EEG sets and ERP sets <br>
