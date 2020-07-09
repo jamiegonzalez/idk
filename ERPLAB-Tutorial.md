@@ -31,7 +31,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 
 ### [**Part 3 - Combining and modifying ERPsets**](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets) <br>
 *  [Combining subjects in to Grand Averages](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets#combining-multiple-subjects-erpsets-into-grand-averages) <br>
-*  Combining bins for diff waves with Bin Ops <br>
+*  [Combining bins for diff waves with Bin Ops](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets#combining-bins-for-diff-waves-with-bin-ops) <br>
 *  Combining channels with Chan Ops, channel labels <br>
 *  Filtering, on EEG sets and ERP sets <br>
 *  Typical pipelines, order-of-processing, and scripting <br>
