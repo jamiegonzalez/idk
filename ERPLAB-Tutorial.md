@@ -27,7 +27,7 @@ More documentation is provided for specific functions in the [ERPLAB User Manual
 * [ERP Viewer tool](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring#erp-viewer)
 * [Plotting ERPs](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring#plot-erp-waveforms)
 * [Measuring ERPs](https://github.com/lucklab/erplab/wiki/Tutorial-2-ERP-Plotting-and-Measuring#erp-measurement-tool)
-* Viewing data quality measures <br> <br>
+* [Viewing data quality measures](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics) <br> <br>
 
 ### [**Part 3 - Combining and modifying ERPsets**](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets) <br>
 *  [Combining subjects in to Grand Averages](https://github.com/lucklab/erplab/wiki/Tutorial-3-Combining-and-Modifying-ERPsets#combining-multiple-subjects-erpsets-into-grand-averages) <br>
