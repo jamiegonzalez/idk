@@ -161,7 +161,7 @@ Here, we wish to group the Frequent stimuli type together in one bin, and the Ra
 
 The EventList is a refactoring of the trial information in a more ERPLAB-interpretable way, so we can address these events later on.
 
-The current stimulus event codes (as seen with `pop_squeezevents(EEG)`) is:
+The author of this experiment has used the following stimuli event codes to mean:
 
 
     Event Code	  Category      Probability     Correct Response
@@ -174,6 +174,7 @@ The current stimulus event codes (as seen with `pop_squeezevents(EEG)`) is:
     111	          Letter        Frequent        Right Hand
     121	          Digit         Rare            Left Hand
  
+To obtain counts of the number of times each event is present in the active EEGset, you can enter `pop_squeezevents(EEG)`.
 
 ### Creating an Eventlist
 To create an EventList for the EEG data we loaded above, let's hit <br>
