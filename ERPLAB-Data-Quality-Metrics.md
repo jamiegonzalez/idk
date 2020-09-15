@@ -14,10 +14,10 @@ If you are scoring the amplitude of an ERP component as the mean voltage during 
 
 For types of scores where analytic SME does not easily apply (like peak amplitude scores, or any score using latency measures), the process of bootstrapping can be used to compute the SME. In this case, we specify this as bootstrapped SME (bSME). This is not computed by default, but can be added via simple Matlab scripts.
 
-Watch our [3-minute video overview](https://www.youtube.com/watch?v=tEKsx0p53rs) of SME.
-View an [infographic overview](https://ucdavis.box.com/s/085wcuusf8y798z7iglva6nhgcjezlix) of SME.
-Read a [preprint](https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME.
-* Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview._ BioRxiv. https://doi.org/10.31234/osf.io/jc3sd
+* Watch our [3-minute video overview](https://www.youtube.com/watch?v=tEKsx0p53rs) of SME
+* View an [infographic overview](https://ucdavis.box.com/s/085wcuusf8y798z7iglva6nhgcjezlix) of SME
+* Read a [preprint](https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME
+** Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview._ BioRxiv. https://doi.org/10.31234/osf.io/jc3sd
 
 ## What is the purpose of the data quality metrics?
 Data quality metrics are initially computed for each participant at the time of averaging, but you can obtain aggregate values for a group of participants when you make a grand average. 
