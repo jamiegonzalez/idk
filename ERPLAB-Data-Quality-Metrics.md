@@ -14,10 +14,10 @@ If you are scoring the amplitude of an ERP component as the mean voltage during 
 
 For types of scores where analytic SME does not easily apply (like peak amplitude scores, or any score using latency measures), the process of bootstrapping can be used to compute the SME. In this case, we specify this as bootstrapped SME (bSME). This is not computed by default, but can be added via simple Matlab scripts.
 
-Watch our [3-minute video overview] (https://www.youtube.com/watch?v=tEKsx0p53rs) of SME
-View an [infographic overview] (https://ucdavis.box.com/s/085wcuusf8y798z7iglva6nhgcjezlix) of SME
-Read a [preprint] (https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME
-
+Watch our [3-minute video overview](https://www.youtube.com/watch?v=tEKsx0p53rs) of SME
+View an [infographic overview](https://ucdavis.box.com/s/085wcuusf8y798z7iglva6nhgcjezlix) of SME
+Read a [preprint](https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME
+* Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview._ BioRxiv. https://doi.org/10.31234/osf.io/jc3sd
 
 ## What is the purpose of the data quality metrics?
 Data quality metrics are initially computed for each participant at the time of averaging, but you can obtain aggregate values for a group of participants when you make a grand average. 
@@ -25,10 +25,6 @@ Data quality metrics are initially computed for each participant at the time of 
 The single-participant data quality metrics can be used to determine whether the data from a specific participant, channel, or bin are especially noisy. For example, you might use the SME value from a given channel to determine if any channels are “bad” and should be interpolated for a given participant. You might also use this value to determine whether a given participant’s data are so noisy that the participant should be excluded from the final analyses of a study (although this should be done only when you have an a priori criterion for deciding how bad the noise must be for a participant to be excluded).
 
 When aggregated across a group, the SME can tell you how much of the overall variance in your amplitude or latency score is a result of measurement error. The aggregated SME also allows you to compare data quality across experimental paradigms, across laboratories, across recording systems, across research assistants, and across signal processing methods.
-
-For more information about what the SME value means and how you can use it, see  this paper:
-
-Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview._ BioRxiv. https://doi.org/10.31234/osf.io/jc3sd
 
 We encourage you to report the aggregated SME values in your publications (and please cite our paper when you do so!). If SME values become common in publications, this will make it possible for the field to determine what recording and analysis procedures lead to the highest data quality, which will allow everyone to improve the quality and reproducibility of their research.
 
