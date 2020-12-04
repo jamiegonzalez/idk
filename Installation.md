@@ -40,8 +40,8 @@ In your file manager, navigate to that EEGLAB path.
 
 Unzip the ERPLAB folder ([download here](https://github.com/lucklab/erplab/releases)) to the /eeglab/plugins folder.
 
-Ensure that the path is formatted correctly, such that something like C:\your_path_here\EEGLAB\plugins\erplabX.X\eegplugin_erplab.m exists.
-
+Ensure that the path is formatted correctly, such that something like C:\your_path_here\EEGLAB\plugins\erplabX.X\eegplugin_erplab.m exists. With that folder path, the folder should look something like:
+![ERPLAB_install_path](https://user-images.githubusercontent.com/5137405/101206988-c82c4880-3624-11eb-8f24-c2e0affcd1f4.png)
 
 
 ## Confirm ERPLAB is installed correctly
