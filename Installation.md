@@ -4,6 +4,7 @@ ERPLAB is a toolbox plugin for analyzing event-related potential data. It works 
 
 * Matlab installed
 * EEGLAB folder within Matlab folder path ([download EEGLAB here](https://sccn.ucsd.edu/eeglab/download.php))
+* You must have read/write access to the folder containing ERPLAB
 
 
 There are two ways to install ERPLAB.
