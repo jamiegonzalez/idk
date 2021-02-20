@@ -55,5 +55,5 @@ In the new EEGLAB window, you should see a menu entry for ERPLAB.
 
 Note that ERPLAB has a “working memory” file named memoryerp.erpm that it uses to store various settings (e.g., so that it can remember whether you like to plot positive or negative upward). This file is stored in the folder that contains the ERPLAB code, which is itself stored inside the folder that contains the EEGLAB code. You must have permission to write to that folder. This is not a problem on most personal computers, but it can be an issue on computers that are shared by multiple people (especially large-scale servers). If you are having a problem launching ERPLAB because you don’t have write permission, just install EEGLAB and ERPLAB inside a folder that you own rather than installing it in a folder that is used by multiple people.
 
-For information other installation problems, see our [Frequently Asked Questions](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions) page.
+For information about other common installation problems, see our [Frequently Asked Questions](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions) page.
 
