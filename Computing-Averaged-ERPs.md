@@ -7,6 +7,8 @@ To compute averaged ERPs, you must first load one or more epoched datasets in EE
 
  You will ordinarily want to exclude all epochs that have been marked as containing artifacts. It is also possible to ignore the artifact marks by selecting **Include ALL epochs**.  You can even include only the epochs with artifacts (by selecting **Include ONLY epochs marked with artifact rejection**), which could be helpful in seeing exactly how the artifacts are distorting the data.
 
+There is also a box that allows you to exclude trials in which a boundary event code or an invalid event code (i.e., one in which the enable flag is set to zero) is present within the EEG epoch. These should be rare occurrences, but you will almost certainly want to exclude such epochs if they are present.
+
 _Important note: Although ERPLAB keeps track of artifacts using the artifact flags in the **EEG.EVENTLIST** structure, EEGLAB instead uses the **EEG.reject** structure.  When ERPLAB detects an artifact, it updates both **EEG.EVENTLIST** and **EEG.reject**.  When EEGLAB's artifact detection routines are used, only **EEG.reject** is updated.  Consequently, ERPLAB checks to make sure that **EEG.EVENTLIST** and **EEG.reject** have the same artifact marks, producing a warning message if they differ.  If they differ, you can synchronize the information in **EEG.EVENTLIST** and **EEG.reject** with the **ERPLAB > Artifact Detection > Synchronize Artifact Info in EEG and EVENTLIST** command._
 
 
