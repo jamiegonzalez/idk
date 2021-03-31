@@ -3,7 +3,7 @@ EEG/ERP data are stored as samples at discrete moments in time, and this can lea
 
 The image below illustrates how ERPLAB deals with timing. In this example, the EEG was sampled at 256 Hz, which means that a sample was taken every 3.90625 ms. The time-locking point is always assumed to be at exactly 0 ms, so the subsequent samples were at 3.90625 ms, 7.8125 ms, 11.71875 ms, etc. The image below shows the samples from approximately 78-156 ms. We assume that each sample represents the voltage during a period that is centered on the sample time.
 
-![GUI](./images/Manual/Manual_Timing-Details_1.png)
+![GUI](./images/Manual/Manual_Timing_Algorithms.png)
 
 For most processes that specify a time window (e.g., a baseline period or an artifact rejection window), ERPLAB finds the closest sample points to the specified window. In the example below, for example, the user specifies a window of 100-140 ms. The actual window would start at 97.66 ms (because this is the closest sample to 100 ms) and would end at 140.63 ms (because this is the closest sample to 140 ms). If the specified start or end time of a window is exactly halfway between two sample points, the earlier of the two points is chosen.
 
