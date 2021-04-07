@@ -18,7 +18,7 @@ Colon operator|	: or -|	.{10:20} or .{10-20}
  Flag operator-Write artifact flag| :wa<_binary #>_|	 .{11:wa<00000001>}
  Flag operator-Test artifact flag| 	 :fa<_binary #_>|	.{11:fa<00000001>}
  Flag operator-Write user flag|	 :wb<_binary #_>|	 .{11:wb<10000000>}
- Flag operator-Test user flag|	 :fb<_binary #_>|	.{11:wb<10000000>}
+ Flag operator-Test user flag|	 :fb<_binary #_>|	.{11:fb<10000000>}
 Check for any flag, returning only flag-free| :f<0> | .{11:f<0>}
 
 ----
