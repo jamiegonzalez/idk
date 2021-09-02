@@ -10,11 +10,11 @@ The function `Delete Time Segments` deletes segments of continuous EEG data betw
 - Located in `ERPLAB > Preprocess Continuous EEG Data > Delete Time Segments`
 - Input
   - **Time Threshold**: Length of time between consecutive event codes, if exceeded, to delete
-  - **Start Event Code Buffer**: Length of time around the first event code to save
-  - **End Event Code Buffer**: Length of time around the end event code to save
+  - **Before Event Code Buffer**: Length of time before an event code to save/preserve as buffer in a block of trials. 
+  - **After Event Code Buffer**: Length of time after an event code to save/preserve as a buffer in a block of trials
 - Optional Input
   - **Ignore/Use event codes**: Numeric event code numbers to either ignore or to scan through (depending on value specified in `IgnoreUseType` parameter)
-  - 
+  - **Ignore Boundary**: If true (1), adds boundary events to list of event codes to ignore. (Default: 0)
   - **Display EEG** (`displayEEG`): Plot the EEG data with the to-be deleted data marked 
 - Related Scripting Function: 
  - `EEG = erplab_deleteTimeSegments(EEG, timeThresholdMS, startEventCodeBufferMS, endEventCodeBufferMS, ignoreEventCodes);`
