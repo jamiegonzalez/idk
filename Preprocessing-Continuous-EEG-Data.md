@@ -8,18 +8,23 @@ Note that the deletion of sections of the EEG also leads to deletion of the even
 The function `Delete Time Segments` deletes segments of continuous EEG data between event codes if the length of the segment is greater than a user-specified length of time
 
 - Located in `ERPLAB > Preprocess Continuous EEG Data > Delete Time Segments`
-- Input
+- Input*
   - **Time Threshold**: Length of time between consecutive event codes, if exceeded, to delete
   - **Before Event Code Buffer**: Length of time before an event code to save/preserve as buffer in a block of trials. 
-  - **After Event Code Buffer**: Length of time after an event code to save/preserve as a buffer in a block of trials
+  - **After Event Code Buffer**: Length of time after an event code to save/preserve as a buffer in a block of trials.
 - Optional Input
   - **Ignore/Use event codes**: Numeric event code numbers to either ignore or to scan through (depending on value specified in `IgnoreUseType` parameter)
   - **Ignore Boundary**: If true (1), adds boundary events to list of event codes to ignore. (Default: 0)
   - **Display EEG** (`displayEEG`): Plot the EEG data with the to-be deleted data marked 
 - Related Scripting Function: 
- - `EEG = erplab_deleteTimeSegments(EEG, timeThresholdMS, startEventCodeBufferMS, endEventCodeBufferMS, ignoreEventCodes);`
+ - `EEG = erplab_deleteTimeSegments(EEG, timeThresholdMS, startEventCodeBufferMS, endEventCodeBufferMS, ignoreEventCodes, ignoreUseType, ignoreBoundary);`
  - Example: Delete data segments when there is greater than 3000 ms (3 secs) in between any consecutive event codes.
-    - ```EEG = erplab_deleteTimeSegments(EEG, 3000, 100, 200, [], 'ignore', true);```
+    - ```EEG = erplab_deleteTimeSegments(EEG, 3000, 100, 200, [], 'ignore', 1, true);```
+
+* **Inputs Update** (7/1/21): old key-pair input names (startEventcodeBufferMS &
+  endEventcodeBufferMS) will continue to work but a Warning message will
+   appear to requst use of new key-pair input names
+   (beforeEventcodeBufferMS & endEventcodeBufferMS, respectively). 
 
 ![](../images/Manual/Manual-erplab_deleteTimeSegmentsFigure.png)
 
