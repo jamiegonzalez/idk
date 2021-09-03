@@ -114,3 +114,7 @@ The optimal **tolerance** and **Duration** values will depend on the nature of y
 
 ## ERPLAB Post-Artifact Detection Epoch Interpolation
 Unlike selective electrode interpolation on continuous data (see [here](https://github.com/lucklab/erplab/wiki/Preprocessing-Continuous-EEG-Data#Interpolate-Electrodes)), ERPLAB allows one to interpolate an electrode within epochs that has been previously flagged by an ERPLAB artifact detection function. This method accommodates for cases when an electrode is only lightly contaminated by artifacts and whole electrode interpolation would be too aggressive. Post-Artifact Detection Epoch Interpolation also maximizes the amount of epochs in the data instead of outright rejecting epochs. 
+
+![GUI](./images/Manual/Manual_PostArtEpochInterpolation.png)
+
+For example, if there are numerous flags on epoched data, users can selected which flags to choose, the specific electrode to interpolate, electrodes to ignore during interpolation, and the interpolation method. So if flag 8 was utilized by the step-function, then choosing flag 8 would interpolate the channel FP1 using the spherical method, which uses data from all the other electrodes barring electrodes the user chose to ignore, within all epochs that were detected by the step function. 
