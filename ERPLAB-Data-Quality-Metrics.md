@@ -16,7 +16,7 @@ For types of scores where analytic SME does not easily apply (like peak amplitud
 
 * Watch a [3-minute video overview](https://www.youtube.com/watch?v=tEKsx0p53rs) of the SME
 * View an [infographic](https://ucdavis.box.com/v/SMEQuickGuide) providing a quick explanation of the SME
-* Read a [preprint](https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME: Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview._ BioRxiv. https://doi.org/10.31234/osf.io/jc3sd
+* Read a [paper](https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME: Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2021). _Standardized Measurement Error: A Universal Measure of Data Quality for Averaged Event-Related Potentials_ Psychophysiology . https://doi.org/10.31234/osf.io/dwm64
 
 ## What is the purpose of the data quality metrics?
 Data quality metrics are initially computed for each participant at the time of averaging, but you can obtain aggregate values for a group of participants when you make a grand average. 
