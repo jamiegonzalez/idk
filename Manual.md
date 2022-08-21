@@ -2,16 +2,15 @@
 <h5 align="center">
 Version 6.0<br><br>
 User's Manual written by Steve Luck, Candace Markley, Javier Lopez-Calderon, Eric Foo, and Jason Arita<br><br>
-ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br><br>
+ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br>
+Additional code by Aaron Simmons, Jason Arita, and Guanghui Zhang<br><br>
 </h5>
 
-ERPLAB has primarily been tested using EEG collected with Brain Products ActiCHamp and Biosemi ActiveTwo systems, along with a smaller amount of testing using EEG collected with Neuroscan and EGI systems. Consequently, you should be particularly careful when using this version of ERPLAB with data collected with systems other than Brain Products ActiCHamp or Biosemi ActiveTwo.
+This manual provides a detailed overview of each ERPLAB function, along with data types and other useful background information. For an quick overview of how ERPLAB is used for typical ERP processing, see the [ERPLAB Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial). For a detailed overview of both ERPLAB and the principles underlying ERP processing, see Steve Luck's free online book, [Applied ERP Data Analysis](https://doi.org/10.18115/D5QG92 )
 
-This manual provides a detailed overview of each ERPLAB function, along with data types and other useful background information. For an overview of how ERPLAB is used for typical ERP processing, see the [ERPLAB Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial). A Frequently Asked Questions document is also available.  All documentation is available on our [GitHub Wiki page](https://github.com/lucklab/erplab/wiki).
+If you run into trouble, check out our [Frequently Asked Questions](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions) page.  All documentation is available on our [GitHub Wiki page](https://github.com/lucklab/erplab/wiki).
 
 If you have bug reports, requests for features, questions about using the software, and comments of general interest, please post them to the ERPLAB Email List.  To communicate privately with the developers, send an email to [erplabtoolbox@gmail.com](mailto:erplabtoolbox@gmail.com).
-
-Please keep in mind that this is **FREE** software, and we do not have the resources to provide the level of support that commercial software vendors can provide.
 
 ## Table of Contents
 ---
