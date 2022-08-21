@@ -6,6 +6,8 @@ ERPLAB Toolbox core designed by Javier Lopez-Calderon and Steve Luck<br>
 Additional code by Aaron Simmons, Jason Arita, and Guanghui Zhang<br><br>
 </h5>
 
+ERPLAB Toolbox is a freely available, open source set of MATLAB routines for analyzing event-related potential (ERP) data.  It uses the freely available, open source EEGLAB toolbox as a front end.  That is, EEGLAB is used to read in EEG data files and perform various operations on the EEG, and ERPLAB contains a set of new functions, which are added as plug-ins into EEGLAB, extending the set of operations that a user can perform within EEGLAB. These plug-ins include additional EEG processing manipulations (e.g., new functions for marking trials with artifacts) along with functions that provide powerful methods for sorting EEG epochs and averaging them together.  Once a set of averages has been created, they are saved in binary files and can be exported into text files (allowing them to be imported into other ERP analysis systems). ERPLAB also contains  routines that operate on the averaged ERP waveforms (e.g., making difference waves, plotting, filtering, measurement, etc.).
+
 This manual provides a detailed overview of each ERPLAB function, along with data types and other useful background information. For an quick overview of how ERPLAB is used for typical ERP processing, see the [ERPLAB Tutorial](https://github.com/lucklab/erplab/wiki/Tutorial). For a detailed overview of both ERPLAB and the principles underlying ERP processing, see Steve Luck's free online book, [Applied ERP Data Analysis](https://doi.org/10.18115/D5QG92 )
 
 If you run into trouble, check out our [Frequently Asked Questions](https://github.com/lucklab/erplab/wiki/Troubleshooting-and-Frequently-Asked-Questions) page.  All documentation is available on our [GitHub Wiki page](https://github.com/lucklab/erplab/wiki).
@@ -45,16 +47,4 @@ If you have bug reports, requests for features, questions about using the softwa
 - [Current Source Density (CSD) Tool](./Current-Source-Density-(CSD)-tool)
 - [Data Quality Metrics](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics)
 
-Important note: The ERPLAB Discussion Forums have been retired. All comments and questions should be posted to the ERPLAB Email List.
-
 Important note: In some cases, errors will occur leading to a message that instructs you to report the error to the EEGLAB developers.  If this happens, please report the error to us at erplab@erpinfo.org and not to the EEGLAB developers.
-
-The purpose of this User's Manual is to provide a detailed description of the ERPLAB functions, along with a discussion of the overall design of the toolbox.  For "how-to" information, see the ERPLAB Tutorial, which provides step-by-step instructions for analyzing a typical set of data.  A [Frequently Asked Questions](./Troubleshooting-and-Frequently-Asked-Questions) document is also available.
-
-If you have bug reports, requests for features, questions about using the software, and comments of general interest, please post them to the ERPLAB Email List.  To communicate privately with the developers, send an email to erplabtoolbox@gmail.com.
-
-ERPLAB Toolbox is a freely available, open source set of MATLAB routines for analyzing event-related potential (ERP) data.  It uses the freely available, open source EEGLAB toolbox as a front end.  That is, EEGLAB is used to read in EEG data files and perform various operations on the EEG, and ERPLAB contains a set of new functions, which are added as plug-ins into EEGLAB, extending the set of operations that a user can perform within EEGLAB. These plug-ins include additional EEG processing manipulations (e.g., new functions for marking trials with artifacts) along with functions that provide powerful methods for sorting EEG epochs and averaging them together.  Once a set of averages has been created, they are saved in binary files and can be exported into text files (allowing them to be imported into other ERP analysis systems).
-
-ERPLAB also contains a set of routines that operate on the averaged ERP waveforms (e.g., making difference waves, plotting, filtering, measurement, etc.).
-
-As in EEGLAB, the ERPLAB routines can be accessed from the Matlab command window and from Matlab scripts in addition to being accessed from the EEGLAB GUI. Consequently, ERPLAB provides the ease of learning of a GUI-based system but also provides the power and flexibility of a scripted system.
