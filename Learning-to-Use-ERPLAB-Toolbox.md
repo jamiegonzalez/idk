@@ -1,6 +1,6 @@
 ## Learning to Use ERPLAB Toolbox
 
-Many sources of information are available to help you learn to use ERPLAB. For a detailed introduction to both the software and the concepts underlying ERP processing and analysis, see Steve Luck's new book, [Applied ERP Data Analysis](https://doi.org/10.18115/D5QG92 ). It's available for free online, and it's filled with exercises using real data.
+For a detailed introduction to both the ERPLAB software and the concepts underlying ERP processing and analysis, see Steve Luck's new book, [Applied ERP Data Analysis](https://doi.org/10.18115/D5QG92 ). It's available for free online, and it's filled with exercises using real data.
 
 In addition, we recommend the following documents from the online ERPLAB documentation:
 
