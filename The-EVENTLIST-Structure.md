@@ -34,7 +34,7 @@ bin 2,         # 63,             Target (correct)
 
 
 
-    #itembepochecodelabel                   onset      diff   dura  b_flags a_flags enable    bin
+    #item bepoch    ecode   label           onset      diff   dura  b_flags a_flags enable    bin
     #                                       (sec)      (sec)  (msec)(binary)(binary)
     1	    0	    122	    standard	    8	       0        0	0	    0	    1	    [ 1 ]
     2	    0	    9	    std_resp	    8.3962     0.3962	0	0	    0	    1	    [   ]
