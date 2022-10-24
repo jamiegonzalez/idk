@@ -118,3 +118,5 @@ Unlike selective electrode interpolation on continuous data (see [here](https://
 ![GUI](./images/Manual/Manual_PostArtEpochInterpolation.png)
 
 For example, if there are numerous flags on epoched data, users can selected which flags to choose, the specific electrode to interpolate, electrodes to ignore during interpolation, and the interpolation method. So if flag 8 was utilized by the step-function, then choosing flag 8 would interpolate the channel FP1 using the spherical method, which uses data from all the other electrodes barring electrodes the user chose to ignore, within all epochs that were detected by the step function. 
+
+Also, after using this routine, one must remember to remove the artifacts flags after it is used, or else the same epochs are still flagged and could therefore still not be included in ERP averaging.
