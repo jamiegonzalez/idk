@@ -17,6 +17,9 @@ If you are scoring the amplitude of an ERP component as the mean voltage during 
 
 For types of scores where analytic SME does not easily apply (like peak amplitude scores, or any score using latency measures), the process of bootstrapping can be used to compute the SME. In this case, we specify this as bootstrapped SME (bSME). This is not computed by default, but can be added via simple Matlab scripts.
 
+### Standard Deviation - Analytic SD (aSD)
+The SME takes into account the number of trials being averaged together, which is appropriate given that this has a huge impact on data quality. However, sometimes it is useful to examine trial-to-trial variability independent of the number of trials. To accomplish this, we provide tools for quantifying the standard deviation (SD) across trials. That is, the mean voltage within a given time range is calculated on each trial, and we calculate the SD across trials. Note that there is no straightforward way to use bootstrapping to obtain these values for other types of scores (e.g., peak amplitude).
+
 * Watch a [3-minute video overview](https://www.youtube.com/watch?v=tEKsx0p53rs) of the SME
 * View an [infographic](https://ucdavis.box.com/v/SMEQuickGuide) providing a quick explanation of the SME
 * Read a [paper](https://doi.org/10.31234/osf.io/dwm64) of a full-length journal article about the SME: Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2021). _Standardized Measurement Error: A Universal Measure of Data Quality for Averaged Event-Related Potentials_ Psychophysiology . https://doi.org/10.31234/osf.io/dwm64
