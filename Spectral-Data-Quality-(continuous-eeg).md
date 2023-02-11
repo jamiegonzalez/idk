@@ -12,7 +12,9 @@ To run this routine from the GUI, select **ERPLAB > Preprocess EEG > Spectral Da
 
 ![Screen Shot 2023-02-10 at 6 20 02 PM](https://user-images.githubusercontent.com/45770852/218234071-3153471f-c0d9-4975-80a8-904eb6e7e326.png)
 
-The routine will take some time to run (typically between 10 seconds and 2 minutes, depending on the size of the dataset and the speed of your computer). When it completes, it shows the results in a Viewer window, as shown in the screenshot below. The Viewer shows the amplitude or power for each band, separately for each channel. These values can be exported to either a Matlab data file or an Excel spreadsheet. 
+The routine will take some time to run (typically between 10 seconds and 2 minutes, depending on the size of the dataset and the speed of your computer). When it completes, it shows the results in a Viewer window, as shown in the screenshot below. The Viewer shows the amplitude or power for each band, separately for each channel. These values can be exported to either a Matlab data file or an Excel spreadsheet.
+
+If you see a value of NaN in the Viewer, this usually means that the corresponding frequency band is not valid for the current dataset. In particular, the maximum frequency is 1/2 the sampling rate (e.g., 128 Hz if your sampling rate was 256 Hz).
 
 This can be a lot of information, so we provide two options for highlighting extreme values. If you check the **Color heat map** box, each cell of the table will be color-coded according to the amplitude or power of that cell. If you check the **Outliers** button, any cells that are more than X standard deviations from the mean for that band will be highlighted. (The default for X is 2, but you can adjust this with the text box.)
 
