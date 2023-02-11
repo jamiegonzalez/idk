@@ -4,7 +4,7 @@ The **Spectral Data Quality (continuous eeg)** routine provides coarse informati
 * Before using this routine, you should do a quick cleaning of the continuous EEG using both [Delete Time Segments (continuous EEG)](https://github.com/lucklab/erplab/wiki/Continuous-EEG-Preprocessing) and [Artifact Rejection (continuous EEG)](https://github.com/lucklab/erplab/wiki/Artifact-Rejection-in-Continuous-Data).
 * These routines will eliminate the periods of time between trial blocks and periods with extreme noise (e.g., when an electrode has become disconnected or the subject scratches the electrode cap).
 * These periods will not impact your final data quality, but they can have a large impact on the **Spectral Data Quality (continuous eeg)** routine. If you do not remove them, the output of this routine may be misleading.
-* For a more sophisticated analysis of EEG frequency content, see the [FOOOF package](https://fooof-tools.github.io/fooof/).
+* For a more sophisticated approach to characterizing EEG frequency content, see the [FOOOF package](https://fooof-tools.github.io/fooof/) from the Voytek lab.
 
 ## Running the routine from the GUI 
 
