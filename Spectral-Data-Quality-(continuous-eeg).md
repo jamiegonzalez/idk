@@ -12,19 +12,15 @@ To run this routine from the GUI, select **ERPLAB > Preprocess EEG > Spectral Da
 
 ![Screen Shot 2023-02-10 at 6 20 02 PM](https://user-images.githubusercontent.com/45770852/218234071-3153471f-c0d9-4975-80a8-904eb6e7e326.png)
 
-### Data Quality Metrics - Viewer & Spectral Plotting
+The routine will take some time to run (typically between 10 seconds and 2 minutes, depending on the size of the dataset and the speed of your computer). When it completes, it shows the results in a Viewer window, as shown in the screenshot below. The Viewer shows the amplitude or power for each band, separately for each channel. These values can be exported to either a Matlab data file or an Excel spreadsheet. 
+
+This can be a lot of information, so we provide two options for highlighting extreme values. If you check the **Color heat map** box, each cell of the table will be color-coded according to the amplitude or power of that cell. If you check the **Outliers** button, any cells that are more than X standard deviations from the mean for that band will be highlighted. (The default for X is 2, but you can adjust this with the text box.)
 
 ![Screen Shot 2023-02-10 at 6 38 50 PM](https://user-images.githubusercontent.com/45770852/218235081-73460924-6d8c-4554-ada2-566fb230d0d7.png)
 
-
-Using the Viewer, you are able to change between spectra information in Amplitude or Power, and the results can be exported to either a matlab data file or Excel. 
-
-In order to plot spectral information, you must select **one** column in the data table as the frequency band, and as many channels/rows to represent the average across all the channels in that frequency band. **The selection is made by clicking on the data table with your mouse.**
-After the selection is made, press "PLOT". 
-
+You can also plot the amplitude or power for each individual frequency within a selected band, as shown in the screenshot below. First, select one or more channels from a single frequency band. Then click the **Plot** button to see a graph of amplitude or power over the frequencies within that band (averaged over the selected channels).
 
 ![Screen Shot 2023-02-10 at 6 42 12 PM](https://user-images.githubusercontent.com/45770852/218234910-7e321c8b-4df8-424d-8548-4db3af152ae7.png)
-
 
 
 ## Details of the algorithm
