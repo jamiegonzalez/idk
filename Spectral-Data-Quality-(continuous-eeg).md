@@ -27,7 +27,7 @@ You can also plot the amplitude or power for each individual frequency within a 
 
 ## Details of the algorithm
 
-This routine returns the averaged single-sided amplitude of frequency bands via Fast Fourier Transform from 5 second windowed segments of the continuous EEG. The windows are created and randomly selected from 20% of entire dataset to speed the routine performance. Using the GUI (see below), you can press "RESET" to use the default frequency bands that are commonly used in the neurosciences, or input new bands. In addition, you can select which channels to output spectral data from (you should not include channels that are not brain data, like eye-tracking channels or photodiodes). 
+This routine returns the averaged single-sided amplitude of frequency bands via Fast Fourier Transform from 5 second windowed segments of the continuous EEG. The windows are created and randomly selected from a random 20% of the 5-second windows to increase speed. A fixed seed is used for selecting the random set of windows so that the results will be the same if the routine is run multiple times.
 
 
 ## Script equivalent
@@ -35,6 +35,8 @@ This routine returns the averaged single-sided amplitude of frequency bands via 
 `[EEG, fft_out] = pop_continuousDFT( EEG, 'ChannelIndex',  1:64, 'Frequencies', [ 0 3; 3 8; 8 12; 8 30; 30 48; 49 51; 59 61; 0 250], 'FrequencyLabel',...
  {'delta' 'theta' 'alpha' 'beta' 'gamma' '60hz-noise' '70hz-noise' 'broadband' }, 'PercentRandom',  20, 'viewGUI',...
  'true' );`
+
+Note that the script version allows you to specify the percentage of 5-second segments to use. It also includes a 'NumberOfPointsFFT' option that allows you to change the length of the window (expressed as the number of sample points rather than the number of seconds).
 
 
 
