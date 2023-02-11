@@ -1,8 +1,10 @@
-ERPLAB now provides a Spectral Data Quality (continuous eeg) routine that can give you coarse information about the amount of power in different frequency bands . This can be useful for examining the frequencies that make up the EEG signal, and show if there are artifacts, like 50 / 60 Hz electrical line noise. 
+The **Spectral Data Quality (continuous eeg)** routine provides coarse information about the amount of power in different frequency bands. This is useful for assessing types of noise that are confined to specific EEG bands. For example, skin potentials predominantly produce low-frequency voltages (under ~3 Hz), and line noise produces narrow spikes at the line frequency (60 Hz in North America and some other parts of the world, 50 Hz in Europe and most of Asia). This routine allows you to quantify the amplitude or power in whatever frequency bands you like. More precise information about data quality can be obtained at the time of averaging use our other data quality metrics, However, those routines require more extensive preprocessing, and the **Spectral Data Quality (continuous eeg)** routine provides a quick assessment of data quality on the continuous EEG with minimal preprocessing. This routine works only with continuous EEG data.
 
-**Note:**
-* This routine only works with continuous EEG data
-* This routine should be used after eliminating extreme periods of noise using [Artifact Rejection (continuous EEG)](https://github.com/lucklab/erplab/wiki/Artifact-Rejection-in-Continuous-Data), and after eliminating break periods using [Delete Time Segments (continuous EEG)](https://github.com/lucklab/erplab/wiki/Continuous-EEG-Preprocessing), otherwise the spectra will be contaminated with undue noise. 
+**Important Notes:**
+* Before using this routine, you should do a quick cleaning of the continuous EEG using both [Delete Time Segments (continuous EEG)](https://github.com/lucklab/erplab/wiki/Continuous-EEG-Preprocessing) and [Artifact Rejection (continuous EEG)](https://github.com/lucklab/erplab/wiki/Artifact-Rejection-in-Continuous-Data).
+* These routines will eliminate the periods of time between trial blocks and periods with extreme noise (e.g., when an electrode has become disconnected or the subject scratches the electrode cap).
+* These periods will not impact your final data quality, but they can have a large impact on the **Spectral Data Quality (continuous eeg)** routine. If you do not remove them, the output of this routine may be misleading.
+* For a more sophisticated analysis of EEG frequency content, see the [FOOOF package](https://fooof-tools.github.io/fooof/).
 
 Action:
 
