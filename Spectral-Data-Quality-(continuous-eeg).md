@@ -8,6 +8,8 @@ The **Spectral Data Quality (continuous eeg)** routine provides coarse informati
 
 ## Running the routine from the GUI 
 
+To run this routine from the GUI, select **ERPLAB > Preprocess EEG > Spectral Data Quality (continuous eeg)**.
+
 This routine returns the averaged single-sided amplitude of frequency bands via Fast Fourier Transform from 5 second windowed segments of the continuous EEG. The windows are created and randomly selected from 20% of entire dataset to speed the routine performance. Using the GUI (see below), you can press "RESET" to use the default frequency bands that are commonly used in the neurosciences, or input new bands. In addition, you can select which channels to output spectral data from (you should not include channels that are not brain data, like eye-tracking channels or photodiodes). 
 
 ![Screen Shot 2023-02-10 at 6 20 02 PM](https://user-images.githubusercontent.com/45770852/218234071-3153471f-c0d9-4975-80a8-904eb6e7e326.png)
