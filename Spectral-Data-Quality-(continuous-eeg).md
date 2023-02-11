@@ -27,7 +27,9 @@ You can also plot the amplitude or power for each individual frequency within a 
 
 ## Details of the algorithm
 
-This routine returns the averaged single-sided amplitude of frequency bands via Fast Fourier Transform from 5 second windowed segments of the continuous EEG. The windows are created and randomly selected from a random 20% of the 5-second windows to increase speed. A fixed seed is used for selecting the random set of windows so that the results will be the same if the routine is run multiple times.
+This routine returns the averaged single-sided amplitude of frequency bands via Fast Fourier Transform from ~5-second epochs of the continuous EEG. The windows are created and randomly selected from a random 20% of the 5-second windows to increase speed. A fixed seed is used for selecting the random set of windows so that the results will be the same if the routine is run multiple times. An FFT is run on each window, and then the average of the FFTs is computed. This yields much more precise values that computing the FFT of a single long epoch. 
+
+Note that an FFT requires that the number of time points is a power of 2. The actual epoch length is the closest value to 5 seconds that can be achieved with this constraint.
 
 
 ## Script equivalent
@@ -36,7 +38,7 @@ This routine returns the averaged single-sided amplitude of frequency bands via 
  {'delta' 'theta' 'alpha' 'beta' 'gamma' '60hz-noise' '70hz-noise' 'broadband' }, 'PercentRandom',  20, 'viewGUI',...
  'true' );`
 
-Note that the script version allows you to specify the percentage of 5-second segments to use. It also includes a 'NumberOfPointsFFT' option that allows you to change the length of the window (expressed as the number of sample points rather than the number of seconds).
+Note that the script version allows you to specify the percentage of 5-second segments to use. It also includes a 'NumberOfPointsFFT' option that allows you to change the length of the window (expressed as the number of sample points rather than the number of seconds). For example, with a sampling rate of 500 Hz, you would specify 2500 points to get a 5-second epoch length. The routine will automatically round to the closest power of two (which would be 2^11 or 2048 points if you specify 2500 points as the epoch length).
 
 
 
