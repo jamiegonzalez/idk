@@ -13,6 +13,9 @@ At present, we directly support three classes of metrics of data quality:
 
 **Important Note:** These metrics are ordinarily calculated when you make an averaged ERP and are stored in the ERPset. However, the information is stripped from the ERPset by any ERPLAB operations that modify the ERPs (e.g., ERP filtering, ERP bin operations, ERP channel operations). This is because we cannot guarantee that the metrics are still valid for the modified ERPs. For example, filtering or averaging across electrode sites might improve the data quality. If you want to quantify the data quality for a transformed ERPset, you must manually compute the metrics from the transformed ERPset (e.g., using the bootstrapped SME).
 
+### Correcting for bias
+Analytic SD, SEM, and SME estimates exhibit a bias that varies with the number of trials: As the number of trials gets smaller, these estimates become progressively lower than the true value. We provide an option that corrects for this bias [(Gurland & Tripathi, 1971)](https://www.tandfonline.com/doi/abs/10.1080/00031305.1971.10477279). We recommend using this option, but it is off by default (to maintain backward compatibility with previous versions of ERPLAB that did not include this option). Unfortunately, we know of no simple correction that can be applied to bootstrapped values.
+
 ### Standardized Measurement Error - Analytic SME (aSME) and Bootstrapped SME (bSME)
 If you are scoring the amplitude of an ERP component as the mean voltage during some time window (e.g., quantifying P3 amplitude as the mean voltage between 300 and 500 ms), the SME can be automatically calculated using [a simple equation during averaging](https://doi.org/10.31234/osf.io/jc3sd). We call this the analytic SME or aSME. By default, ERPLAB computes aSME at the point of ERP averaging, in. The time windows in which it is computed can be customized, and are 100 ms windows, centered around 0 ms, by default.
 
