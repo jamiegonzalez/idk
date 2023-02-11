@@ -31,7 +31,8 @@ You can change the time windows by selecting On- custom parameters and clicking 
 
 We encourage you to report the SME values in publications so that readers can assess the quality of your data. You can aggregate the SME values across participants when you make a grand average. If you report the SME values in your publications, please cite this paper:
 
-Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2019). _Standardized Measurement Error as a Universal Measure of Data Quality for Event-Related Potentials: An Overview_. BioRxiv. [https://doi.org/10.31234/osf.io/jc3sd](https://doi.org/10.31234/osf.io/jc3sd)
+Luck, S. J., Stewart, A. X., Simmons, A. M., & Rhemtulla, M. (2021). Standardized measurement error: A universal metric of data quality for averaged event-related potentials. Psychophysiology, 58, e13793. [https://doi.org/10.1111/psyp.13793](https://doi.org/10.1111/psyp.13793)
+
 
 When averaging is complete, the lowest, highest, and median SME values (from among every combination of channel, bin, and time window) will be printed to the command window. All the SME values, along with the baseline noise measures, are stored in the Matlab workspace as ERP.dataquality. Options for display the values in the command window or saving them to a file can be found in ERPLAB > Data Quality Options. The standard error of the mean for each time point is stored in ERP.binerror and can be plotted using ERPLAB >  Plot ERP > Plot ERP Waveforms
 
