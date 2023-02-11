@@ -39,11 +39,15 @@ When averaging is complete, the lowest, highest, and median SME values (from amo
 ### Default and custom setting of data quality parameters and time windows
 By default, aSME is computed in a number of 100 ms windows, which are centered around 0 ms in the ERP epoch. The number and time range of the aSME windows, along with other data quality parameters, can be customized at the point of the ERP Averager. 
 
-### Compute standard error of the mean
+### Compute analytic standard deviation (aSD)
+This provides a measure of data quality that does not directly depend on the number of trials (whereas the SME factors in the number of trials being averaged together). The mean amplitude across a given time range is measured on each trial, and the SD of these values across trials is computed.
+
+### Compute pointwise standard error of the mean (SEM)
 You can also choose to compute the standard error of the mean (across all epochs, separately for each time point in each bin) along with the average. This standard error data will be saved in the ERP.binerror matrix, and so be saved with your ERPset. This can later be plotted with your ERP. Note that the standard error is removed by certain other processing steps (e.g., filtering, bin operations, averaging across ERPsets) because these steps render the previous standard error meaningless.
 
 
-
+### Correcting for bias
+Analytic SD, SEM, and SME estimates exhibit a bias that varies with the number of trials: As the number of trials gets smaller, these estimates become progressively lower than the true value. We provide an option that corrects for this bias (Gurland & Tripathi, 1971). We recommend using this option, but it is off by default (to maintain backward compatibility with previous versions of ERPLAB that did not include this option). Unfortunately, we know of no simple correction that can be applied to bootstrapped values.
 
 
 
