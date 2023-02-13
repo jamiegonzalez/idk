@@ -10,7 +10,7 @@ The **Spectral Data Quality (continuous eeg)** routine provides coarse informati
 
 To run this routine from the GUI, select **ERPLAB > Preprocess EEG > Spectral Data Quality (continuous eeg)**. You will then see the window shown below. It allows you select a subset of channels for analysis. It also allows you to select which frequency bands to quantify. We provide a set of defaults, but you can edit and delete those bands, and you can add additional bands. The **Reset** button restores the defaults. Once you are satisfied with the parameters, click the **Run** button.
 
-![Screen Shot 2023-02-10 at 6 20 02 PM](https://user-images.githubusercontent.com/45770852/218234071-3153471f-c0d9-4975-80a8-904eb6e7e326.png)
+![Screen Shot 2023-02-13 at 12 35 11 PM](https://user-images.githubusercontent.com/45770852/218568984-712a0847-0199-4ffd-9c89-b199892634b3.png)
 
 The routine will take some time to run (typically between 10 seconds and 2 minutes, depending on the size of the dataset and the speed of your computer). When it completes, it shows the results in a Viewer window, as shown in the screenshot below. The Viewer shows the amplitude or power for each band, separately for each channel. These values can be exported to either a Matlab data file or an Excel spreadsheet.
 
