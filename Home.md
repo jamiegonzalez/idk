@@ -12,7 +12,6 @@ A free, open-source Matlab package for analyzing ERP data.  ERPLAB extends [EEGL
 [Click here](https://github.com/lucklab/erplab/wiki/ERPLAB-email-list) to join our email list (and get access to our email archive).
 
 <br>
-<br>
 
 Please cite the paper below in any publications that make use of ERPLAB:
 > [Lopez-Calderon, J., & Luck, S. J. (2014). **ERPLAB: An open-source toolbox for the analysis of event-related potentials. Frontiers in Human Neuroscience**, 8:213. doi: 10.3389/fnhum.2014.00213](http://journal.frontiersin.org/Journal/10.3389/fnhum.2014.00213/)
