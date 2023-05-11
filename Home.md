@@ -8,6 +8,7 @@ A free, open-source Matlab package for analyzing ERP data.  ERPLAB extends [EEGL
 
 
 <br>
+[Click here](https://github.com/lucklab/erplab/wiki/ERPLAB-email-list) to join our email list (and get access to our email archive).
 <br>
 <br>
 
