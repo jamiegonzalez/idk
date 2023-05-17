@@ -17,6 +17,7 @@ As in Bin Operations, the list of equations can be saved in a file.  In addition
 - [Computing Global Field Power](#example-of-computing-global-field-power)
 - [Computing Mahalanobis Distance](#example-of-computing-the-mahalanobis-distance)
 - [Deleting Channels](#example-of-deleting-channels)
+- [Adding Simulated Noise](#example-of-adding-simulated-noise)
 
 #### Examples of Re-Referencing
 If the data were recorded with A1 as the reference, and A2 was recorded with A1 as the reference in channel 15, you could re-reference the first few channels to the average of A1 and A2 by subtracting half of A2 from the other channels (for the reasoning behind this, see Chapter 3 in Luck, 2005, _An Introduction to the Event-Related Potential Technique_):
@@ -95,7 +96,31 @@ delerpchan([ 1 2 ])
 
 To remove channels from the EEG in a dataset, you can also use the EEGLAB function `Edit>Select data>channel range` and click on **remove these**.
 
-## The Reference Assistant
-Rereferencing your electrodes will require you to create an equation for each channel being re-referenced.  This could be a lot of equations.  To make life easier (and reduce typos), Channel Operations contains a **Reference assistant** button that can create the equations for you.  You simply specify what you want subtracted away from each channel, and which channels should be re-referenced, and it will fill in the appropriate equations.  In the screenshot shown below,  ".5*ch15" will be subtracted from channels 1-13.  The reference assisstant does not do the re-referencing directly; it simply creates the equations for the re-referencing.  That way you can see exactly what it is doing and modify the process any way you'd like.
+#### The Reference Assistant
+Rereferencing your electrodes will require you to create an equation for each channel being re-referenced. This could be a lot of equations.  To make life easier (and reduce typos), Channel Operations contains a **Reference assistant** button that can create the equations for you.  You simply specify what you want subtracted away from each channel, and which channels should be re-referenced, and it will fill in the appropriate equations. In the screenshot shown below, ".5*ch15" will be subtracted from channels 1-13. The reference assistant does not do the re-referencing directly; it simply creates the equations for the re-referencing. That way you can see exactly what it is doing and modify the process any way you'd like.
+
+#### Example of Adding Simulated Noise
+Users can add simulated white noise or pink noise to their EEG or ERP data using the following equations:
+```
+nch1 = ch1 + 2*whitenoise(1) label F3 plus white noise
+nch2 = ch1 + 3*pinknoise(4) label F3 plus white noise
+```
+
+In both equations, the multiplier determines the maximum amplitude of the added noise (e.g., 2 for whitenoise and 3 for pinknoise in the example equations). If these values are not included, the noise will have a maximum amplitude of 1 µV. The value inside the parentheses is a “seed” for the random number generator (Please see our explanation for how seeds work here: link).  By specifying a seed, you can get the same noise each time you run the equation. If you omit the seed (e.g., nch1 = ch1 + 2*whitenoise), a random seed will be used and you will get different noise each time you run the equation.
+
+For adding simulated line noise (or any other kind of oscillation, such as alpha-band activity):
+```
+nch3 = ch1 + 2*linenoise(60, ‘random’, 1) label F3 plus random 60 Hz line noise
+nch4 = ch1 + 2*linenoise(60, ‘fixed’, 30) label F3 plus fixed 60 Hz line noise
+nch5 = ch1 + 2*linenoise(10)  label F3 plus 10 Hz alpha activity
+```
+Once again, the multiplier in these equations determines the peak-to-peak amplitude of the added noise. Users can leave it out to generate noise with peak-to-peak amplitude 1 µV (e.g., nch3 = ch1 + linenoise(60, ‘random’, 1)). The first value within the parentheses specifies the frequency in Hz (e.g., “60” for 60 Hz line noise). Users can then determine the phase shift of the frequency across trials. In the first example, the phase shift across trials will be ‘random’ using a seed of 1. You can omit the seed to use a random seed. 
+
+In the second example, there will be a ‘fixed’ phase shift on every trial. The following number now represents the amount of phase shift in degrees (e.g.,the 30 in this example indicates a phase shift of 30 degrees). The third example shows that the linenoise equation can be used to simulate alpha waves at 10 Hz. When neither ‘fixed’ nor ‘random’ is specified, there will be a random phase shift between trials using a random seed.
+
+Equations can be added together to combine noise, like in this example:
+```
+nch1 = ch1 + 2*whitenoise(1) + 2*linenoise(60, ‘random’, 1) label F3 plus white noise and line noise
+```
 
 ![GUI](./images/Manual/Manual_EEG-and-ERP-Channel-Operations_2.png)
