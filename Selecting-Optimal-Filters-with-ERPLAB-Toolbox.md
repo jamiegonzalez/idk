@@ -10,9 +10,9 @@ ERPLAB tools that make it relatively simple for you to apply this approach to yo
 We have also applied this approach to the [ERP CORE](https://osf.io/thsqg/), which includes data from 40 healthy
 young adults who performed six standardized paradigms that yielded seven commonly-studied
 ERP components. If you are analyzing reasonably similar data, you can simply use the settings
-we developed using the ERP CORE data. The table below shows these recommended settings
-<see REF for a detailed description>. Note that different filter settings are optimal for different
-components and different scoring methods.<br>
+we developed using the ERP CORE data. <The table below shows these recommended settings
+see REF for a detailed description. Note that different filter settings are optimal for different
+components and different scoring methods.><br>
 
 If your study is a bit different from the ERP CORE, these settings should still be
 reasonably close to optimal for your data. However, if you are using a very different participant
