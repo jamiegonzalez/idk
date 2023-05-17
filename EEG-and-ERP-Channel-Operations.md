@@ -99,6 +99,8 @@ To remove channels from the EEG in a dataset, you can also use the EEGLAB functi
 #### The Reference Assistant
 Rereferencing your electrodes will require you to create an equation for each channel being re-referenced. This could be a lot of equations.  To make life easier (and reduce typos), Channel Operations contains a **Reference assistant** button that can create the equations for you.  You simply specify what you want subtracted away from each channel, and which channels should be re-referenced, and it will fill in the appropriate equations. In the screenshot shown below, ".5*ch15" will be subtracted from channels 1-13. The reference assistant does not do the re-referencing directly; it simply creates the equations for the re-referencing. That way you can see exactly what it is doing and modify the process any way you'd like.
 
+![GUI](./images/Manual/Manual_EEG-and-ERP-Channel-Operations_2.png)
+
 #### Example of Adding Simulated Noise
 Users can add simulated white noise or pink noise to their EEG or ERP data using the following equations:
 ```
@@ -122,5 +124,3 @@ Equations can be added together to combine noise, like in this example:
 ```
 nch1 = ch1 + 2*whitenoise(1) + 2*linenoise(60, ‘random’, 1) label F3 plus white noise and line noise
 ```
-
-![GUI](./images/Manual/Manual_EEG-and-ERP-Channel-Operations_2.png)
