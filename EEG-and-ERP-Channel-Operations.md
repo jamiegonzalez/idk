@@ -116,7 +116,7 @@ nch3 = ch1 + 2*linenoise(60, ‘random’, 1) label F3 plus random 60 Hz line no
 nch4 = ch1 + 2*linenoise(60, ‘fixed’, 30) label F3 plus fixed 60 Hz line noise
 nch5 = ch1 + 2*linenoise(10)  label F3 plus 10 Hz alpha activity
 ```
-The linenoise function creates a sinusoidal waveform with peak voltages of ±1 µV. The multiplier of 2 in the above example equations changes this to ±2 µV. The first value within the parentheses specifies the frequency in Hz (e.g., “60” for 60 Hz line noise). Users can then determine the phase shift of the frequency across trials or bins. In the first example, the phase shift across trials or bins will be ‘random’ using a seed of 1. You can omit the seed to use a random seed. 
+The linenoise function creates a sinusoidal waveform with peak voltages of ±1 µV (and therefore a peak-to-peak amplitude of 2 µV). The multiplier of 2 in the above example equations changes this to ±2 µV. The first value within the parentheses specifies the frequency in Hz (e.g., “60” for 60 Hz line noise). Users can then determine the phase shift of the frequency across trials or bins. In the first example, the phase shift across trials or bins will be ‘random’ using a seed of 1. You can omit the seed to use a random seed. 
 
 In the second example, there will be a ‘fixed’ phase shift on every trial or bin. The following number now represents the amount of phase shift in degrees (e.g.,the 30 in this example indicates a phase shift of 30 degrees). The third example shows that the linenoise equation can be used to simulate alpha waves at 10 Hz. When neither ‘fixed’ nor ‘random’ is specified, there will be a random phase shift between trials or bins using a random seed.
 
