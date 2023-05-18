@@ -102,13 +102,13 @@ Rereferencing your electrodes will require you to create an equation for each ch
 ![GUI](./images/Manual/Manual_EEG-and-ERP-Channel-Operations_2.png)
 
 #### Example of Adding Simulated Noise
-Users can add simulated white noise or pink noise to their EEG or ERP data using the following equations:
+Users can add simulated white noise or pink noise to their EEG or ERP data using equations like these:
 ```
 nch1 = ch1 + 2*whitenoise(1) label F3 plus white noise
 nch2 = ch1 + 3*pinknoise(4) label F3 plus white noise
 ```
 
-In both equations, the multiplier determines the maximum amplitude of the added noise (e.g., 2 for whitenoise and 3 for pinknoise in the example equations). If these values are not included, the noise will have a maximum amplitude of 1 µV. The value inside the parentheses is a “seed” for the random number generator (Please see our explanation for how seeds work here: link).  By specifying a seed, you can get the same noise each time you run the equation. If you omit the seed (e.g., nch1 = ch1 + 2*whitenoise), a random seed will be used and you will get different noise each time you run the equation.
+The whitenoise and pinknoise functions produce noise with a maximum amplitude of ±1 µV. These can be multiplied by any value to change the amplitude of the noise. In the examples above, the white noise was multiplied by 2 to double the amplitude of the noise to ±2 µV, ad the pink noise was tripled to ±3 µV. The value inside the parentheses is a “seed” for the random number generator (Please see our explanation for how seeds work here: link).  By specifying a seed, you can get the same noise each time you run the equation. If you omit the seed (e.g., nch1 = ch1 + 2*whitenoise), a random seed will be used and you will get different noise each time you run the equation.
 
 For adding simulated line noise (or any other kind of oscillation, such as alpha-band activity):
 ```
@@ -116,7 +116,7 @@ nch3 = ch1 + 2*linenoise(60, ‘random’, 1) label F3 plus random 60 Hz line no
 nch4 = ch1 + 2*linenoise(60, ‘fixed’, 30) label F3 plus fixed 60 Hz line noise
 nch5 = ch1 + 2*linenoise(10)  label F3 plus 10 Hz alpha activity
 ```
-Once again, the multiplier in these equations determines the peak-to-peak amplitude of the added noise. Users can leave it out to generate noise with peak-to-peak amplitude 1 µV (e.g., nch3 = ch1 + linenoise(60, ‘random’, 1)). The first value within the parentheses specifies the frequency in Hz (e.g., “60” for 60 Hz line noise). Users can then determine the phase shift of the frequency across trials or bins. In the first example, the phase shift across trials or bins will be ‘random’ using a seed of 1. You can omit the seed to use a random seed. 
+The linenoise function creates a sinusoidal waveform with peak voltages of ±1 µV. The multiplier of 2 in the above example equations changes this to ±2 µV. The first value within the parentheses specifies the frequency in Hz (e.g., “60” for 60 Hz line noise). Users can then determine the phase shift of the frequency across trials or bins. In the first example, the phase shift across trials or bins will be ‘random’ using a seed of 1. You can omit the seed to use a random seed. 
 
 In the second example, there will be a ‘fixed’ phase shift on every trial or bin. The following number now represents the amount of phase shift in degrees (e.g.,the 30 in this example indicates a phase shift of 30 degrees). The third example shows that the linenoise equation can be used to simulate alpha waves at 10 Hz. When neither ‘fixed’ nor ‘random’ is specified, there will be a random phase shift between trials or bins using a random seed.
 
