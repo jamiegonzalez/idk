@@ -47,5 +47,6 @@ If you have bug reports, requests for features, questions about using the softwa
 - [Current Source Density (CSD) Tool](./Current-Source-Density-(CSD)-tool)
 - [Data Quality Metrics](https://github.com/lucklab/erplab/wiki/ERPLAB-Data-Quality-Metrics)
 - [Selecting Optimal Filters with ERPLAB Toolbox](https://github.com/lucklab/erplab/wiki/Selecting-Optimal-Filters-with-ERPLAB-Toolbox)
+- [Create and Artificial ERP Waveform](https://github.com/lucklab/erplab/wiki/Create-an-Artificial-ERP-Waveform)
 
 Important note: In some cases, errors will occur leading to a message that instructs you to report the error to the EEGLAB developers. If this happens, please report the error to us at erplab@erpinfo.org and not to the EEGLAB developers.
