@@ -1,4 +1,4 @@
-ERPLAB -> Create Artificial ERP Waveform is used to generate a simulated ERP waveform, which can then be saved as an ERPset. 
+ERPLAB -> Create Artificial ERP Waveform is used to simulate the waveform for a given ERP component, which can then be saved as an ERPset. 
 
 The basic idea behind this tool is to allow users to define a set of parameters to generate an artificial ERP waveform that either mimics real data or has other useful properties. Users can also  add various types of random noise to this artificial waveform, such as sinusoidal noise, white noise, and pink noise. 
 
