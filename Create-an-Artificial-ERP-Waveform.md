@@ -4,8 +4,7 @@ The basic idea behind this tool is to allow users to define a set of parameters 
 
 To facilitate the comparison between the artificial waveform and real ERPs, the tool provides an option to load a pre-existing ERP. The GUI is shown in the screenshot below: 
 
-
-![Screen Shot 2023-05-19 at 10 09 40 AM](https://github.com/lucklab/erplab/assets/97117923/7cd703af-e5a9-4626-842e-37fe215d9c79)
+![Screen Shot 2023-05-22 at 1 06 15 PM](https://github.com/lucklab/erplab/assets/97117923/6cfd6032-e521-44e6-afab-28ed976e419d)
 
 This tool allows you to generate artificial waveforms using three functions, the options for which can be found at the bottom of the GUI. You can only use one function at a time, so the parameters for the other two functions will be grayed out once you have selected which function you want to use. 
 
@@ -38,14 +37,14 @@ If you have chosen to load an ERPset by selecting the “Compare with real ERP''
 ## Adding Noise to the Simulation
 In the bottom right of the GUI you will find a section labeled “Add Noise to Simulation”. This section will allow you to add sinusoidal noise, white noise, and/or pink noise to your artificial ERP waveform. There is a button at the bottom of the section “Re-Randomize Noise” which will re-randomize the noise using a different seed (to learn more about seeds, [click here](https://github.com/lucklab/erplab/wiki/Using-Seeds-to-Control-Randomization-in-ERPLAB)). Note that for sinusoidal noise, the input for µV is peak amplitude, whereas for white noise and peak noise, the input is the standard deviation of a µV distribution. If you would like more control over the seeds that are used to generate noise, you can save your simulated ERP and add noise using ERPLAB -> ERP Operations -> [ERP Channel Operations](https://github.com/lucklab/erplab/assets/97117923/a80f7e2d-f205-48ea-bb19-bf7469643f95). Below is a picture of an artificial waveform created using an ex-gaussian function with added noise:
 
-![Screen Shot 2023-05-19 at 10 10 34 AM](https://github.com/lucklab/erplab/assets/97117923/9f93e4da-4333-4085-bd75-59ed0178fcb9)
+![Screen Shot 2023-05-22 at 1 07 08 PM](https://github.com/lucklab/erplab/assets/97117923/a7d849ef-24f1-45e4-afe1-b3725f39a867)
 
 ## Comparing Artificial Waveform with a Real ERP
 In the top right corner of the GUI, there is a section labeled “Real ERP”. Within this section, you have the option to load a single ERPset, which will be superimposed on your artificial waveform for comparison. Please note that the ERPset must already be loaded into ERPLAB for this option to be accessible.
 
 When loading an ERPset, you must select a single channel and bin to display. The “Basic Information for Simulation” will automatically adjust its settings to match the parameters of the uploaded ERPset. Additionally, the display window axes will be modified to accommodate the real ERPset. Below is a screenshot showing what it looks like:
 
-![Screen Shot 2023-05-19 at 10 10 46 AM](https://github.com/lucklab/erplab/assets/97117923/4a87bb67-3b77-4d78-ba1e-1d08271925f4)
+![Screen Shot 2023-05-22 at 1 11 10 PM](https://github.com/lucklab/erplab/assets/97117923/6d648ea4-71f2-4eec-ae2b-f2188510a840)
 
 Once you are ready to save your artificial ERP waveform, click “Create” which can be found at the bottom right of the GUI. Another GUI will pop up and give you options for naming and saving the ERPset. Once created, your artificial ERP waveform will have all the functionality of a real ERPset (note that any superimposed real ERPset will not be saved). 
 
