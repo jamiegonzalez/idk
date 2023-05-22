@@ -108,7 +108,7 @@ nch1 = ch1 + 2*whitenoise(1) label F3 plus white noise
 nch2 = ch1 + 3*pinknoise(4) label F3 plus white noise
 ```
 
-The whitenoise and pinknoise functions produce noise with a maximum amplitude of ±1 µV. These can be multiplied by any value to change the amplitude of the noise. In the examples above, the white noise was multiplied by 2 to double the amplitude of the noise to ±2 µV, ad the pink noise was tripled to ±3 µV. The value inside the parentheses is a “seed” for the random number generator (Please see our explanation for how seeds work here: link).  By specifying a seed, you can get the same noise each time you run the equation. If you omit the seed (e.g., nch1 = ch1 + 2*whitenoise), a random seed will be used and you will get different noise each time you run the equation.
+The whitenoise and pinknoise functions produce noise with a standard deviation of amplitude 1 µV. These can be multiplied by any value to change the amplitude of the noise. In the examples above, the white noise was multiplied by 2 to double the standard deviation of the noise to 2 µV, and the pink noise was tripled to 3 µV. The value inside the parentheses is a “seed” for the random number generator ([Click this link to see our explanation for how seeds work. ](https://github.com/lucklab/erplab/wiki/Using-Seeds-to-Control-Randomization-in-ERPLAB)). By specifying a seed, you can get the same noise each time you run the equation. If you omit the seed (e.g., nch1 = ch1 + 2*whitenoise), a random seed will be used and you will get different noise each time you run the equation.
 
 For adding simulated line noise (or any other kind of oscillation, such as alpha-band activity):
 ```
