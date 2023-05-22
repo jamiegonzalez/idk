@@ -15,7 +15,7 @@ Here are the different types of functions that can be generated:
 
 **Ex-Gaussian (and Gaussian)**
 - An ex-Gaussian function is a Gaussian function convolved with an exponential function, which skews the waveform rightward or leftward.
-- The SD parameter controls the width of the Gaussian, and the Gaussian mean parameter controls the horizontal shift of the Gaussian. The tau parameter controls the decay rate of the exponential function. A negative tau creates a leftward shift and a positive tau creates a rightward shift.
+- The SD parameter controls the width of the Gaussian, and the Gaussian mean parameter controls the horizontal shift of the Gaussian. The tau parameter is the time constant of the exponential function (in milliseconds), which controls the decay rate. A negative tau creates a leftward shift and a positive tau creates a rightward shift.
 - To create a standard Gaussian function, simply set the exponential tau value to zero.
 - A pure Gaussian is good for most perception-related components, in which the waveform is symmetrical.
 - An ex-Gaussian function with a rightward skew is good for most cognitive components. A leftward skew is typically used for response-locked averages in which the onset of the component of interest precedes the response (e.g., the P3b wave in a response-locked average).
