@@ -1,4 +1,6 @@
-The tutorial can be found on our [wiki, here](https://github.com/jamiegonzalez/idk/wiki).
+The microstate analysis tutorial can be found on the Wiki page of this GitHub, [here](https://github.com/jamiegonzalez/idk/wiki).
 
-Tutorial v1.0 Release Notes (July 1, 2023)
+This tutorial was written by [Armen Bagdasarov](https://scholar.google.com/citations?user=6IB0vQMAAAAJ&hl=en) (armen.bagdasarov@duke.edu) and Jamie Gonzalez.
+
+Tutorial v1.0 Release Notes (INSERT DATE HERE)
 * [INSERT RELEASE NOTES HERE]
